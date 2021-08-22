@@ -1,0 +1,143 @@
+sample	Sample_Depth	Plant	Site	Site_Plant	Elevation_m	Environment	SampleName	Plant_Invasiveness
+C1_A	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C1-A_TGTGCGTAC	Invasive
+C1_B	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C1-B_TGGCTCTAA	Invasive
+C10_A	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C10-A_GTGTATGCA	Native
+C10_B	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C10-B_ACATTGCGT	Native
+C10_C	15cm	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C10-C_TCTTCGAGC	Invasive
+C11_A	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C11-A_GCAACGTCT	Invasive
+C11_B	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C11-B_GCAGCTCTA	Invasive
+C11_C	15cm	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C11-C_GAGGTTACC	Invasive
+C12_A	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C12-A_CATGAAGTC	Invasive
+C12_B	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C12-B_AGTATGCAG	Invasive
+C12_C	15cm	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C12-C_GATGCCTTA	Invasive
+C2_A	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C2-A_CGACCTTAT	Invasive
+C2_B	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C2-B_AGTGCCACT	Invasive
+C2_C	15cm	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C2-C_CACTTCTGG	Invasive
+C3_A	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C3-A_CGCTAGTAG	Invasive
+C3_B	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C3-B_GGAACGCTA	Invasive
+C3_C	15cm	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C3-C_ATGACTCAC	Invasive
+C4_A	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C4-A_GTAGGACCA	Invasive
+C4_B	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C4-B_GTACGCGTA	Invasive
+C4_C	15cm	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C4-C_AGATGGCTC	Invasive
+C5_A	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C5-A_ATACGGACG	Invasive
+C5_B	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C5-B_GAACGTATC	Invasive
+C5_C	15cm	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C5-C_AACCAGCTG	Invasive
+C6_B	r5	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C6-B_GGCGCTTAA	Invasive
+C6_C	15cm	Guava	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C6-C_CTTCGCAGG	Invasive
+C7_A	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C7-A_CGGCTACAA	Native
+C7_B	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C7-B_CTCTACAGA	Native
+C7_C	15cm	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C7-C_GCTTAATAG	Native
+C8_A	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C8-A_ACCTCAGAG	Native
+C8_B	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C8-B_CGAATCCTG	Native
+C8_C	15cm	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C8-C_TAGCAGTGA	Native
+C9_A	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C9-A_GTGACATGT	Native
+C9_B	r5	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C9-B_CGGCAGAAT	Native
+C9_C	15cm	Vervain	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C9-C_CAGCGTGTA	Native
+J1_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J1-A_GCGAATACT	Invasive
+J1_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J1-B_TCGCACAAG	Invasive
+J1_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J1-C_ACCATCGTG	Invasive
+J10_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J10-A_GGCGCTTAA	Invasive
+J10_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J10-B_CTTCGCAGG	Invasive
+J10_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J10-C_CGGCTACAA	Invasive
+J11_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J11-A_CTCTACAGA	Invasive
+J11_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J11-B_GCTTAATAG	Invasive
+J11_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J11-C_ACCTCAGAG	Invasive
+J12_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J12-A_CGAATCCTG	Invasive
+J12_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J12-B_TAGCAGTGA	Invasive
+J12_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J12-C_GTGACATGT	Invasive
+J13_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J13-A_CGGCAGAAT	Native
+J13_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J13-B_CAGCGTGTA	Native
+J13_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J13-C_GTGTATGCA	Native
+J14_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J14-A_ACATTGCGT	Native
+J14_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J14-B_TCTTCGAGC	Native
+J14_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J14-C_GCAACGTCT	Native
+J15_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J15-A_GCAGCTCTA	Native
+J15_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J15-B_GAGGTTACC	Native
+J15_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J15-C_CATGAAGTC	Native
+J16_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J16-A_AGTATGCAG	Native
+J16_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J16-B_GATGCCTTA	Native
+J16_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J16-C_GCGAATACT	Native
+J17_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J17-A_ATCTGCGAA	Native
+J17_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J17-B_AACAGGTGC	Native
+J17_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J17-C_TACCATGAG	Native
+J18_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J18-A_CCAACTAGT	Native
+J18_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J18-B_ATAGTCCGC	Native
+J18_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J18-C_TTAAGCGAT	Native
+J19_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J19-A_ACGTCCTGA	Native
+J19_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J19-B_CAGTAATGC	Native
+J19_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J19-C_TTCCATAGC	Native
+J2_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J2-A_AAGGCACGT	Invasive
+J2_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J2-B_GCTAGTTCA	Invasive
+J2_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J2-C_CGCTGAATA	Invasive
+J20_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J20-A_TGCACAATC	Native
+J20_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J20-B_CATGAGGCT	Native
+J20_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J20-C_ACAGGAGTT	Native
+J21_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J21-A_AGCCTTCTA	Native
+J21_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J21-B_TGACTAGTC	Native
+J21_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J21-C_CGAGTATCC	Native
+J22_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J22-A_CAATGTCGG	Native
+J22_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J22-B_GCGTCACGA	Native
+J22_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J22-C_TTATAGGCC	Native
+J23_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J23-A_GAGTGCTAC	Native
+J23_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J23-B_ACGTCTTAG	Native
+J23_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J23-C_TTGTGCACG	Native
+J24_A	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J24-A_GGCGTTACA	Native
+J24_B	r5	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J24-B_GTCTCGCAT	Native
+J24_C	15cm	Miconia	el junco	el junco_Miconia	690	Humid	GI2019_J24-C_TCTTGACGG	Native
+J3_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J3-A_CACCGATTA	Invasive
+J3_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J3-B_CATGGACGC	Invasive
+J3_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J3-C_CATCTTACG	Invasive
+J4_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J4-A_CTGTAACAG	Invasive
+J4_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J4-B_GATGATCGT	Invasive
+J4_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J4-C_AGCCGTTAC	Invasive
+J5_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J5-A_TAAGCATGG	Invasive
+J5_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J5-B_TGTGCGTAC	Invasive
+J5_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J5-C_TGGCTCTAA	Invasive
+J6_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J6-A_CGACCTTAT	Invasive
+J6_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J6-B_AGTGCCACT	Invasive
+J6_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J6-C_CACTTCTGG	Invasive
+J7_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J7-A_CGCTAGTAG	Invasive
+J7_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J7-B_GGAACGCTA	Invasive
+J7_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J7-C_ATGACTCAC	Invasive
+J8_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J8-A_GTAGGACCA	Invasive
+J8_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J8-B_GTACGCGTA	Invasive
+J8_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J8-C_AGATGGCTC	Invasive
+J9_A	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J9-A_ATACGGACG	Invasive
+J9_B	r5	Guava	el junco	el junco_Guava	690	Humid	GI2019_J9-B_GAACGTATC	Invasive
+J9_C	15cm	Guava	el junco	el junco_Guava	690	Humid	GI2019_J9-C_AACCAGCTG	Invasive
+M1_A	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M1-A_CGTCGGTAA	Invasive
+M1_B	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M1-B_GTGTCCAAT	Invasive
+M1_C	15cm	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M1-C_TCCATGCGA	Invasive
+M10_A	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M10-A_GCTAGTTCA	Native
+M10_B	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M10-B_CGCTGAATA	Native
+M10_C	15cm	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M10-C_CACCGATTA	Native
+M11_A	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M11-A_CATGGACGC	Native
+M11_B	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M11-B_CATCTTACG	Native
+M11_C	15cm	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M11-C_CTGTAACAG	Native
+M12_A	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M12-A_GATGATCGT	Native
+M12_B	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M12-B_AGCCGTTAC	Native
+M12_C	15cm	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M12-C_TAAGCATGG	Native
+M2_A	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M2-A_AGGTTCGCT	Invasive
+M2_B	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M2-B_GTCGAAGCT	Invasive
+M2_C	15cm	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M2-C_ACGGCTGAC	Invasive
+M3_A	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M3-A_CTATCTGGA	Invasive
+M3_B	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M3-B_TGGACTCTC	Invasive
+M3_C	15cm	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M3-C_ATTGTGAGC	Invasive
+M4_A	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M4-A_TGTCGTCAA	Invasive
+M4_B	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M4-B_CGTTCTAAG	Invasive
+M4_C	15cm	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M4-C_TGTGAACCG	Invasive
+M5_A	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M5-A_GGCCTATCG	Invasive
+M5_B	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M5-B_GGATATAGC	Invasive
+M5_C	15cm	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M5-C_GCTGAAGAC	Invasive
+M6_A	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M6-A_CGGTGTCTA	Invasive
+M6_B	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M6-B_GTCAGCTGA	Invasive
+M6_C	r5	Guava	Mirador	Mirador_Guava	320	Arid	GI2019_M6-C_GCCGACTTA	Invasive
+M7_A	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M7-A_CTAAGGAGC	Native
+M7_B	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M7-B_TCAGGCCAT	Native
+M7_C	15cm	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M7-C_TACTTGCAA	Native
+M8_A	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M8-A_CTTACTAGG	Native
+M8_B	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M8-B_TGATCCTAG	Native
+M8_C	15cm	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M8-C_ACGTTCATA	Native
+M9_A	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M9-A_TCGCACAAG	Native
+M9_B	r5	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M9-B_ACCATCGTG	Native
+M9_C	15cm	Scalesia	Mirador	Mirador_Scalesia	320	Arid	GI2019_M9-C_AAGGCACGT	Native

@@ -1,0 +1,2557 @@
+,function.,variable,copy_number,plant_nr
+1,09101 Carbohydrate metabolism,C1_A,17.28783227,C1
+2,09102 Energy metabolism,C1_A,8.521162561,C1
+3,09103 Lipid metabolism,C1_A,4.657447929,C1
+4,09104 Nucleotide metabolism,C1_A,3.836308803,C1
+5,09105 Amino acid metabolism,C1_A,9.664504782,C1
+6,09106 Metabolism of other amino acids,C1_A,1.548051139,C1
+7,09107 Glycan biosynthesis and metabolism,C1_A,3.31778168,C1
+8,09108 Metabolism of cofactors and vitamins,C1_A,5.292841469,C1
+9,09122 Translation,C1_A,13.40728641,C1
+10,09124 Replication and repair,C1_A,1.142079886,C1
+11,09131 Membrane transport,C1_A,1.991518409,C1
+12,09132 Signal transduction,C1_A,1.179846954,C1
+13,09142 Cell motility,C1_A,3.017271156,C1
+14,09181 Protein families: metabolism,C1_A,2.231095418,C1
+15,09182 Protein families: genetic information processing,C1_A,9.406361885,C1
+16,09183 Protein families: signaling and cellular processes,C1_A,4.051411821,C1
+17,09191 Unclassified: metabolism,C1_A,5.260534053,C1
+18,Other,C1_A,4.186663379,C1
+19,09101 Carbohydrate metabolism,C1_B,17.27543615,C1
+20,09102 Energy metabolism,C1_B,8.439367741,C1
+21,09103 Lipid metabolism,C1_B,4.629605158,C1
+22,09104 Nucleotide metabolism,C1_B,3.857659195,C1
+23,09105 Amino acid metabolism,C1_B,9.668023525,C1
+24,09106 Metabolism of other amino acids,C1_B,1.525499385,C1
+25,09107 Glycan biosynthesis and metabolism,C1_B,3.388561659,C1
+26,09108 Metabolism of cofactors and vitamins,C1_B,5.220840132,C1
+27,09122 Translation,C1_B,13.33499783,C1
+28,09124 Replication and repair,C1_B,1.148335565,C1
+29,09131 Membrane transport,C1_B,1.904152122,C1
+30,09132 Signal transduction,C1_B,1.25036436,C1
+31,09142 Cell motility,C1_B,3.025953106,C1
+32,09181 Protein families: metabolism,C1_B,2.230550321,C1
+33,09182 Protein families: genetic information processing,C1_B,9.464155783,C1
+34,09183 Protein families: signaling and cellular processes,C1_B,4.247485508,C1
+35,09191 Unclassified: metabolism,C1_B,5.223124731,C1
+36,Other,C1_B,4.165887724,C1
+37,09101 Carbohydrate metabolism,C10_A,17.1062058,C10
+38,09102 Energy metabolism,C10_A,8.327687933,C10
+39,09103 Lipid metabolism,C10_A,4.561173016,C10
+40,09104 Nucleotide metabolism,C10_A,3.779832517,C10
+41,09105 Amino acid metabolism,C10_A,9.8622398,C10
+42,09106 Metabolism of other amino acids,C10_A,1.64751056,C10
+43,09107 Glycan biosynthesis and metabolism,C10_A,3.289160677,C10
+44,09108 Metabolism of cofactors and vitamins,C10_A,5.1923721,C10
+45,09122 Translation,C10_A,13.04739776,C10
+46,09124 Replication and repair,C10_A,1.174693328,C10
+47,09131 Membrane transport,C10_A,1.843576381,C10
+48,09132 Signal transduction,C10_A,1.371609758,C10
+49,09142 Cell motility,C10_A,3.022451697,C10
+50,09181 Protein families: metabolism,C10_A,2.332797848,C10
+51,09182 Protein families: genetic information processing,C10_A,9.373280497,C10
+52,09183 Protein families: signaling and cellular processes,C10_A,4.308557939,C10
+53,09191 Unclassified: metabolism,C10_A,5.329487708,C10
+54,Other,C10_A,4.429964685,C10
+55,09101 Carbohydrate metabolism,C10_B,17.21336842,C10
+56,09102 Energy metabolism,C10_B,8.376883207,C10
+57,09103 Lipid metabolism,C10_B,4.607458104,C10
+58,09104 Nucleotide metabolism,C10_B,3.797282686,C10
+59,09105 Amino acid metabolism,C10_B,9.827887144,C10
+60,09106 Metabolism of other amino acids,C10_B,1.614997375,C10
+61,09107 Glycan biosynthesis and metabolism,C10_B,3.236134112,C10
+62,09108 Metabolism of cofactors and vitamins,C10_B,5.257216586,C10
+63,09122 Translation,C10_B,13.24478868,C10
+64,09124 Replication and repair,C10_B,1.165567392,C10
+65,09131 Membrane transport,C10_B,1.930302705,C10
+66,09132 Signal transduction,C10_B,1.291058173,C10
+67,09142 Cell motility,C10_B,2.97229351,C10
+68,09181 Protein families: metabolism,C10_B,2.328148903,C10
+69,09182 Protein families: genetic information processing,C10_B,9.373571743,C10
+70,09183 Protein families: signaling and cellular processes,C10_B,4.119919614,C10
+71,09191 Unclassified: metabolism,C10_B,5.287315009,C10
+72,Other,C10_B,4.355806639,C10
+73,09101 Carbohydrate metabolism,C10_C,16.87700575,C10
+74,09102 Energy metabolism,C10_C,8.479264297,C10
+75,09103 Lipid metabolism,C10_C,4.520061687,C10
+76,09104 Nucleotide metabolism,C10_C,3.829475935,C10
+77,09105 Amino acid metabolism,C10_C,9.747322942,C10
+78,09106 Metabolism of other amino acids,C10_C,1.59949494,C10
+79,09107 Glycan biosynthesis and metabolism,C10_C,3.514617845,C10
+80,09108 Metabolism of cofactors and vitamins,C10_C,5.137079428,C10
+81,09122 Translation,C10_C,13.55568084,C10
+82,09124 Replication and repair,C10_C,1.114445023,C10
+83,09131 Membrane transport,C10_C,1.839036742,C10
+84,09132 Signal transduction,C10_C,1.295920503,C10
+85,09142 Cell motility,C10_C,3.024204321,C10
+86,09181 Protein families: metabolism,C10_C,2.229076303,C10
+87,09182 Protein families: genetic information processing,C10_C,9.545551281,C10
+88,09183 Protein families: signaling and cellular processes,C10_C,4.356401119,C10
+89,09191 Unclassified: metabolism,C10_C,5.082300387,C10
+90,Other,C10_C,4.253060654,C10
+91,09101 Carbohydrate metabolism,C11_A,16.85187863,C11
+92,09102 Energy metabolism,C11_A,8.275673345,C11
+93,09103 Lipid metabolism,C11_A,4.603881805,C11
+94,09104 Nucleotide metabolism,C11_A,3.926934603,C11
+95,09105 Amino acid metabolism,C11_A,9.941063934,C11
+96,09106 Metabolism of other amino acids,C11_A,1.553121201,C11
+97,09107 Glycan biosynthesis and metabolism,C11_A,3.492826862,C11
+98,09108 Metabolism of cofactors and vitamins,C11_A,5.329567099,C11
+99,09122 Translation,C11_A,13.42889274,C11
+100,09124 Replication and repair,C11_A,1.197241712,C11
+101,09131 Membrane transport,C11_A,1.825972307,C11
+102,09132 Signal transduction,C11_A,1.240771312,C11
+103,09142 Cell motility,C11_A,2.591299935,C11
+104,09181 Protein families: metabolism,C11_A,2.246551445,C11
+105,09182 Protein families: genetic information processing,C11_A,9.47047054,C11
+106,09183 Protein families: signaling and cellular processes,C11_A,4.351414123,C11
+107,09191 Unclassified: metabolism,C11_A,5.339357849,C11
+108,Other,C11_A,4.333080556,C11
+109,09101 Carbohydrate metabolism,C11_B,16.32733639,C11
+110,09102 Energy metabolism,C11_B,8.263511187,C11
+111,09103 Lipid metabolism,C11_B,4.392694188,C11
+112,09104 Nucleotide metabolism,C11_B,4.035182173,C11
+113,09105 Amino acid metabolism,C11_B,9.669447494,C11
+114,09106 Metabolism of other amino acids,C11_B,1.447582309,C11
+115,09107 Glycan biosynthesis and metabolism,C11_B,4.024259834,C11
+116,09108 Metabolism of cofactors and vitamins,C11_B,5.204131298,C11
+117,09122 Translation,C11_B,13.79947246,C11
+118,09124 Replication and repair,C11_B,1.104520836,C11
+119,09131 Membrane transport,C11_B,1.893364943,C11
+120,09132 Signal transduction,C11_B,1.271295308,C11
+121,09142 Cell motility,C11_B,2.662899977,C11
+122,09181 Protein families: metabolism,C11_B,2.110313652,C11
+123,09182 Protein families: genetic information processing,C11_B,9.704636027,C11
+124,09183 Protein families: signaling and cellular processes,C11_B,4.809729164,C11
+125,09191 Unclassified: metabolism,C11_B,5.064321809,C11
+126,Other,C11_B,4.215300958,C11
+127,09101 Carbohydrate metabolism,C11_C,16.46900491,C11
+128,09102 Energy metabolism,C11_C,8.36429966,C11
+129,09103 Lipid metabolism,C11_C,4.429308645,C11
+130,09104 Nucleotide metabolism,C11_C,3.982411242,C11
+131,09105 Amino acid metabolism,C11_C,9.721930447,C11
+132,09106 Metabolism of other amino acids,C11_C,1.502364029,C11
+133,09107 Glycan biosynthesis and metabolism,C11_C,3.802258087,C11
+134,09108 Metabolism of cofactors and vitamins,C11_C,5.258510802,C11
+135,09122 Translation,C11_C,13.96743077,C11
+136,09124 Replication and repair,C11_C,1.097518523,C11
+137,09131 Membrane transport,C11_C,1.972404271,C11
+138,09132 Signal transduction,C11_C,1.210376689,C11
+139,09142 Cell motility,C11_C,2.737567611,C11
+140,09181 Protein families: metabolism,C11_C,2.154599777,C11
+141,09182 Protein families: genetic information processing,C11_C,9.635719952,C11
+142,09183 Protein families: signaling and cellular processes,C11_C,4.4493887,C11
+143,09191 Unclassified: metabolism,C11_C,5.018154428,C11
+144,Other,C11_C,4.226751453,C11
+145,09101 Carbohydrate metabolism,C12_A,16.91889863,C12
+146,09102 Energy metabolism,C12_A,8.291268807,C12
+147,09103 Lipid metabolism,C12_A,4.455025385,C12
+148,09104 Nucleotide metabolism,C12_A,4.025670959,C12
+149,09105 Amino acid metabolism,C12_A,9.795531053,C12
+150,09106 Metabolism of other amino acids,C12_A,1.500923195,C12
+151,09107 Glycan biosynthesis and metabolism,C12_A,3.571448095,C12
+152,09108 Metabolism of cofactors and vitamins,C12_A,5.338338341,C12
+153,09122 Translation,C12_A,14.04893834,C12
+154,09124 Replication and repair,C12_A,1.137935983,C12
+155,09131 Membrane transport,C12_A,1.943407147,C12
+156,09132 Signal transduction,C12_A,1.189182518,C12
+157,09142 Cell motility,C12_A,2.664320207,C12
+158,09181 Protein families: metabolism,C12_A,2.229604658,C12
+159,09182 Protein families: genetic information processing,C12_A,9.541019136,C12
+160,09183 Protein families: signaling and cellular processes,C12_A,4.134012079,C12
+161,09191 Unclassified: metabolism,C12_A,5.045829658,C12
+162,Other,C12_A,4.168645811,C12
+163,09101 Carbohydrate metabolism,C12_B,16.95642601,C12
+164,09102 Energy metabolism,C12_B,8.280184254,C12
+165,09103 Lipid metabolism,C12_B,4.508578219,C12
+166,09104 Nucleotide metabolism,C12_B,3.987544545,C12
+167,09105 Amino acid metabolism,C12_B,9.82995412,C12
+168,09106 Metabolism of other amino acids,C12_B,1.518776029,C12
+169,09107 Glycan biosynthesis and metabolism,C12_B,3.500700162,C12
+170,09108 Metabolism of cofactors and vitamins,C12_B,5.402608821,C12
+171,09122 Translation,C12_B,14.04125933,C12
+172,09124 Replication and repair,C12_B,1.155051019,C12
+173,09131 Membrane transport,C12_B,1.920451031,C12
+174,09132 Signal transduction,C12_B,1.164935471,C12
+175,09142 Cell motility,C12_B,2.648065621,C12
+176,09181 Protein families: metabolism,C12_B,2.24639961,C12
+177,09182 Protein families: genetic information processing,C12_B,9.510559231,C12
+178,09183 Protein families: signaling and cellular processes,C12_B,4.100442431,C12
+179,09191 Unclassified: metabolism,C12_B,5.040500985,C12
+180,Other,C12_B,4.18756312,C12
+181,09101 Carbohydrate metabolism,C12_C,16.96970223,C12
+182,09102 Energy metabolism,C12_C,8.239301021,C12
+183,09103 Lipid metabolism,C12_C,4.538010537,C12
+184,09104 Nucleotide metabolism,C12_C,3.941225019,C12
+185,09105 Amino acid metabolism,C12_C,9.915209993,C12
+186,09106 Metabolism of other amino acids,C12_C,1.566401815,C12
+187,09107 Glycan biosynthesis and metabolism,C12_C,3.423595624,C12
+188,09108 Metabolism of cofactors and vitamins,C12_C,5.304936958,C12
+189,09122 Translation,C12_C,13.72264877,C12
+190,09124 Replication and repair,C12_C,1.166000236,C12
+191,09131 Membrane transport,C12_C,1.832202885,C12
+192,09132 Signal transduction,C12_C,1.255700176,C12
+193,09142 Cell motility,C12_C,2.769755967,C12
+194,09181 Protein families: metabolism,C12_C,2.305061811,C12
+195,09182 Protein families: genetic information processing,C12_C,9.432271125,C12
+196,09183 Protein families: signaling and cellular processes,C12_C,4.169292271,C12
+197,09191 Unclassified: metabolism,C12_C,5.171419955,C12
+198,Other,C12_C,4.277263608,C12
+199,09101 Carbohydrate metabolism,C2_A,16.79207988,C2
+200,09102 Energy metabolism,C2_A,8.315837378,C2
+201,09103 Lipid metabolism,C2_A,4.529946816,C2
+202,09104 Nucleotide metabolism,C2_A,3.777172938,C2
+203,09105 Amino acid metabolism,C2_A,9.848561769,C2
+204,09106 Metabolism of other amino acids,C2_A,1.671696757,C2
+205,09107 Glycan biosynthesis and metabolism,C2_A,3.310763028,C2
+206,09108 Metabolism of cofactors and vitamins,C2_A,5.245018066,C2
+207,09122 Translation,C2_A,13.26181012,C2
+208,09124 Replication and repair,C2_A,1.157876797,C2
+209,09131 Membrane transport,C2_A,1.907235747,C2
+210,09132 Signal transduction,C2_A,1.371710315,C2
+211,09142 Cell motility,C2_A,3.094152008,C2
+212,09181 Protein families: metabolism,C2_A,2.278109854,C2
+213,09182 Protein families: genetic information processing,C2_A,9.436332241,C2
+214,09183 Protein families: signaling and cellular processes,C2_A,4.320901387,C2
+215,09191 Unclassified: metabolism,C2_A,5.247311749,C2
+216,Other,C2_A,4.433483145,C2
+217,09101 Carbohydrate metabolism,C2_B,16.62576617,C2
+218,09102 Energy metabolism,C2_B,8.315182677,C2
+219,09103 Lipid metabolism,C2_B,4.476272103,C2
+220,09104 Nucleotide metabolism,C2_B,3.884426537,C2
+221,09105 Amino acid metabolism,C2_B,9.817957545,C2
+222,09106 Metabolism of other amino acids,C2_B,1.608468428,C2
+223,09107 Glycan biosynthesis and metabolism,C2_B,3.520709315,C2
+224,09108 Metabolism of cofactors and vitamins,C2_B,5.265663451,C2
+225,09122 Translation,C2_B,13.64813208,C2
+226,09124 Replication and repair,C2_B,1.138833456,C2
+227,09131 Membrane transport,C2_B,1.957707214,C2
+228,09132 Signal transduction,C2_B,1.283416454,C2
+229,09142 Cell motility,C2_B,2.85008382,C2
+230,09181 Protein families: metabolism,C2_B,2.225499932,C2
+231,09182 Protein families: genetic information processing,C2_B,9.529190162,C2
+232,09183 Protein families: signaling and cellular processes,C2_B,4.348544189,C2
+233,09191 Unclassified: metabolism,C2_B,5.165807208,C2
+234,Other,C2_B,4.338339259,C2
+235,09101 Carbohydrate metabolism,C2_C,16.47117098,C2
+236,09102 Energy metabolism,C2_C,8.250347909,C2
+237,09103 Lipid metabolism,C2_C,4.420672778,C2
+238,09104 Nucleotide metabolism,C2_C,4.106460698,C2
+239,09105 Amino acid metabolism,C2_C,9.783887578,C2
+240,09106 Metabolism of other amino acids,C2_C,1.415869464,C2
+241,09107 Glycan biosynthesis and metabolism,C2_C,3.947483662,C2
+242,09108 Metabolism of cofactors and vitamins,C2_C,5.347156317,C2
+243,09122 Translation,C2_C,14.02291069,C2
+244,09124 Replication and repair,C2_C,1.142186536,C2
+245,09131 Membrane transport,C2_C,2.013371377,C2
+246,09132 Signal transduction,C2_C,1.130884949,C2
+247,09142 Cell motility,C2_C,2.281049382,C2
+248,09181 Protein families: metabolism,C2_C,2.103921403,C2
+249,09182 Protein families: genetic information processing,C2_C,9.718067047,C2
+250,09183 Protein families: signaling and cellular processes,C2_C,4.507756983,C2
+251,09191 Unclassified: metabolism,C2_C,5.130113647,C2
+252,Other,C2_C,4.206688593,C2
+253,09101 Carbohydrate metabolism,C3_A,16.59322211,C3
+254,09102 Energy metabolism,C3_A,8.319701289,C3
+255,09103 Lipid metabolism,C3_A,4.433006878,C3
+256,09104 Nucleotide metabolism,C3_A,3.7391487,C3
+257,09105 Amino acid metabolism,C3_A,9.723541205,C3
+258,09106 Metabolism of other amino acids,C3_A,1.703927182,C3
+259,09107 Glycan biosynthesis and metabolism,C3_A,3.419094393,C3
+260,09108 Metabolism of cofactors and vitamins,C3_A,5.085667728,C3
+261,09122 Translation,C3_A,12.70486907,C3
+262,09124 Replication and repair,C3_A,1.154694241,C3
+263,09131 Membrane transport,C3_A,1.977549532,C3
+264,09132 Signal transduction,C3_A,1.456270357,C3
+265,09142 Cell motility,C3_A,3.142682011,C3
+266,09181 Protein families: metabolism,C3_A,2.207295423,C3
+267,09182 Protein families: genetic information processing,C3_A,9.584915849,C3
+268,09183 Protein families: signaling and cellular processes,C3_A,4.827031231,C3
+269,09191 Unclassified: metabolism,C3_A,5.366847171,C3
+270,Other,C3_A,4.560535627,C3
+271,09101 Carbohydrate metabolism,C3_B,16.7191981,C3
+272,09102 Energy metabolism,C3_B,8.417748635,C3
+273,09103 Lipid metabolism,C3_B,4.50858591,C3
+274,09104 Nucleotide metabolism,C3_B,3.84597711,C3
+275,09105 Amino acid metabolism,C3_B,9.80258687,C3
+276,09106 Metabolism of other amino acids,C3_B,1.636369985,C3
+277,09107 Glycan biosynthesis and metabolism,C3_B,3.375283613,C3
+278,09108 Metabolism of cofactors and vitamins,C3_B,5.210959944,C3
+279,09122 Translation,C3_B,13.47906569,C3
+280,09124 Replication and repair,C3_B,1.135151409,C3
+281,09131 Membrane transport,C3_B,1.924304808,C3
+282,09132 Signal transduction,C3_B,1.323130045,C3
+283,09142 Cell motility,C3_B,3.043826787,C3
+284,09181 Protein families: metabolism,C3_B,2.23477717,C3
+285,09182 Protein families: genetic information processing,C3_B,9.520547448,C3
+286,09183 Protein families: signaling and cellular processes,C3_B,4.300030177,C3
+287,09191 Unclassified: metabolism,C3_B,5.192424615,C3
+288,Other,C3_B,4.330031687,C3
+289,09101 Carbohydrate metabolism,C3_C,16.62325552,C3
+290,09102 Energy metabolism,C3_C,8.560838482,C3
+291,09103 Lipid metabolism,C3_C,4.41911314,C3
+292,09104 Nucleotide metabolism,C3_C,3.785733381,C3
+293,09105 Amino acid metabolism,C3_C,9.706862731,C3
+294,09106 Metabolism of other amino acids,C3_C,1.626659549,C3
+295,09107 Glycan biosynthesis and metabolism,C3_C,3.509403428,C3
+296,09108 Metabolism of cofactors and vitamins,C3_C,4.928443724,C3
+297,09122 Translation,C3_C,13.76938391,C3
+298,09124 Replication and repair,C3_C,1.11868482,C3
+299,09131 Membrane transport,C3_C,1.805041277,C3
+300,09132 Signal transduction,C3_C,1.375065752,C3
+301,09142 Cell motility,C3_C,3.498174384,C3
+302,09181 Protein families: metabolism,C3_C,2.200428135,C3
+303,09182 Protein families: genetic information processing,C3_C,9.709746989,C3
+304,09183 Protein families: signaling and cellular processes,C3_C,4.323179751,C3
+305,09191 Unclassified: metabolism,C3_C,4.813543007,C3
+306,Other,C3_C,4.226442025,C3
+307,09101 Carbohydrate metabolism,C4_A,16.45394712,C4
+308,09102 Energy metabolism,C4_A,8.3068176,C4
+309,09103 Lipid metabolism,C4_A,4.397359963,C4
+310,09104 Nucleotide metabolism,C4_A,4.024908697,C4
+311,09105 Amino acid metabolism,C4_A,9.789564277,C4
+312,09106 Metabolism of other amino acids,C4_A,1.505972673,C4
+313,09107 Glycan biosynthesis and metabolism,C4_A,3.732382216,C4
+314,09108 Metabolism of cofactors and vitamins,C4_A,5.279003082,C4
+315,09122 Translation,C4_A,14.07685,C4
+316,09124 Replication and repair,C4_A,1.124128219,C4
+317,09131 Membrane transport,C4_A,1.908224389,C4
+318,09132 Signal transduction,C4_A,1.252371777,C4
+319,09142 Cell motility,C4_A,2.687599728,C4
+320,09181 Protein families: metabolism,C4_A,2.173619375,C4
+321,09182 Protein families: genetic information processing,C4_A,9.64964114,C4
+322,09183 Protein families: signaling and cellular processes,C4_A,4.426671748,C4
+323,09191 Unclassified: metabolism,C4_A,4.991236082,C4
+324,Other,C4_A,4.219701914,C4
+325,09101 Carbohydrate metabolism,C4_B,16.59200584,C4
+326,09102 Energy metabolism,C4_B,8.356484454,C4
+327,09103 Lipid metabolism,C4_B,4.451134847,C4
+328,09104 Nucleotide metabolism,C4_B,3.976096185,C4
+329,09105 Amino acid metabolism,C4_B,9.782222295,C4
+330,09106 Metabolism of other amino acids,C4_B,1.535505232,C4
+331,09107 Glycan biosynthesis and metabolism,C4_B,3.582844651,C4
+332,09108 Metabolism of cofactors and vitamins,C4_B,5.321763434,C4
+333,09122 Translation,C4_B,14.11934741,C4
+334,09124 Replication and repair,C4_B,1.145004407,C4
+335,09131 Membrane transport,C4_B,1.919741682,C4
+336,09132 Signal transduction,C4_B,1.204744582,C4
+337,09142 Cell motility,C4_B,2.73485578,C4
+338,09181 Protein families: metabolism,C4_B,2.200982312,C4
+339,09182 Protein families: genetic information processing,C4_B,9.597872933,C4
+340,09183 Protein families: signaling and cellular processes,C4_B,4.238439556,C4
+341,09191 Unclassified: metabolism,C4_B,5.000230239,C4
+342,Other,C4_B,4.240724158,C4
+343,09101 Carbohydrate metabolism,C4_C,16.52771459,C4
+344,09102 Energy metabolism,C4_C,8.36429365,C4
+345,09103 Lipid metabolism,C4_C,4.419879861,C4
+346,09104 Nucleotide metabolism,C4_C,4.072840699,C4
+347,09105 Amino acid metabolism,C4_C,9.781989091,C4
+348,09106 Metabolism of other amino acids,C4_C,1.480859879,C4
+349,09107 Glycan biosynthesis and metabolism,C4_C,3.792869802,C4
+350,09108 Metabolism of cofactors and vitamins,C4_C,5.301808635,C4
+351,09122 Translation,C4_C,14.37025284,C4
+352,09124 Replication and repair,C4_C,1.119934952,C4
+353,09131 Membrane transport,C4_C,1.897375232,C4
+354,09132 Signal transduction,C4_C,1.161833761,C4
+355,09142 Cell motility,C4_C,2.474931181,C4
+356,09181 Protein families: metabolism,C4_C,2.171308053,C4
+357,09182 Protein families: genetic information processing,C4_C,9.652898453,C4
+358,09183 Protein families: signaling and cellular processes,C4_C,4.283982933,C4
+359,09191 Unclassified: metabolism,C4_C,4.956412931,C4
+360,Other,C4_C,4.168813451,C4
+361,09101 Carbohydrate metabolism,C5_A,16.56231865,C5
+362,09102 Energy metabolism,C5_A,8.291678274,C5
+363,09103 Lipid metabolism,C5_A,4.478718216,C5
+364,09104 Nucleotide metabolism,C5_A,3.859175242,C5
+365,09105 Amino acid metabolism,C5_A,9.897369287,C5
+366,09106 Metabolism of other amino acids,C5_A,1.647177263,C5
+367,09107 Glycan biosynthesis and metabolism,C5_A,3.447963225,C5
+368,09108 Metabolism of cofactors and vitamins,C5_A,5.284611362,C5
+369,09122 Translation,C5_A,13.62114549,C5
+370,09124 Replication and repair,C5_A,1.161960339,C5
+371,09131 Membrane transport,C5_A,1.856858349,C5
+372,09132 Signal transduction,C5_A,1.301349834,C5
+373,09142 Cell motility,C5_A,2.916440921,C5
+374,09181 Protein families: metabolism,C5_A,2.243211298,C5
+375,09182 Protein families: genetic information processing,C5_A,9.523866251,C5
+376,09183 Protein families: signaling and cellular processes,C5_A,4.340343644,C5
+377,09191 Unclassified: metabolism,C5_A,5.179479998,C5
+378,Other,C5_A,4.386332352,C5
+379,09101 Carbohydrate metabolism,C5_B,16.20802071,C5
+380,09102 Energy metabolism,C5_B,8.230701764,C5
+381,09103 Lipid metabolism,C5_B,4.388321897,C5
+382,09104 Nucleotide metabolism,C5_B,4.111117473,C5
+383,09105 Amino acid metabolism,C5_B,9.865890145,C5
+384,09106 Metabolism of other amino acids,C5_B,1.43625256,C5
+385,09107 Glycan biosynthesis and metabolism,C5_B,3.987261467,C5
+386,09108 Metabolism of cofactors and vitamins,C5_B,5.307655043,C5
+387,09122 Translation,C5_B,14.25469445,C5
+388,09124 Replication and repair,C5_B,1.149324552,C5
+389,09131 Membrane transport,C5_B,1.803662492,C5
+390,09132 Signal transduction,C5_B,1.188174755,C5
+391,09142 Cell motility,C5_B,2.437157686,C5
+392,09181 Protein families: metabolism,C5_B,2.085313114,C5
+393,09182 Protein families: genetic information processing,C5_B,9.76743875,C5
+394,09183 Protein families: signaling and cellular processes,C5_B,4.624457863,C5
+395,09191 Unclassified: metabolism,C5_B,4.981311071,C5
+396,Other,C5_B,4.173244213,C5
+397,09101 Carbohydrate metabolism,C5_C,16.28821188,C5
+398,09102 Energy metabolism,C5_C,8.406549672,C5
+399,09103 Lipid metabolism,C5_C,4.440494231,C5
+400,09104 Nucleotide metabolism,C5_C,4.086935894,C5
+401,09105 Amino acid metabolism,C5_C,9.779496123,C5
+402,09106 Metabolism of other amino acids,C5_C,1.443099299,C5
+403,09107 Glycan biosynthesis and metabolism,C5_C,3.995450294,C5
+404,09108 Metabolism of cofactors and vitamins,C5_C,5.341491852,C5
+405,09122 Translation,C5_C,14.34434106,C5
+406,09124 Replication and repair,C5_C,1.114254139,C5
+407,09131 Membrane transport,C5_C,1.897384915,C5
+408,09132 Signal transduction,C5_C,1.116223168,C5
+409,09142 Cell motility,C5_C,2.292706956,C5
+410,09181 Protein families: metabolism,C5_C,2.082485573,C5
+411,09182 Protein families: genetic information processing,C5_C,9.750006555,C5
+412,09183 Protein families: signaling and cellular processes,C5_C,4.504188887,C5
+413,09191 Unclassified: metabolism,C5_C,4.966970933,C5
+414,Other,C5_C,4.149708562,C5
+415,09101 Carbohydrate metabolism,C6_B,16.10974056,C6
+416,09102 Energy metabolism,C6_B,8.229773634,C6
+417,09103 Lipid metabolism,C6_B,4.338685604,C6
+418,09104 Nucleotide metabolism,C6_B,3.923032975,C6
+419,09105 Amino acid metabolism,C6_B,9.8483916,C6
+420,09106 Metabolism of other amino acids,C6_B,1.607894012,C6
+421,09107 Glycan biosynthesis and metabolism,C6_B,3.811232148,C6
+422,09108 Metabolism of cofactors and vitamins,C6_B,5.16618316,C6
+423,09122 Translation,C6_B,13.45540478,C6
+424,09124 Replication and repair,C6_B,1.158466144,C6
+425,09131 Membrane transport,C6_B,1.791772811,C6
+426,09132 Signal transduction,C6_B,1.400770621,C6
+427,09142 Cell motility,C6_B,2.791052258,C6
+428,09181 Protein families: metabolism,C6_B,2.14942733,C6
+429,09182 Protein families: genetic information processing,C6_B,9.661054945,C6
+430,09183 Protein families: signaling and cellular processes,C6_B,5.002760929,C6
+431,09191 Unclassified: metabolism,C6_B,5.139462055,C6
+432,Other,C6_B,4.414894434,C6
+433,09101 Carbohydrate metabolism,C6_C,16.6457676,C6
+434,09102 Energy metabolism,C6_C,8.293881421,C6
+435,09103 Lipid metabolism,C6_C,4.465527959,C6
+436,09104 Nucleotide metabolism,C6_C,3.881312605,C6
+437,09105 Amino acid metabolism,C6_C,9.867183207,C6
+438,09106 Metabolism of other amino acids,C6_C,1.624219376,C6
+439,09107 Glycan biosynthesis and metabolism,C6_C,3.417026307,C6
+440,09108 Metabolism of cofactors and vitamins,C6_C,5.23359894,C6
+441,09122 Translation,C6_C,13.50215456,C6
+442,09124 Replication and repair,C6_C,1.15436886,C6
+443,09131 Membrane transport,C6_C,1.926347642,C6
+444,09132 Signal transduction,C6_C,1.341035674,C6
+445,09142 Cell motility,C6_C,2.886426592,C6
+446,09181 Protein families: metabolism,C6_C,2.268198322,C6
+447,09182 Protein families: genetic information processing,C6_C,9.522554315,C6
+448,09183 Protein families: signaling and cellular processes,C6_C,4.363844858,C6
+449,09191 Unclassified: metabolism,C6_C,5.202273031,C6
+450,Other,C6_C,4.404278737,C6
+451,09101 Carbohydrate metabolism,C7_A,17.72349769,C7
+452,09102 Energy metabolism,C7_A,8.231033328,C7
+453,09103 Lipid metabolism,C7_A,4.698498973,C7
+454,09104 Nucleotide metabolism,C7_A,3.844078077,C7
+455,09105 Amino acid metabolism,C7_A,9.974605895,C7
+456,09106 Metabolism of other amino acids,C7_A,1.57853688,C7
+457,09107 Glycan biosynthesis and metabolism,C7_A,2.928235248,C7
+458,09108 Metabolism of cofactors and vitamins,C7_A,5.288073272,C7
+459,09122 Translation,C7_A,13.19181905,C7
+460,09124 Replication and repair,C7_A,1.22007769,C7
+461,09131 Membrane transport,C7_A,1.933193702,C7
+462,09132 Signal transduction,C7_A,1.279188292,C7
+463,09142 Cell motility,C7_A,2.976675294,C7
+464,09181 Protein families: metabolism,C7_A,2.505606656,C7
+465,09182 Protein families: genetic information processing,C7_A,9.194821051,C7
+466,09183 Protein families: signaling and cellular processes,C7_A,3.726441868,C7
+467,09191 Unclassified: metabolism,C7_A,5.372261624,C7
+468,Other,C7_A,4.333355404,C7
+469,09101 Carbohydrate metabolism,C7_B,17.11295254,C7
+470,09102 Energy metabolism,C7_B,8.369112619,C7
+471,09103 Lipid metabolism,C7_B,4.570987935,C7
+472,09104 Nucleotide metabolism,C7_B,3.921891149,C7
+473,09105 Amino acid metabolism,C7_B,9.803154634,C7
+474,09106 Metabolism of other amino acids,C7_B,1.521669214,C7
+475,09107 Glycan biosynthesis and metabolism,C7_B,3.410171893,C7
+476,09108 Metabolism of cofactors and vitamins,C7_B,5.317031544,C7
+477,09122 Translation,C7_B,13.94918492,C7
+478,09124 Replication and repair,C7_B,1.157211618,C7
+479,09131 Membrane transport,C7_B,1.883551459,C7
+480,09132 Signal transduction,C7_B,1.190455104,C7
+481,09142 Cell motility,C7_B,2.856962963,C7
+482,09181 Protein families: metabolism,C7_B,2.281588866,C7
+483,09182 Protein families: genetic information processing,C7_B,9.42169612,C7
+484,09183 Protein families: signaling and cellular processes,C7_B,4.032248012,C7
+485,09191 Unclassified: metabolism,C7_B,5.028541772,C7
+486,Other,C7_B,4.171587634,C7
+487,09101 Carbohydrate metabolism,C7_C,17.0019704,C7
+488,09102 Energy metabolism,C7_C,8.335999149,C7
+489,09103 Lipid metabolism,C7_C,4.515018115,C7
+490,09104 Nucleotide metabolism,C7_C,4.0047639,C7
+491,09105 Amino acid metabolism,C7_C,9.86124408,C7
+492,09106 Metabolism of other amino acids,C7_C,1.486208946,C7
+493,09107 Glycan biosynthesis and metabolism,C7_C,3.499171525,C7
+494,09108 Metabolism of cofactors and vitamins,C7_C,5.283504241,C7
+495,09122 Translation,C7_C,14.26537879,C7
+496,09124 Replication and repair,C7_C,1.158583732,C7
+497,09131 Membrane transport,C7_C,1.935296048,C7
+498,09132 Signal transduction,C7_C,1.153906362,C7
+499,09142 Cell motility,C7_C,2.618960111,C7
+500,09181 Protein families: metabolism,C7_C,2.300164677,C7
+501,09182 Protein families: genetic information processing,C7_C,9.488914768,C7
+502,09183 Protein families: signaling and cellular processes,C7_C,3.957868207,C7
+503,09191 Unclassified: metabolism,C7_C,4.962729474,C7
+504,Other,C7_C,4.170317479,C7
+505,09101 Carbohydrate metabolism,C8_A,16.73430916,C8
+506,09102 Energy metabolism,C8_A,8.330767116,C8
+507,09103 Lipid metabolism,C8_A,4.555655359,C8
+508,09104 Nucleotide metabolism,C8_A,3.832916075,C8
+509,09105 Amino acid metabolism,C8_A,9.965002212,C8
+510,09106 Metabolism of other amino acids,C8_A,1.680093457,C8
+511,09107 Glycan biosynthesis and metabolism,C8_A,3.411778412,C8
+512,09108 Metabolism of cofactors and vitamins,C8_A,5.258138884,C8
+513,09122 Translation,C8_A,13.43742406,C8
+514,09124 Replication and repair,C8_A,1.147434911,C8
+515,09131 Membrane transport,C8_A,1.743500921,C8
+516,09132 Signal transduction,C8_A,1.331621075,C8
+517,09142 Cell motility,C8_A,2.848002046,C8
+518,09181 Protein families: metabolism,C8_A,2.252535709,C8
+519,09182 Protein families: genetic information processing,C8_A,9.425639673,C8
+520,09183 Protein families: signaling and cellular processes,C8_A,4.39774548,C8
+521,09191 Unclassified: metabolism,C8_A,5.270568285,C8
+522,Other,C8_A,4.376867163,C8
+523,09101 Carbohydrate metabolism,C8_B,16.59518056,C8
+524,09102 Energy metabolism,C8_B,8.283969385,C8
+525,09103 Lipid metabolism,C8_B,4.529936,C8
+526,09104 Nucleotide metabolism,C8_B,3.978916183,C8
+527,09105 Amino acid metabolism,C8_B,9.903935973,C8
+528,09106 Metabolism of other amino acids,C8_B,1.539571076,C8
+529,09107 Glycan biosynthesis and metabolism,C8_B,3.578576836,C8
+530,09108 Metabolism of cofactors and vitamins,C8_B,5.355895974,C8
+531,09122 Translation,C8_B,13.94112629,C8
+532,09124 Replication and repair,C8_B,1.183980348,C8
+533,09131 Membrane transport,C8_B,1.797906947,C8
+534,09132 Signal transduction,C8_B,1.206990519,C8
+535,09142 Cell motility,C8_B,2.545267831,C8
+536,09181 Protein families: metabolism,C8_B,2.192769082,C8
+537,09182 Protein families: genetic information processing,C8_B,9.571388718,C8
+538,09183 Protein families: signaling and cellular processes,C8_B,4.358422484,C8
+539,09191 Unclassified: metabolism,C8_B,5.174032817,C8
+540,Other,C8_B,4.262132975,C8
+541,09101 Carbohydrate metabolism,C8_C,16.43742383,C8
+542,09102 Energy metabolism,C8_C,8.338388312,C8
+543,09103 Lipid metabolism,C8_C,4.445976824,C8
+544,09104 Nucleotide metabolism,C8_C,4.079563858,C8
+545,09105 Amino acid metabolism,C8_C,9.799405901,C8
+546,09106 Metabolism of other amino acids,C8_C,1.453903117,C8
+547,09107 Glycan biosynthesis and metabolism,C8_C,3.853876958,C8
+548,09108 Metabolism of cofactors and vitamins,C8_C,5.377889366,C8
+549,09122 Translation,C8_C,14.19302841,C8
+550,09124 Replication and repair,C8_C,1.141152272,C8
+551,09131 Membrane transport,C8_C,1.922779835,C8
+552,09132 Signal transduction,C8_C,1.140959372,C8
+553,09142 Cell motility,C8_C,2.371783374,C8
+554,09181 Protein families: metabolism,C8_C,2.112887422,C8
+555,09182 Protein families: genetic information processing,C8_C,9.688475733,C8
+556,09183 Protein families: signaling and cellular processes,C8_C,4.411809347,C8
+557,09191 Unclassified: metabolism,C8_C,5.048140477,C8
+558,Other,C8_C,4.182555598,C8
+559,09101 Carbohydrate metabolism,C9_A,16.60897361,C9
+560,09102 Energy metabolism,C9_A,8.280767302,C9
+561,09103 Lipid metabolism,C9_A,4.387697324,C9
+562,09104 Nucleotide metabolism,C9_A,3.951184976,C9
+563,09105 Amino acid metabolism,C9_A,9.803130366,C9
+564,09106 Metabolism of other amino acids,C9_A,1.597230404,C9
+565,09107 Glycan biosynthesis and metabolism,C9_A,3.567604464,C9
+566,09108 Metabolism of cofactors and vitamins,C9_A,5.25823059,C9
+567,09122 Translation,C9_A,13.6332467,C9
+568,09124 Replication and repair,C9_A,1.108985166,C9
+569,09131 Membrane transport,C9_A,1.996042208,C9
+570,09132 Signal transduction,C9_A,1.318305389,C9
+571,09142 Cell motility,C9_A,2.845187768,C9
+572,09181 Protein families: metabolism,C9_A,2.203008671,C9
+573,09182 Protein families: genetic information processing,C9_A,9.575071602,C9
+574,09183 Protein families: signaling and cellular processes,C9_A,4.408910755,C9
+575,09191 Unclassified: metabolism,C9_A,5.158078599,C9
+576,Other,C9_A,4.298344111,C9
+577,09101 Carbohydrate metabolism,C9_B,16.58845614,C9
+578,09102 Energy metabolism,C9_B,8.29349631,C9
+579,09103 Lipid metabolism,C9_B,4.344061145,C9
+580,09104 Nucleotide metabolism,C9_B,3.935200484,C9
+581,09105 Amino acid metabolism,C9_B,9.722539036,C9
+582,09106 Metabolism of other amino acids,C9_B,1.575266068,C9
+583,09107 Glycan biosynthesis and metabolism,C9_B,3.549331953,C9
+584,09108 Metabolism of cofactors and vitamins,C9_B,5.19079334,C9
+585,09122 Translation,C9_B,13.51996575,C9
+586,09124 Replication and repair,C9_B,1.082924415,C9
+587,09131 Membrane transport,C9_B,2.065464982,C9
+588,09132 Signal transduction,C9_B,1.367130915,C9
+589,09142 Cell motility,C9_B,3.079173537,C9
+590,09181 Protein families: metabolism,C9_B,2.172364419,C9
+591,09182 Protein families: genetic information processing,C9_B,9.701194278,C9
+592,09183 Protein families: signaling and cellular processes,C9_B,4.449556362,C9
+593,09191 Unclassified: metabolism,C9_B,5.077148308,C9
+594,Other,C9_B,4.285932557,C9
+595,09101 Carbohydrate metabolism,C9_C,16.73346047,C9
+596,09102 Energy metabolism,C9_C,8.247356197,C9
+597,09103 Lipid metabolism,C9_C,4.362610958,C9
+598,09104 Nucleotide metabolism,C9_C,4.048645534,C9
+599,09105 Amino acid metabolism,C9_C,9.805485114,C9
+600,09106 Metabolism of other amino acids,C9_C,1.505629524,C9
+601,09107 Glycan biosynthesis and metabolism,C9_C,3.642107842,C9
+602,09108 Metabolism of cofactors and vitamins,C9_C,5.299715795,C9
+603,09122 Translation,C9_C,14.2294459,C9
+604,09124 Replication and repair,C9_C,1.10123635,C9
+605,09131 Membrane transport,C9_C,1.944823705,C9
+606,09132 Signal transduction,C9_C,1.203002156,C9
+607,09142 Cell motility,C9_C,2.740377321,C9
+608,09181 Protein families: metabolism,C9_C,2.190010084,C9
+609,09182 Protein families: genetic information processing,C9_C,9.625540034,C9
+610,09183 Protein families: signaling and cellular processes,C9_C,4.195249576,C9
+611,09191 Unclassified: metabolism,C9_C,4.978597822,C9
+612,Other,C9_C,4.146705621,C9
+613,09101 Carbohydrate metabolism,J1_A,17.02601431,J1
+614,09102 Energy metabolism,J1_A,8.738388958,J1
+615,09103 Lipid metabolism,J1_A,4.667029223,J1
+616,09104 Nucleotide metabolism,J1_A,3.419389522,J1
+617,09105 Amino acid metabolism,J1_A,9.482983203,J1
+618,09106 Metabolism of other amino acids,J1_A,1.880672699,J1
+619,09107 Glycan biosynthesis and metabolism,J1_A,3.261810859,J1
+620,09108 Metabolism of cofactors and vitamins,J1_A,4.768781912,J1
+621,09122 Translation,J1_A,12.18536329,J1
+622,09124 Replication and repair,J1_A,1.077027443,J1
+623,09131 Membrane transport,J1_A,1.67146579,J1
+624,09132 Signal transduction,J1_A,1.617004554,J1
+625,09142 Cell motility,J1_A,4.211080796,J1
+626,09181 Protein families: metabolism,J1_A,2.202778228,J1
+627,09182 Protein families: genetic information processing,J1_A,9.499765817,J1
+628,09183 Protein families: signaling and cellular processes,J1_A,4.56064708,J1
+629,09191 Unclassified: metabolism,J1_A,5.264731475,J1
+630,Other,J1_A,4.465064842,J1
+631,09101 Carbohydrate metabolism,J1_B,17.18706487,J1
+632,09102 Energy metabolism,J1_B,8.7097804,J1
+633,09103 Lipid metabolism,J1_B,4.715648778,J1
+634,09104 Nucleotide metabolism,J1_B,3.404434946,J1
+635,09105 Amino acid metabolism,J1_B,9.560034096,J1
+636,09106 Metabolism of other amino acids,J1_B,1.874480139,J1
+637,09107 Glycan biosynthesis and metabolism,J1_B,3.166958609,J1
+638,09108 Metabolism of cofactors and vitamins,J1_B,4.775975877,J1
+639,09122 Translation,J1_B,11.99179252,J1
+640,09124 Replication and repair,J1_B,1.074773733,J1
+641,09131 Membrane transport,J1_B,1.754556886,J1
+642,09132 Signal transduction,J1_B,1.626176623,J1
+643,09142 Cell motility,J1_B,4.05341114,J1
+644,09181 Protein families: metabolism,J1_B,2.261279794,J1
+645,09182 Protein families: genetic information processing,J1_B,9.415105835,J1
+646,09183 Protein families: signaling and cellular processes,J1_B,4.509203106,J1
+647,09191 Unclassified: metabolism,J1_B,5.379112273,J1
+648,Other,J1_B,4.540210384,J1
+649,09101 Carbohydrate metabolism,J1_C,16.21478521,J1
+650,09102 Energy metabolism,J1_C,8.406657666,J1
+651,09103 Lipid metabolism,J1_C,4.185754942,J1
+652,09104 Nucleotide metabolism,J1_C,3.772823102,J1
+653,09105 Amino acid metabolism,J1_C,9.467102768,J1
+654,09106 Metabolism of other amino acids,J1_C,1.585236041,J1
+655,09107 Glycan biosynthesis and metabolism,J1_C,3.633491437,J1
+656,09108 Metabolism of cofactors and vitamins,J1_C,4.512952741,J1
+657,09122 Translation,J1_C,13.96799153,J1
+658,09124 Replication and repair,J1_C,1.112921235,J1
+659,09131 Membrane transport,J1_C,1.460064116,J1
+660,09132 Signal transduction,J1_C,1.655934963,J1
+661,09142 Cell motility,J1_C,4.93872238,J1
+662,09181 Protein families: metabolism,J1_C,2.157921273,J1
+663,09182 Protein families: genetic information processing,J1_C,9.991874998,J1
+664,09183 Protein families: signaling and cellular processes,J1_C,4.671942324,J1
+665,09191 Unclassified: metabolism,J1_C,4.193818845,J1
+666,Other,J1_C,4.070004428,J1
+667,09101 Carbohydrate metabolism,J10_A,16.91264627,J10
+668,09102 Energy metabolism,J10_A,8.725759876,J10
+669,09103 Lipid metabolism,J10_A,4.687559332,J10
+670,09104 Nucleotide metabolism,J10_A,3.451997424,J10
+671,09105 Amino acid metabolism,J10_A,9.582771776,J10
+672,09106 Metabolism of other amino acids,J10_A,1.869112523,J10
+673,09107 Glycan biosynthesis and metabolism,J10_A,3.216744274,J10
+674,09108 Metabolism of cofactors and vitamins,J10_A,4.778217659,J10
+675,09122 Translation,J10_A,12.29756473,J10
+676,09124 Replication and repair,J10_A,1.088045749,J10
+677,09131 Membrane transport,J10_A,1.682121879,J10
+678,09132 Signal transduction,J10_A,1.603840342,J10
+679,09142 Cell motility,J10_A,4.10079284,J10
+680,09181 Protein families: metabolism,J10_A,2.237380353,J10
+681,09182 Protein families: genetic information processing,J10_A,9.487960025,J10
+682,09183 Protein families: signaling and cellular processes,J10_A,4.558508157,J10
+683,09191 Unclassified: metabolism,J10_A,5.251855552,J10
+684,Other,J10_A,4.467121234,J10
+685,09101 Carbohydrate metabolism,J10_B,16.92461672,J10
+686,09102 Energy metabolism,J10_B,8.743483437,J10
+687,09103 Lipid metabolism,J10_B,4.712139484,J10
+688,09104 Nucleotide metabolism,J10_B,3.479842073,J10
+689,09105 Amino acid metabolism,J10_B,9.589194018,J10
+690,09106 Metabolism of other amino acids,J10_B,1.849314032,J10
+691,09107 Glycan biosynthesis and metabolism,J10_B,3.248838264,J10
+692,09108 Metabolism of cofactors and vitamins,J10_B,4.754585748,J10
+693,09122 Translation,J10_B,12.52248927,J10
+694,09124 Replication and repair,J10_B,1.07259366,J10
+695,09131 Membrane transport,J10_B,1.647848148,J10
+696,09132 Signal transduction,J10_B,1.587542119,J10
+697,09142 Cell motility,J10_B,4.187431408,J10
+698,09181 Protein families: metabolism,J10_B,2.233195334,J10
+699,09182 Protein families: genetic information processing,J10_B,9.52281957,J10
+700,09183 Protein families: signaling and cellular processes,J10_B,4.471387862,J10
+701,09191 Unclassified: metabolism,J10_B,5.081337197,J10
+702,Other,J10_B,4.37134165,J10
+703,09101 Carbohydrate metabolism,J10_C,16.71942739,J10
+704,09102 Energy metabolism,J10_C,8.640177986,J10
+705,09103 Lipid metabolism,J10_C,4.574059382,J10
+706,09104 Nucleotide metabolism,J10_C,3.514473081,J10
+707,09105 Amino acid metabolism,J10_C,9.590748636,J10
+708,09106 Metabolism of other amino acids,J10_C,1.889904754,J10
+709,09107 Glycan biosynthesis and metabolism,J10_C,3.310126939,J10
+710,09108 Metabolism of cofactors and vitamins,J10_C,4.681397976,J10
+711,09122 Translation,J10_C,12.84343619,J10
+712,09124 Replication and repair,J10_C,1.064267864,J10
+713,09131 Membrane transport,J10_C,1.590413861,J10
+714,09132 Signal transduction,J10_C,1.601698242,J10
+715,09142 Cell motility,J10_C,4.62820125,J10
+716,09181 Protein families: metabolism,J10_C,2.174782906,J10
+717,09182 Protein families: genetic information processing,J10_C,9.665729363,J10
+718,09183 Protein families: signaling and cellular processes,J10_C,4.404998277,J10
+719,09191 Unclassified: metabolism,J10_C,4.790452888,J10
+720,Other,J10_C,4.315703011,J10
+721,09101 Carbohydrate metabolism,J11_A,16.96020157,J11
+722,09102 Energy metabolism,J11_A,8.779692448,J11
+723,09103 Lipid metabolism,J11_A,4.726282107,J11
+724,09104 Nucleotide metabolism,J11_A,3.403731928,J11
+725,09105 Amino acid metabolism,J11_A,9.591155583,J11
+726,09106 Metabolism of other amino acids,J11_A,1.901636714,J11
+727,09107 Glycan biosynthesis and metabolism,J11_A,3.183985342,J11
+728,09108 Metabolism of cofactors and vitamins,J11_A,4.801196664,J11
+729,09122 Translation,J11_A,12.25441378,J11
+730,09124 Replication and repair,J11_A,1.078902053,J11
+731,09131 Membrane transport,J11_A,1.698547982,J11
+732,09132 Signal transduction,J11_A,1.587027805,J11
+733,09142 Cell motility,J11_A,4.167358158,J11
+734,09181 Protein families: metabolism,J11_A,2.246306148,J11
+735,09182 Protein families: genetic information processing,J11_A,9.428149622,J11
+736,09183 Protein families: signaling and cellular processes,J11_A,4.488714286,J11
+737,09191 Unclassified: metabolism,J11_A,5.238232535,J11
+738,Other,J11_A,4.464465268,J11
+739,09101 Carbohydrate metabolism,J11_B,16.72319678,J11
+740,09102 Energy metabolism,J11_B,8.721507162,J11
+741,09103 Lipid metabolism,J11_B,4.617829359,J11
+742,09104 Nucleotide metabolism,J11_B,3.46162899,J11
+743,09105 Amino acid metabolism,J11_B,9.477465164,J11
+744,09106 Metabolism of other amino acids,J11_B,1.859607166,J11
+745,09107 Glycan biosynthesis and metabolism,J11_B,3.362446584,J11
+746,09108 Metabolism of cofactors and vitamins,J11_B,4.691302338,J11
+747,09122 Translation,J11_B,12.50234607,J11
+748,09124 Replication and repair,J11_B,1.064847646,J11
+749,09131 Membrane transport,J11_B,1.589435678,J11
+750,09132 Signal transduction,J11_B,1.655788389,J11
+751,09142 Cell motility,J11_B,4.448017847,J11
+752,09181 Protein families: metabolism,J11_B,2.143358178,J11
+753,09182 Protein families: genetic information processing,J11_B,9.62994831,J11
+754,09183 Protein families: signaling and cellular processes,J11_B,4.760060387,J11
+755,09191 Unclassified: metabolism,J11_B,4.961352229,J11
+756,Other,J11_B,4.329861718,J11
+757,09101 Carbohydrate metabolism,J11_C,16.45184147,J11
+758,09102 Energy metabolism,J11_C,8.594039387,J11
+759,09103 Lipid metabolism,J11_C,4.466299501,J11
+760,09104 Nucleotide metabolism,J11_C,3.567769462,J11
+761,09105 Amino acid metabolism,J11_C,9.549085657,J11
+762,09106 Metabolism of other amino acids,J11_C,1.835775993,J11
+763,09107 Glycan biosynthesis and metabolism,J11_C,3.390591882,J11
+764,09108 Metabolism of cofactors and vitamins,J11_C,4.639962764,J11
+765,09122 Translation,J11_C,13.1117556,J11
+766,09124 Replication and repair,J11_C,1.089444804,J11
+767,09131 Membrane transport,J11_C,1.574253278,J11
+768,09132 Signal transduction,J11_C,1.620115135,J11
+769,09142 Cell motility,J11_C,4.757475672,J11
+770,09181 Protein families: metabolism,J11_C,2.157114714,J11
+771,09182 Protein families: genetic information processing,J11_C,9.754816837,J11
+772,09183 Protein families: signaling and cellular processes,J11_C,4.528533193,J11
+773,09191 Unclassified: metabolism,J11_C,4.639463114,J11
+774,Other,J11_C,4.271661539,J11
+775,09101 Carbohydrate metabolism,J12_A,16.81062217,J12
+776,09102 Energy metabolism,J12_A,8.759958258,J12
+777,09103 Lipid metabolism,J12_A,4.623023636,J12
+778,09104 Nucleotide metabolism,J12_A,3.474153163,J12
+779,09105 Amino acid metabolism,J12_A,9.457097758,J12
+780,09106 Metabolism of other amino acids,J12_A,1.827180128,J12
+781,09107 Glycan biosynthesis and metabolism,J12_A,3.379857281,J12
+782,09108 Metabolism of cofactors and vitamins,J12_A,4.712945203,J12
+783,09122 Translation,J12_A,12.53660617,J12
+784,09124 Replication and repair,J12_A,1.072972775,J12
+785,09131 Membrane transport,J12_A,1.59321083,J12
+786,09132 Signal transduction,J12_A,1.621969646,J12
+787,09142 Cell motility,J12_A,4.36934648,J12
+788,09181 Protein families: metabolism,J12_A,2.139048536,J12
+789,09182 Protein families: genetic information processing,J12_A,9.62655908,J12
+790,09183 Protein families: signaling and cellular processes,J12_A,4.749033385,J12
+791,09191 Unclassified: metabolism,J12_A,4.957583618,J12
+792,Other,J12_A,4.288831888,J12
+793,09101 Carbohydrate metabolism,J12_B,16.85414227,J12
+794,09102 Energy metabolism,J12_B,8.727203771,J12
+795,09103 Lipid metabolism,J12_B,4.67251557,J12
+796,09104 Nucleotide metabolism,J12_B,3.458015615,J12
+797,09105 Amino acid metabolism,J12_B,9.56957478,J12
+798,09106 Metabolism of other amino acids,J12_B,1.884023812,J12
+799,09107 Glycan biosynthesis and metabolism,J12_B,3.249922198,J12
+800,09108 Metabolism of cofactors and vitamins,J12_B,4.760277505,J12
+801,09122 Translation,J12_B,12.54835519,J12
+802,09124 Replication and repair,J12_B,1.07205943,J12
+803,09131 Membrane transport,J12_B,1.671530677,J12
+804,09132 Signal transduction,J12_B,1.593751288,J12
+805,09142 Cell motility,J12_B,4.29629007,J12
+806,09181 Protein families: metabolism,J12_B,2.213710683,J12
+807,09182 Protein families: genetic information processing,J12_B,9.545192098,J12
+808,09183 Protein families: signaling and cellular processes,J12_B,4.44438239,J12
+809,09191 Unclassified: metabolism,J12_B,5.046423076,J12
+810,Other,J12_B,4.39262957,J12
+811,09101 Carbohydrate metabolism,J12_C,16.69056153,J12
+812,09102 Energy metabolism,J12_C,8.643997224,J12
+813,09103 Lipid metabolism,J12_C,4.547782633,J12
+814,09104 Nucleotide metabolism,J12_C,3.521748116,J12
+815,09105 Amino acid metabolism,J12_C,9.569155182,J12
+816,09106 Metabolism of other amino acids,J12_C,1.837667266,J12
+817,09107 Glycan biosynthesis and metabolism,J12_C,3.328212271,J12
+818,09108 Metabolism of cofactors and vitamins,J12_C,4.68690308,J12
+819,09122 Translation,J12_C,12.83014639,J12
+820,09124 Replication and repair,J12_C,1.081514894,J12
+821,09131 Membrane transport,J12_C,1.636427583,J12
+822,09132 Signal transduction,J12_C,1.612591876,J12
+823,09142 Cell motility,J12_C,4.460617402,J12
+824,09181 Protein families: metabolism,J12_C,2.205743157,J12
+825,09182 Protein families: genetic information processing,J12_C,9.651252317,J12
+826,09183 Protein families: signaling and cellular processes,J12_C,4.47885968,J12
+827,09191 Unclassified: metabolism,J12_C,4.86506952,J12
+828,Other,J12_C,4.351749874,J12
+829,09101 Carbohydrate metabolism,J13_A,17.35315463,J13
+830,09102 Energy metabolism,J13_A,8.714229405,J13
+831,09103 Lipid metabolism,J13_A,4.772985277,J13
+832,09104 Nucleotide metabolism,J13_A,3.32118871,J13
+833,09105 Amino acid metabolism,J13_A,9.601972047,J13
+834,09106 Metabolism of other amino acids,J13_A,1.974979849,J13
+835,09107 Glycan biosynthesis and metabolism,J13_A,3.00112702,J13
+836,09108 Metabolism of cofactors and vitamins,J13_A,4.860056044,J13
+837,09122 Translation,J13_A,11.81055542,J13
+838,09124 Replication and repair,J13_A,1.071524307,J13
+839,09131 Membrane transport,J13_A,1.720337412,J13
+840,09132 Signal transduction,J13_A,1.577382127,J13
+841,09142 Cell motility,J13_A,4.211059483,J13
+842,09181 Protein families: metabolism,J13_A,2.349549368,J13
+843,09182 Protein families: genetic information processing,J13_A,9.238475404,J13
+844,09183 Protein families: signaling and cellular processes,J13_A,4.229197456,J13
+845,09191 Unclassified: metabolism,J13_A,5.608245401,J13
+846,Other,J13_A,4.583980637,J13
+847,09101 Carbohydrate metabolism,J13_B,16.93205623,J13
+848,09102 Energy metabolism,J13_B,8.650190109,J13
+849,09103 Lipid metabolism,J13_B,4.614999883,J13
+850,09104 Nucleotide metabolism,J13_B,3.477398528,J13
+851,09105 Amino acid metabolism,J13_B,9.526587145,J13
+852,09106 Metabolism of other amino acids,J13_B,1.801744835,J13
+853,09107 Glycan biosynthesis and metabolism,J13_B,3.253222122,J13
+854,09108 Metabolism of cofactors and vitamins,J13_B,4.729669028,J13
+855,09122 Translation,J13_B,12.55234187,J13
+856,09124 Replication and repair,J13_B,1.088244798,J13
+857,09131 Membrane transport,J13_B,1.613106556,J13
+858,09132 Signal transduction,J13_B,1.616415206,J13
+859,09142 Cell motility,J13_B,4.348347732,J13
+860,09181 Protein families: metabolism,J13_B,2.251517868,J13
+861,09182 Protein families: genetic information processing,J13_B,9.535586496,J13
+862,09183 Protein families: signaling and cellular processes,J13_B,4.552227892,J13
+863,09191 Unclassified: metabolism,J13_B,5.095227548,J13
+864,Other,J13_B,4.361116149,J13
+865,09101 Carbohydrate metabolism,J13_C,16.37285049,J13
+866,09102 Energy metabolism,J13_C,8.438044909,J13
+867,09103 Lipid metabolism,J13_C,4.189459452,J13
+868,09104 Nucleotide metabolism,J13_C,3.73398629,J13
+869,09105 Amino acid metabolism,J13_C,9.413711888,J13
+870,09106 Metabolism of other amino acids,J13_C,1.523452285,J13
+871,09107 Glycan biosynthesis and metabolism,J13_C,3.604619255,J13
+872,09108 Metabolism of cofactors and vitamins,J13_C,4.48887918,J13
+873,09122 Translation,J13_C,13.80513729,J13
+874,09124 Replication and repair,J13_C,1.141090217,J13
+875,09131 Membrane transport,J13_C,1.434097513,J13
+876,09132 Signal transduction,J13_C,1.664335857,J13
+877,09142 Cell motility,J13_C,4.864958515,J13
+878,09181 Protein families: metabolism,J13_C,2.181166121,J13
+879,09182 Protein families: genetic information processing,J13_C,9.969629908,J13
+880,09183 Protein families: signaling and cellular processes,J13_C,4.824582028,J13
+881,09191 Unclassified: metabolism,J13_C,4.287686775,J13
+882,Other,J13_C,4.062312027,J13
+883,09101 Carbohydrate metabolism,J14_A,16.92999173,J14
+884,09102 Energy metabolism,J14_A,8.81733325,J14
+885,09103 Lipid metabolism,J14_A,4.712542628,J14
+886,09104 Nucleotide metabolism,J14_A,3.370630245,J14
+887,09105 Amino acid metabolism,J14_A,9.569392096,J14
+888,09106 Metabolism of other amino acids,J14_A,1.945892452,J14
+889,09107 Glycan biosynthesis and metabolism,J14_A,3.194402032,J14
+890,09108 Metabolism of cofactors and vitamins,J14_A,4.74946221,J14
+891,09122 Translation,J14_A,12.23265753,J14
+892,09124 Replication and repair,J14_A,1.047836579,J14
+893,09131 Membrane transport,J14_A,1.687183729,J14
+894,09132 Signal transduction,J14_A,1.599573953,J14
+895,09142 Cell motility,J14_A,4.312293476,J14
+896,09181 Protein families: metabolism,J14_A,2.185688811,J14
+897,09182 Protein families: genetic information processing,J14_A,9.522219036,J14
+898,09183 Protein families: signaling and cellular processes,J14_A,4.461147967,J14
+899,09191 Unclassified: metabolism,J14_A,5.172447507,J14
+900,Other,J14_A,4.489304768,J14
+901,09101 Carbohydrate metabolism,J14_B,16.53975626,J14
+902,09102 Energy metabolism,J14_B,8.690929088,J14
+903,09103 Lipid metabolism,J14_B,4.582333166,J14
+904,09104 Nucleotide metabolism,J14_B,3.510655892,J14
+905,09105 Amino acid metabolism,J14_B,9.551645772,J14
+906,09106 Metabolism of other amino acids,J14_B,1.924644293,J14
+907,09107 Glycan biosynthesis and metabolism,J14_B,3.418908429,J14
+908,09108 Metabolism of cofactors and vitamins,J14_B,4.657647416,J14
+909,09122 Translation,J14_B,12.84195537,J14
+910,09124 Replication and repair,J14_B,1.038296089,J14
+911,09131 Membrane transport,J14_B,1.548583502,J14
+912,09132 Signal transduction,J14_B,1.605331374,J14
+913,09142 Cell motility,J14_B,4.760618221,J14
+914,09181 Protein families: metabolism,J14_B,2.096971786,J14
+915,09182 Protein families: genetic information processing,J14_B,9.745263873,J14
+916,09183 Protein families: signaling and cellular processes,J14_B,4.519646434,J14
+917,09191 Unclassified: metabolism,J14_B,4.702675217,J14
+918,Other,J14_B,4.26413782,J14
+919,09101 Carbohydrate metabolism,J14_C,16.51684963,J14
+920,09102 Energy metabolism,J14_C,8.625378521,J14
+921,09103 Lipid metabolism,J14_C,4.43957082,J14
+922,09104 Nucleotide metabolism,J14_C,3.634709252,J14
+923,09105 Amino acid metabolism,J14_C,9.485854106,J14
+924,09106 Metabolism of other amino acids,J14_C,1.662775226,J14
+925,09107 Glycan biosynthesis and metabolism,J14_C,3.496779542,J14
+926,09108 Metabolism of cofactors and vitamins,J14_C,4.577088857,J14
+927,09122 Translation,J14_C,13.19775426,J14
+928,09124 Replication and repair,J14_C,1.088246798,J14
+929,09131 Membrane transport,J14_C,1.510671891,J14
+930,09132 Signal transduction,J14_C,1.655341523,J14
+931,09142 Cell motility,J14_C,4.633820239,J14
+932,09181 Protein families: metabolism,J14_C,2.172847056,J14
+933,09182 Protein families: genetic information processing,J14_C,9.811691047,J14
+934,09183 Protein families: signaling and cellular processes,J14_C,4.720362913,J14
+935,09191 Unclassified: metabolism,J14_C,4.584408428,J14
+936,Other,J14_C,4.185849888,J14
+937,09101 Carbohydrate metabolism,J15_A,16.43307662,J15
+938,09102 Energy metabolism,J15_A,8.533759386,J15
+939,09103 Lipid metabolism,J15_A,4.570569528,J15
+940,09104 Nucleotide metabolism,J15_A,3.502184325,J15
+941,09105 Amino acid metabolism,J15_A,9.606943679,J15
+942,09106 Metabolism of other amino acids,J15_A,1.960370924,J15
+943,09107 Glycan biosynthesis and metabolism,J15_A,3.348553204,J15
+944,09108 Metabolism of cofactors and vitamins,J15_A,4.683928142,J15
+945,09122 Translation,J15_A,12.81796442,J15
+946,09124 Replication and repair,J15_A,1.052735925,J15
+947,09131 Membrane transport,J15_A,1.586854528,J15
+948,09132 Signal transduction,J15_A,1.632475622,J15
+949,09142 Cell motility,J15_A,4.83266577,J15
+950,09181 Protein families: metabolism,J15_A,2.167448558,J15
+951,09182 Protein families: genetic information processing,J15_A,9.704912014,J15
+952,09183 Protein families: signaling and cellular processes,J15_A,4.423114303,J15
+953,09191 Unclassified: metabolism,J15_A,4.767007672,J15
+954,Other,J15_A,4.375435381,J15
+955,09101 Carbohydrate metabolism,J15_B,16.39358822,J15
+956,09102 Energy metabolism,J15_B,8.41147038,J15
+957,09103 Lipid metabolism,J15_B,4.296553247,J15
+958,09104 Nucleotide metabolism,J15_B,3.68868232,J15
+959,09105 Amino acid metabolism,J15_B,9.537537188,J15
+960,09106 Metabolism of other amino acids,J15_B,1.690194475,J15
+961,09107 Glycan biosynthesis and metabolism,J15_B,3.501739189,J15
+962,09108 Metabolism of cofactors and vitamins,J15_B,4.579363794,J15
+963,09122 Translation,J15_B,13.54689291,J15
+964,09124 Replication and repair,J15_B,1.097839578,J15
+965,09131 Membrane transport,J15_B,1.548138861,J15
+966,09132 Signal transduction,J15_B,1.650858484,J15
+967,09142 Cell motility,J15_B,4.802344516,J15
+968,09181 Protein families: metabolism,J15_B,2.207010724,J15
+969,09182 Protein families: genetic information processing,J15_B,9.865353892,J15
+970,09183 Protein families: signaling and cellular processes,J15_B,4.523486975,J15
+971,09191 Unclassified: metabolism,J15_B,4.440626281,J15
+972,Other,J15_B,4.21831897,J15
+973,09101 Carbohydrate metabolism,J15_C,16.59389871,J15
+974,09102 Energy metabolism,J15_C,8.541204523,J15
+975,09103 Lipid metabolism,J15_C,4.5276054,J15
+976,09104 Nucleotide metabolism,J15_C,3.525262741,J15
+977,09105 Amino acid metabolism,J15_C,9.630582968,J15
+978,09106 Metabolism of other amino acids,J15_C,1.931405415,J15
+979,09107 Glycan biosynthesis and metabolism,J15_C,3.326081299,J15
+980,09108 Metabolism of cofactors and vitamins,J15_C,4.676554704,J15
+981,09122 Translation,J15_C,12.82685457,J15
+982,09124 Replication and repair,J15_C,1.058820665,J15
+983,09131 Membrane transport,J15_C,1.604535525,J15
+984,09132 Signal transduction,J15_C,1.610333116,J15
+985,09142 Cell motility,J15_C,4.726609226,J15
+986,09181 Protein families: metabolism,J15_C,2.163248406,J15
+987,09182 Protein families: genetic information processing,J15_C,9.693812723,J15
+988,09183 Protein families: signaling and cellular processes,J15_C,4.368407466,J15
+989,09191 Unclassified: metabolism,J15_C,4.818893957,J15
+990,Other,J15_C,4.375888585,J15
+991,09101 Carbohydrate metabolism,J16_A,17.10034404,J16
+992,09102 Energy metabolism,J16_A,8.725074225,J16
+993,09103 Lipid metabolism,J16_A,4.72151152,J16
+994,09104 Nucleotide metabolism,J16_A,3.39018377,J16
+995,09105 Amino acid metabolism,J16_A,9.638914833,J16
+996,09106 Metabolism of other amino acids,J16_A,2.015989203,J16
+997,09107 Glycan biosynthesis and metabolism,J16_A,3.200198533,J16
+998,09108 Metabolism of cofactors and vitamins,J16_A,4.686368705,J16
+999,09122 Translation,J16_A,12.13101281,J16
+1000,09124 Replication and repair,J16_A,1.030629747,J16
+1001,09131 Membrane transport,J16_A,1.626884939,J16
+1002,09132 Signal transduction,J16_A,1.607473071,J16
+1003,09142 Cell motility,J16_A,4.525996224,J16
+1004,09181 Protein families: metabolism,J16_A,2.172827728,J16
+1005,09182 Protein families: genetic information processing,J16_A,9.574842991,J16
+1006,09183 Protein families: signaling and cellular processes,J16_A,4.317173907,J16
+1007,09191 Unclassified: metabolism,J16_A,5.086355715,J16
+1008,Other,J16_A,4.448218042,J16
+1009,09101 Carbohydrate metabolism,J16_B,16.40928202,J16
+1010,09102 Energy metabolism,J16_B,8.357312423,J16
+1011,09103 Lipid metabolism,J16_B,4.190378944,J16
+1012,09104 Nucleotide metabolism,J16_B,3.794286664,J16
+1013,09105 Amino acid metabolism,J16_B,9.486959856,J16
+1014,09106 Metabolism of other amino acids,J16_B,1.531457115,J16
+1015,09107 Glycan biosynthesis and metabolism,J16_B,3.554213329,J16
+1016,09108 Metabolism of cofactors and vitamins,J16_B,4.505500187,J16
+1017,09122 Translation,J16_B,13.89854569,J16
+1018,09124 Replication and repair,J16_B,1.131762845,J16
+1019,09131 Membrane transport,J16_B,1.573788772,J16
+1020,09132 Signal transduction,J16_B,1.667544392,J16
+1021,09142 Cell motility,J16_B,4.723711904,J16
+1022,09181 Protein families: metabolism,J16_B,2.229196076,J16
+1023,09182 Protein families: genetic information processing,J16_B,9.988603081,J16
+1024,09183 Protein families: signaling and cellular processes,J16_B,4.584889445,J16
+1025,09191 Unclassified: metabolism,J16_B,4.286626773,J16
+1026,Other,J16_B,4.08594048,J16
+1027,09101 Carbohydrate metabolism,J16_C,16.44652073,J16
+1028,09102 Energy metabolism,J16_C,8.528826026,J16
+1029,09103 Lipid metabolism,J16_C,4.319080454,J16
+1030,09104 Nucleotide metabolism,J16_C,3.656638017,J16
+1031,09105 Amino acid metabolism,J16_C,9.456034526,J16
+1032,09106 Metabolism of other amino acids,J16_C,1.678011796,J16
+1033,09107 Glycan biosynthesis and metabolism,J16_C,3.544279595,J16
+1034,09108 Metabolism of cofactors and vitamins,J16_C,4.530667966,J16
+1035,09122 Translation,J16_C,13.48551571,J16
+1036,09124 Replication and repair,J16_C,1.089926575,J16
+1037,09131 Membrane transport,J16_C,1.461875366,J16
+1038,09132 Signal transduction,J16_C,1.668208331,J16
+1039,09142 Cell motility,J16_C,4.848016591,J16
+1040,09181 Protein families: metabolism,J16_C,2.142144509,J16
+1041,09182 Protein families: genetic information processing,J16_C,9.966251191,J16
+1042,09183 Protein families: signaling and cellular processes,J16_C,4.686379934,J16
+1043,09191 Unclassified: metabolism,J16_C,4.374549176,J16
+1044,Other,J16_C,4.117073513,J16
+1045,09101 Carbohydrate metabolism,J17_A,16.6517092,J17
+1046,09102 Energy metabolism,J17_A,8.756246725,J17
+1047,09103 Lipid metabolism,J17_A,4.632263858,J17
+1048,09104 Nucleotide metabolism,J17_A,3.481772029,J17
+1049,09105 Amino acid metabolism,J17_A,9.535189882,J17
+1050,09106 Metabolism of other amino acids,J17_A,1.917338134,J17
+1051,09107 Glycan biosynthesis and metabolism,J17_A,3.397528256,J17
+1052,09108 Metabolism of cofactors and vitamins,J17_A,4.680185848,J17
+1053,09122 Translation,J17_A,12.73663734,J17
+1054,09124 Replication and repair,J17_A,1.03768084,J17
+1055,09131 Membrane transport,J17_A,1.546945588,J17
+1056,09132 Signal transduction,J17_A,1.604000759,J17
+1057,09142 Cell motility,J17_A,4.573709082,J17
+1058,09181 Protein families: metabolism,J17_A,2.110691416,J17
+1059,09182 Protein families: genetic information processing,J17_A,9.697247434,J17
+1060,09183 Protein families: signaling and cellular processes,J17_A,4.558932912,J17
+1061,09191 Unclassified: metabolism,J17_A,4.806016808,J17
+1062,Other,J17_A,4.275903886,J17
+1063,09101 Carbohydrate metabolism,J17_B,16.88011082,J17
+1064,09102 Energy metabolism,J17_B,8.771874264,J17
+1065,09103 Lipid metabolism,J17_B,4.718359889,J17
+1066,09104 Nucleotide metabolism,J17_B,3.413277848,J17
+1067,09105 Amino acid metabolism,J17_B,9.591406117,J17
+1068,09106 Metabolism of other amino acids,J17_B,2.022292539,J17
+1069,09107 Glycan biosynthesis and metabolism,J17_B,3.288740527,J17
+1070,09108 Metabolism of cofactors and vitamins,J17_B,4.682278666,J17
+1071,09122 Translation,J17_B,12.48004218,J17
+1072,09124 Replication and repair,J17_B,1.022964486,J17
+1073,09131 Membrane transport,J17_B,1.56320664,J17
+1074,09132 Signal transduction,J17_B,1.584662473,J17
+1075,09142 Cell motility,J17_B,4.65515923,J17
+1076,09181 Protein families: metabolism,J17_B,2.118106107,J17
+1077,09182 Protein families: genetic information processing,J17_B,9.650810782,J17
+1078,09183 Protein families: signaling and cellular processes,J17_B,4.355242275,J17
+1079,09191 Unclassified: metabolism,J17_B,4.875449164,J17
+1080,Other,J17_B,4.326015989,J17
+1081,09101 Carbohydrate metabolism,J17_C,16.47839067,J17
+1082,09102 Energy metabolism,J17_C,8.610223894,J17
+1083,09103 Lipid metabolism,J17_C,4.533835598,J17
+1084,09104 Nucleotide metabolism,J17_C,3.515623003,J17
+1085,09105 Amino acid metabolism,J17_C,9.599652307,J17
+1086,09106 Metabolism of other amino acids,J17_C,1.962214229,J17
+1087,09107 Glycan biosynthesis and metabolism,J17_C,3.349893374,J17
+1088,09108 Metabolism of cofactors and vitamins,J17_C,4.65703762,J17
+1089,09122 Translation,J17_C,12.99592922,J17
+1090,09124 Replication and repair,J17_C,1.054216565,J17
+1091,09131 Membrane transport,J17_C,1.578185627,J17
+1092,09132 Signal transduction,J17_C,1.598008639,J17
+1093,09142 Cell motility,J17_C,4.896442803,J17
+1094,09181 Protein families: metabolism,J17_C,2.116182748,J17
+1095,09182 Protein families: genetic information processing,J17_C,9.754953184,J17
+1096,09183 Protein families: signaling and cellular processes,J17_C,4.373601554,J17
+1097,09191 Unclassified: metabolism,J17_C,4.639996919,J17
+1098,Other,J17_C,4.28561205,J17
+1099,09101 Carbohydrate metabolism,J18_A,16.90787504,J18
+1100,09102 Energy metabolism,J18_A,8.696723311,J18
+1101,09103 Lipid metabolism,J18_A,4.722704888,J18
+1102,09104 Nucleotide metabolism,J18_A,3.396349488,J18
+1103,09105 Amino acid metabolism,J18_A,9.612730402,J18
+1104,09106 Metabolism of other amino acids,J18_A,1.968237839,J18
+1105,09107 Glycan biosynthesis and metabolism,J18_A,3.237851945,J18
+1106,09108 Metabolism of cofactors and vitamins,J18_A,4.748522091,J18
+1107,09122 Translation,J18_A,12.13287321,J18
+1108,09124 Replication and repair,J18_A,1.059168154,J18
+1109,09131 Membrane transport,J18_A,1.69182064,J18
+1110,09132 Signal transduction,J18_A,1.628049306,J18
+1111,09142 Cell motility,J18_A,4.200351203,J18
+1112,09181 Protein families: metabolism,J18_A,2.183968786,J18
+1113,09182 Protein families: genetic information processing,J18_A,9.504782219,J18
+1114,09183 Protein families: signaling and cellular processes,J18_A,4.532085281,J18
+1115,09191 Unclassified: metabolism,J18_A,5.235182433,J18
+1116,Other,J18_A,4.540723767,J18
+1117,09101 Carbohydrate metabolism,J18_B,16.99576079,J18
+1118,09102 Energy metabolism,J18_B,8.623218091,J18
+1119,09103 Lipid metabolism,J18_B,4.745417719,J18
+1120,09104 Nucleotide metabolism,J18_B,3.408934022,J18
+1121,09105 Amino acid metabolism,J18_B,9.678087857,J18
+1122,09106 Metabolism of other amino acids,J18_B,1.993449252,J18
+1123,09107 Glycan biosynthesis and metabolism,J18_B,3.2044749,J18
+1124,09108 Metabolism of cofactors and vitamins,J18_B,4.778452123,J18
+1125,09122 Translation,J18_B,12.15185512,J18
+1126,09124 Replication and repair,J18_B,1.056776945,J18
+1127,09131 Membrane transport,J18_B,1.709879771,J18
+1128,09132 Signal transduction,J18_B,1.604424558,J18
+1129,09142 Cell motility,J18_B,4.211809433,J18
+1130,09181 Protein families: metabolism,J18_B,2.212888946,J18
+1131,09182 Protein families: genetic information processing,J18_B,9.488612123,J18
+1132,09183 Protein families: signaling and cellular processes,J18_B,4.351285253,J18
+1133,09191 Unclassified: metabolism,J18_B,5.239672608,J18
+1134,Other,J18_B,4.545000488,J18
+1135,09101 Carbohydrate metabolism,J18_C,16.61169374,J18
+1136,09102 Energy metabolism,J18_C,8.540248345,J18
+1137,09103 Lipid metabolism,J18_C,4.54580237,J18
+1138,09104 Nucleotide metabolism,J18_C,3.51884635,J18
+1139,09105 Amino acid metabolism,J18_C,9.664681431,J18
+1140,09106 Metabolism of other amino acids,J18_C,1.936716312,J18
+1141,09107 Glycan biosynthesis and metabolism,J18_C,3.300791686,J18
+1142,09108 Metabolism of cofactors and vitamins,J18_C,4.696281925,J18
+1143,09122 Translation,J18_C,12.91443816,J18
+1144,09124 Replication and repair,J18_C,1.076191444,J18
+1145,09131 Membrane transport,J18_C,1.633107419,J18
+1146,09132 Signal transduction,J18_C,1.589969894,J18
+1147,09142 Cell motility,J18_C,4.619830971,J18
+1148,09181 Protein families: metabolism,J18_C,2.184282459,J18
+1149,09182 Protein families: genetic information processing,J18_C,9.663521198,J18
+1150,09183 Protein families: signaling and cellular processes,J18_C,4.305427417,J18
+1151,09191 Unclassified: metabolism,J18_C,4.803362196,J18
+1152,Other,J18_C,4.394806683,J18
+1153,09101 Carbohydrate metabolism,J19_A,16.99111744,J19
+1154,09102 Energy metabolism,J19_A,8.744561959,J19
+1155,09103 Lipid metabolism,J19_A,4.748938654,J19
+1156,09104 Nucleotide metabolism,J19_A,3.40580494,J19
+1157,09105 Amino acid metabolism,J19_A,9.600106039,J19
+1158,09106 Metabolism of other amino acids,J19_A,1.933506979,J19
+1159,09107 Glycan biosynthesis and metabolism,J19_A,3.200538077,J19
+1160,09108 Metabolism of cofactors and vitamins,J19_A,4.752971778,J19
+1161,09122 Translation,J19_A,12.19656056,J19
+1162,09124 Replication and repair,J19_A,1.049862902,J19
+1163,09131 Membrane transport,J19_A,1.674901151,J19
+1164,09132 Signal transduction,J19_A,1.607590067,J19
+1165,09142 Cell motility,J19_A,4.256360182,J19
+1166,09181 Protein families: metabolism,J19_A,2.231080897,J19
+1167,09182 Protein families: genetic information processing,J19_A,9.483160965,J19
+1168,09183 Protein families: signaling and cellular processes,J19_A,4.419870659,J19
+1169,09191 Unclassified: metabolism,J19_A,5.211090507,J19
+1170,Other,J19_A,4.491976247,J19
+1171,09101 Carbohydrate metabolism,J19_B,16.713103,J19
+1172,09102 Energy metabolism,J19_B,8.719508816,J19
+1173,09103 Lipid metabolism,J19_B,4.562526487,J19
+1174,09104 Nucleotide metabolism,J19_B,3.483389329,J19
+1175,09105 Amino acid metabolism,J19_B,9.459579786,J19
+1176,09106 Metabolism of other amino acids,J19_B,1.861685005,J19
+1177,09107 Glycan biosynthesis and metabolism,J19_B,3.420527137,J19
+1178,09108 Metabolism of cofactors and vitamins,J19_B,4.56181528,J19
+1179,09122 Translation,J19_B,12.66758364,J19
+1180,09124 Replication and repair,J19_B,1.041328602,J19
+1181,09131 Membrane transport,J19_B,1.584138517,J19
+1182,09132 Signal transduction,J19_B,1.672283752,J19
+1183,09142 Cell motility,J19_B,4.840283537,J19
+1184,09181 Protein families: metabolism,J19_B,2.143476417,J19
+1185,09182 Protein families: genetic information processing,J19_B,9.77908271,J19
+1186,09183 Protein families: signaling and cellular processes,J19_B,4.627637552,J19
+1187,09191 Unclassified: metabolism,J19_B,4.634530175,J19
+1188,Other,J19_B,4.227520255,J19
+1189,09101 Carbohydrate metabolism,J19_C,16.35540179,J19
+1190,09102 Energy metabolism,J19_C,8.444864181,J19
+1191,09103 Lipid metabolism,J19_C,4.3106092,J19
+1192,09104 Nucleotide metabolism,J19_C,3.615833218,J19
+1193,09105 Amino acid metabolism,J19_C,9.572678614,J19
+1194,09106 Metabolism of other amino acids,J19_C,1.834756463,J19
+1195,09107 Glycan biosynthesis and metabolism,J19_C,3.4340054,J19
+1196,09108 Metabolism of cofactors and vitamins,J19_C,4.626877663,J19
+1197,09122 Translation,J19_C,13.43722749,J19
+1198,09124 Replication and repair,J19_C,1.071869708,J19
+1199,09131 Membrane transport,J19_C,1.579484851,J19
+1200,09132 Signal transduction,J19_C,1.63006589,J19
+1201,09142 Cell motility,J19_C,4.910913344,J19
+1202,09181 Protein families: metabolism,J19_C,2.149422494,J19
+1203,09182 Protein families: genetic information processing,J19_C,9.84934744,J19
+1204,09183 Protein families: signaling and cellular processes,J19_C,4.425208687,J19
+1205,09191 Unclassified: metabolism,J19_C,4.480576478,J19
+1206,Other,J19_C,4.270857087,J19
+1207,09101 Carbohydrate metabolism,J2_A,17.16036151,J2
+1208,09102 Energy metabolism,J2_A,8.812696999,J2
+1209,09103 Lipid metabolism,J2_A,4.778542614,J2
+1210,09104 Nucleotide metabolism,J2_A,3.398156416,J2
+1211,09105 Amino acid metabolism,J2_A,9.636558377,J2
+1212,09106 Metabolism of other amino acids,J2_A,1.94928703,J2
+1213,09107 Glycan biosynthesis and metabolism,J2_A,3.15484965,J2
+1214,09108 Metabolism of cofactors and vitamins,J2_A,4.806817051,J2
+1215,09122 Translation,J2_A,12.12174832,J2
+1216,09124 Replication and repair,J2_A,1.061380377,J2
+1217,09131 Membrane transport,J2_A,1.705182673,J2
+1218,09132 Signal transduction,J2_A,1.558068547,J2
+1219,09142 Cell motility,J2_A,4.116417325,J2
+1220,09181 Protein families: metabolism,J2_A,2.262660702,J2
+1221,09182 Protein families: genetic information processing,J2_A,9.405550097,J2
+1222,09183 Protein families: signaling and cellular processes,J2_A,4.311115461,J2
+1223,09191 Unclassified: metabolism,J2_A,5.280256269,J2
+1224,Other,J2_A,4.48035059,J2
+1225,09101 Carbohydrate metabolism,J2_B,16.80555542,J2
+1226,09102 Energy metabolism,J2_B,8.62450632,J2
+1227,09103 Lipid metabolism,J2_B,4.65209422,J2
+1228,09104 Nucleotide metabolism,J2_B,3.481468901,J2
+1229,09105 Amino acid metabolism,J2_B,9.548116629,J2
+1230,09106 Metabolism of other amino acids,J2_B,1.878078682,J2
+1231,09107 Glycan biosynthesis and metabolism,J2_B,3.331062975,J2
+1232,09108 Metabolism of cofactors and vitamins,J2_B,4.745413239,J2
+1233,09122 Translation,J2_B,12.47952112,J2
+1234,09124 Replication and repair,J2_B,1.067868516,J2
+1235,09131 Membrane transport,J2_B,1.621817455,J2
+1236,09132 Signal transduction,J2_B,1.647833913,J2
+1237,09142 Cell motility,J2_B,4.342110473,J2
+1238,09181 Protein families: metabolism,J2_B,2.183886657,J2
+1239,09182 Protein families: genetic information processing,J2_B,9.609776963,J2
+1240,09183 Protein families: signaling and cellular processes,J2_B,4.599720127,J2
+1241,09191 Unclassified: metabolism,J2_B,5.018916997,J2
+1242,Other,J2_B,4.36225139,J2
+1243,09101 Carbohydrate metabolism,J2_C,16.78846166,J2
+1244,09102 Energy metabolism,J2_C,8.820441788,J2
+1245,09103 Lipid metabolism,J2_C,4.690687162,J2
+1246,09104 Nucleotide metabolism,J2_C,3.45007141,J2
+1247,09105 Amino acid metabolism,J2_C,9.535794822,J2
+1248,09106 Metabolism of other amino acids,J2_C,1.924645518,J2
+1249,09107 Glycan biosynthesis and metabolism,J2_C,3.31073882,J2
+1250,09108 Metabolism of cofactors and vitamins,J2_C,4.728810496,J2
+1251,09122 Translation,J2_C,12.59323383,J2
+1252,09124 Replication and repair,J2_C,1.051552755,J2
+1253,09131 Membrane transport,J2_C,1.629414296,J2
+1254,09132 Signal transduction,J2_C,1.585514228,J2
+1255,09142 Cell motility,J2_C,4.402435457,J2
+1256,09181 Protein families: metabolism,J2_C,2.162775147,J2
+1257,09182 Protein families: genetic information processing,J2_C,9.616434835,J2
+1258,09183 Protein families: signaling and cellular processes,J2_C,4.460195615,J2
+1259,09191 Unclassified: metabolism,J2_C,4.924379199,J2
+1260,Other,J2_C,4.324412964,J2
+1261,09101 Carbohydrate metabolism,J20_A,16.64005771,J20
+1262,09102 Energy metabolism,J20_A,8.711658712,J20
+1263,09103 Lipid metabolism,J20_A,4.63000102,J20
+1264,09104 Nucleotide metabolism,J20_A,3.44523855,J20
+1265,09105 Amino acid metabolism,J20_A,9.412611172,J20
+1266,09106 Metabolism of other amino acids,J20_A,1.828915841,J20
+1267,09107 Glycan biosynthesis and metabolism,J20_A,3.391471591,J20
+1268,09108 Metabolism of cofactors and vitamins,J20_A,4.707984666,J20
+1269,09122 Translation,J20_A,12.44372412,J20
+1270,09124 Replication and repair,J20_A,1.045667509,J20
+1271,09131 Membrane transport,J20_A,1.656119427,J20
+1272,09132 Signal transduction,J20_A,1.702609217,J20
+1273,09142 Cell motility,J20_A,4.28779272,J20
+1274,09181 Protein families: metabolism,J20_A,2.152153126,J20
+1275,09182 Protein families: genetic information processing,J20_A,9.663585487,J20
+1276,09183 Protein families: signaling and cellular processes,J20_A,4.868603161,J20
+1277,09191 Unclassified: metabolism,J20_A,5.019527998,J20
+1278,Other,J20_A,4.392277975,J20
+1279,09101 Carbohydrate metabolism,J20_B,16.52629204,J20
+1280,09102 Energy metabolism,J20_B,8.604986896,J20
+1281,09103 Lipid metabolism,J20_B,4.623320675,J20
+1282,09104 Nucleotide metabolism,J20_B,3.436565057,J20
+1283,09105 Amino acid metabolism,J20_B,9.656143102,J20
+1284,09106 Metabolism of other amino acids,J20_B,2.076472901,J20
+1285,09107 Glycan biosynthesis and metabolism,J20_B,3.314509893,J20
+1286,09108 Metabolism of cofactors and vitamins,J20_B,4.711698104,J20
+1287,09122 Translation,J20_B,12.65106162,J20
+1288,09124 Replication and repair,J20_B,1.030455593,J20
+1289,09131 Membrane transport,J20_B,1.623731657,J20
+1290,09132 Signal transduction,J20_B,1.605884916,J20
+1291,09142 Cell motility,J20_B,4.829282816,J20
+1292,09181 Protein families: metabolism,J20_B,2.119953576,J20
+1293,09182 Protein families: genetic information processing,J20_B,9.66027597,J20
+1294,09183 Protein families: signaling and cellular processes,J20_B,4.336131902,J20
+1295,09191 Unclassified: metabolism,J20_B,4.791411873,J20
+1296,Other,J20_B,4.401821409,J20
+1297,09101 Carbohydrate metabolism,J20_C,16.51754503,J20
+1298,09102 Energy metabolism,J20_C,8.457314105,J20
+1299,09103 Lipid metabolism,J20_C,4.428426592,J20
+1300,09104 Nucleotide metabolism,J20_C,3.632581647,J20
+1301,09105 Amino acid metabolism,J20_C,9.696818442,J20
+1302,09106 Metabolism of other amino acids,J20_C,1.866108114,J20
+1303,09107 Glycan biosynthesis and metabolism,J20_C,3.379719372,J20
+1304,09108 Metabolism of cofactors and vitamins,J20_C,4.629866234,J20
+1305,09122 Translation,J20_C,13.38173014,J20
+1306,09124 Replication and repair,J20_C,1.090274365,J20
+1307,09131 Membrane transport,J20_C,1.608109302,J20
+1308,09132 Signal transduction,J20_C,1.582219416,J20
+1309,09142 Cell motility,J20_C,4.701193247,J20
+1310,09181 Protein families: metabolism,J20_C,2.160885772,J20
+1311,09182 Protein families: genetic information processing,J20_C,9.815451816,J20
+1312,09183 Protein families: signaling and cellular processes,J20_C,4.251922394,J20
+1313,09191 Unclassified: metabolism,J20_C,4.521346316,J20
+1314,Other,J20_C,4.278487688,J20
+1315,09101 Carbohydrate metabolism,J21_A,16.8843123,J21
+1316,09102 Energy metabolism,J21_A,8.610557168,J21
+1317,09103 Lipid metabolism,J21_A,4.7135845,J21
+1318,09104 Nucleotide metabolism,J21_A,3.356645956,J21
+1319,09105 Amino acid metabolism,J21_A,9.763804016,J21
+1320,09106 Metabolism of other amino acids,J21_A,2.20873832,J21
+1321,09107 Glycan biosynthesis and metabolism,J21_A,3.129217347,J21
+1322,09108 Metabolism of cofactors and vitamins,J21_A,4.756483566,J21
+1323,09122 Translation,J21_A,12.22198283,J21
+1324,09124 Replication and repair,J21_A,1.015118181,J21
+1325,09131 Membrane transport,J21_A,1.732196881,J21
+1326,09132 Signal transduction,J21_A,1.566250688,J21
+1327,09142 Cell motility,J21_A,4.695239852,J21
+1328,09181 Protein families: metabolism,J21_A,2.139904975,J21
+1329,09182 Protein families: genetic information processing,J21_A,9.542154703,J21
+1330,09183 Protein families: signaling and cellular processes,J21_A,4.022990254,J21
+1331,09191 Unclassified: metabolism,J21_A,5.079249669,J21
+1332,Other,J21_A,4.561568784,J21
+1333,09101 Carbohydrate metabolism,J21_B,16.74114454,J21
+1334,09102 Energy metabolism,J21_B,8.487937714,J21
+1335,09103 Lipid metabolism,J21_B,4.613414197,J21
+1336,09104 Nucleotide metabolism,J21_B,3.453613363,J21
+1337,09105 Amino acid metabolism,J21_B,9.614594969,J21
+1338,09106 Metabolism of other amino acids,J21_B,2.021275875,J21
+1339,09107 Glycan biosynthesis and metabolism,J21_B,3.325170442,J21
+1340,09108 Metabolism of cofactors and vitamins,J21_B,4.667556882,J21
+1341,09122 Translation,J21_B,12.50726726,J21
+1342,09124 Replication and repair,J21_B,1.029808627,J21
+1343,09131 Membrane transport,J21_B,1.596996929,J21
+1344,09132 Signal transduction,J21_B,1.651611836,J21
+1345,09142 Cell motility,J21_B,4.80987367,J21
+1346,09181 Protein families: metabolism,J21_B,2.135971897,J21
+1347,09182 Protein families: genetic information processing,J21_B,9.712299023,J21
+1348,09183 Protein families: signaling and cellular processes,J21_B,4.398999921,J21
+1349,09191 Unclassified: metabolism,J21_B,4.840557958,J21
+1350,Other,J21_B,4.391904899,J21
+1351,09101 Carbohydrate metabolism,J21_C,16.25773688,J21
+1352,09102 Energy metabolism,J21_C,8.389669866,J21
+1353,09103 Lipid metabolism,J21_C,4.316962494,J21
+1354,09104 Nucleotide metabolism,J21_C,3.684580038,J21
+1355,09105 Amino acid metabolism,J21_C,9.565240088,J21
+1356,09106 Metabolism of other amino acids,J21_C,1.736074343,J21
+1357,09107 Glycan biosynthesis and metabolism,J21_C,3.562908173,J21
+1358,09108 Metabolism of cofactors and vitamins,J21_C,4.544174904,J21
+1359,09122 Translation,J21_C,13.54842786,J21
+1360,09124 Replication and repair,J21_C,1.093835876,J21
+1361,09131 Membrane transport,J21_C,1.469974501,J21
+1362,09132 Signal transduction,J21_C,1.652052049,J21
+1363,09142 Cell motility,J21_C,4.977847276,J21
+1364,09181 Protein families: metabolism,J21_C,2.118461864,J21
+1365,09182 Protein families: genetic information processing,J21_C,9.923489343,J21
+1366,09183 Protein families: signaling and cellular processes,J21_C,4.625734697,J21
+1367,09191 Unclassified: metabolism,J21_C,4.350234632,J21
+1368,Other,J21_C,4.182595117,J21
+1369,09101 Carbohydrate metabolism,J22_A,16.59035055,J22
+1370,09102 Energy metabolism,J22_A,8.7554015,J22
+1371,09103 Lipid metabolism,J22_A,4.605078351,J22
+1372,09104 Nucleotide metabolism,J22_A,3.520380544,J22
+1373,09105 Amino acid metabolism,J22_A,9.39971974,J22
+1374,09106 Metabolism of other amino acids,J22_A,1.786687591,J22
+1375,09107 Glycan biosynthesis and metabolism,J22_A,3.448605368,J22
+1376,09108 Metabolism of cofactors and vitamins,J22_A,4.656920862,J22
+1377,09122 Translation,J22_A,12.78277626,J22
+1378,09124 Replication and repair,J22_A,1.066389647,J22
+1379,09131 Membrane transport,J22_A,1.509061707,J22
+1380,09132 Signal transduction,J22_A,1.652114813,J22
+1381,09142 Cell motility,J22_A,4.549469046,J22
+1382,09181 Protein families: metabolism,J22_A,2.104131843,J22
+1383,09182 Protein families: genetic information processing,J22_A,9.766487556,J22
+1384,09183 Protein families: signaling and cellular processes,J22_A,4.839205654,J22
+1385,09191 Unclassified: metabolism,J22_A,4.792560813,J22
+1386,Other,J22_A,4.174658158,J22
+1387,09101 Carbohydrate metabolism,J22_B,16.82761731,J22
+1388,09102 Energy metabolism,J22_B,8.871475881,J22
+1389,09103 Lipid metabolism,J22_B,4.691023291,J22
+1390,09104 Nucleotide metabolism,J22_B,3.395925872,J22
+1391,09105 Amino acid metabolism,J22_B,9.536541269,J22
+1392,09106 Metabolism of other amino acids,J22_B,1.999049474,J22
+1393,09107 Glycan biosynthesis and metabolism,J22_B,3.268682641,J22
+1394,09108 Metabolism of cofactors and vitamins,J22_B,4.731672716,J22
+1395,09122 Translation,J22_B,12.38154402,J22
+1396,09124 Replication and repair,J22_B,1.028167746,J22
+1397,09131 Membrane transport,J22_B,1.636049015,J22
+1398,09132 Signal transduction,J22_B,1.566421801,J22
+1399,09142 Cell motility,J22_B,4.555064465,J22
+1400,09181 Protein families: metabolism,J22_B,2.134114037,J22
+1401,09182 Protein families: genetic information processing,J22_B,9.590214791,J22
+1402,09183 Protein families: signaling and cellular processes,J22_B,4.388570927,J22
+1403,09191 Unclassified: metabolism,J22_B,5.005021378,J22
+1404,Other,J22_B,4.392843367,J22
+1405,09101 Carbohydrate metabolism,J22_C,16.24684639,J22
+1406,09102 Energy metabolism,J22_C,8.359815483,J22
+1407,09103 Lipid metabolism,J22_C,4.243950839,J22
+1408,09104 Nucleotide metabolism,J22_C,3.716567593,J22
+1409,09105 Amino acid metabolism,J22_C,9.471267132,J22
+1410,09106 Metabolism of other amino acids,J22_C,1.639905683,J22
+1411,09107 Glycan biosynthesis and metabolism,J22_C,3.509855358,J22
+1412,09108 Metabolism of cofactors and vitamins,J22_C,4.569183313,J22
+1413,09122 Translation,J22_C,13.46898806,J22
+1414,09124 Replication and repair,J22_C,1.117225529,J22
+1415,09131 Membrane transport,J22_C,1.61419898,J22
+1416,09132 Signal transduction,J22_C,1.682617979,J22
+1417,09142 Cell motility,J22_C,4.854657148,J22
+1418,09181 Protein families: metabolism,J22_C,2.188106088,J22
+1419,09182 Protein families: genetic information processing,J22_C,9.849291694,J22
+1420,09183 Protein families: signaling and cellular processes,J22_C,4.73938858,J22
+1421,09191 Unclassified: metabolism,J22_C,4.509221919,J22
+1422,Other,J22_C,4.21891224,J22
+1423,09101 Carbohydrate metabolism,J23_A,16.74165651,J23
+1424,09102 Energy metabolism,J23_A,8.618414414,J23
+1425,09103 Lipid metabolism,J23_A,4.549186696,J23
+1426,09104 Nucleotide metabolism,J23_A,3.522319772,J23
+1427,09105 Amino acid metabolism,J23_A,9.535287672,J23
+1428,09106 Metabolism of other amino acids,J23_A,1.834354061,J23
+1429,09107 Glycan biosynthesis and metabolism,J23_A,3.340736051,J23
+1430,09108 Metabolism of cofactors and vitamins,J23_A,4.645911513,J23
+1431,09122 Translation,J23_A,12.67501522,J23
+1432,09124 Replication and repair,J23_A,1.067798125,J23
+1433,09131 Membrane transport,J23_A,1.675826617,J23
+1434,09132 Signal transduction,J23_A,1.650724604,J23
+1435,09142 Cell motility,J23_A,4.475493537,J23
+1436,09181 Protein families: metabolism,J23_A,2.211211798,J23
+1437,09182 Protein families: genetic information processing,J23_A,9.647012646,J23
+1438,09183 Protein families: signaling and cellular processes,J23_A,4.526816121,J23
+1439,09191 Unclassified: metabolism,J23_A,4.905638838,J23
+1440,Other,J23_A,4.376595804,J23
+1441,09101 Carbohydrate metabolism,J23_B,17.42935766,J23
+1442,09102 Energy metabolism,J23_B,8.710140674,J23
+1443,09103 Lipid metabolism,J23_B,4.730047139,J23
+1444,09104 Nucleotide metabolism,J23_B,3.317011219,J23
+1445,09105 Amino acid metabolism,J23_B,9.552734762,J23
+1446,09106 Metabolism of other amino acids,J23_B,2.083751412,J23
+1447,09107 Glycan biosynthesis and metabolism,J23_B,3.140711363,J23
+1448,09108 Metabolism of cofactors and vitamins,J23_B,4.646858243,J23
+1449,09122 Translation,J23_B,11.70784621,J23
+1450,09124 Replication and repair,J23_B,1.01325969,J23
+1451,09131 Membrane transport,J23_B,1.972248429,J23
+1452,09132 Signal transduction,J23_B,1.628890766,J23
+1453,09142 Cell motility,J23_B,4.178643105,J23
+1454,09181 Protein families: metabolism,J23_B,2.28981184,J23
+1455,09182 Protein families: genetic information processing,J23_B,9.537723242,J23
+1456,09183 Protein families: signaling and cellular processes,J23_B,4.161571571,J23
+1457,09191 Unclassified: metabolism,J23_B,5.329189953,J23
+1458,Other,J23_B,4.570202718,J23
+1459,09101 Carbohydrate metabolism,J23_C,16.61281969,J23
+1460,09102 Energy metabolism,J23_C,8.46482055,J23
+1461,09103 Lipid metabolism,J23_C,4.345024199,J23
+1462,09104 Nucleotide metabolism,J23_C,3.645532105,J23
+1463,09105 Amino acid metabolism,J23_C,9.416809062,J23
+1464,09106 Metabolism of other amino acids,J23_C,1.638889854,J23
+1465,09107 Glycan biosynthesis and metabolism,J23_C,3.416524322,J23
+1466,09108 Metabolism of cofactors and vitamins,J23_C,4.616111977,J23
+1467,09122 Translation,J23_C,13.23640266,J23
+1468,09124 Replication and repair,J23_C,1.097662172,J23
+1469,09131 Membrane transport,J23_C,1.720371062,J23
+1470,09132 Signal transduction,J23_C,1.678902297,J23
+1471,09142 Cell motility,J23_C,4.511086954,J23
+1472,09181 Protein families: metabolism,J23_C,2.268668473,J23
+1473,09182 Protein families: genetic information processing,J23_C,9.79811852,J23
+1474,09183 Protein families: signaling and cellular processes,J23_C,4.602309614,J23
+1475,09191 Unclassified: metabolism,J23_C,4.680131722,J23
+1476,Other,J23_C,4.249814773,J23
+1477,09101 Carbohydrate metabolism,J24_A,16.94219389,J24
+1478,09102 Energy metabolism,J24_A,8.82192062,J24
+1479,09103 Lipid metabolism,J24_A,4.712906799,J24
+1480,09104 Nucleotide metabolism,J24_A,3.472209988,J24
+1481,09105 Amino acid metabolism,J24_A,9.562557029,J24
+1482,09106 Metabolism of other amino acids,J24_A,1.844930946,J24
+1483,09107 Glycan biosynthesis and metabolism,J24_A,3.21798184,J24
+1484,09108 Metabolism of cofactors and vitamins,J24_A,4.745936339,J24
+1485,09122 Translation,J24_A,12.5206878,J24
+1486,09124 Replication and repair,J24_A,1.077617697,J24
+1487,09131 Membrane transport,J24_A,1.704379031,J24
+1488,09132 Signal transduction,J24_A,1.563061795,J24
+1489,09142 Cell motility,J24_A,4.175148823,J24
+1490,09181 Protein families: metabolism,J24_A,2.221463332,J24
+1491,09182 Protein families: genetic information processing,J24_A,9.535235452,J24
+1492,09183 Protein families: signaling and cellular processes,J24_A,4.420845625,J24
+1493,09191 Unclassified: metabolism,J24_A,5.124448858,J24
+1494,Other,J24_A,4.336474138,J24
+1495,09101 Carbohydrate metabolism,J24_B,16.85627435,J24
+1496,09102 Energy metabolism,J24_B,8.930859102,J24
+1497,09103 Lipid metabolism,J24_B,4.712300764,J24
+1498,09104 Nucleotide metabolism,J24_B,3.441532793,J24
+1499,09105 Amino acid metabolism,J24_B,9.517339203,J24
+1500,09106 Metabolism of other amino acids,J24_B,1.859690007,J24
+1501,09107 Glycan biosynthesis and metabolism,J24_B,3.249307603,J24
+1502,09108 Metabolism of cofactors and vitamins,J24_B,4.729311024,J24
+1503,09122 Translation,J24_B,12.58218634,J24
+1504,09124 Replication and repair,J24_B,1.053783474,J24
+1505,09131 Membrane transport,J24_B,1.641084175,J24
+1506,09132 Signal transduction,J24_B,1.567376709,J24
+1507,09142 Cell motility,J24_B,4.311888111,J24
+1508,09181 Protein families: metabolism,J24_B,2.196253914,J24
+1509,09182 Protein families: genetic information processing,J24_B,9.571866201,J24
+1510,09183 Protein families: signaling and cellular processes,J24_B,4.473756031,J24
+1511,09191 Unclassified: metabolism,J24_B,5.001911198,J24
+1512,Other,J24_B,4.303278994,J24
+1513,09101 Carbohydrate metabolism,J24_C,16.20340701,J24
+1514,09102 Energy metabolism,J24_C,8.460935547,J24
+1515,09103 Lipid metabolism,J24_C,4.191606874,J24
+1516,09104 Nucleotide metabolism,J24_C,3.673246162,J24
+1517,09105 Amino acid metabolism,J24_C,9.360995474,J24
+1518,09106 Metabolism of other amino acids,J24_C,1.535862477,J24
+1519,09107 Glycan biosynthesis and metabolism,J24_C,3.577357848,J24
+1520,09108 Metabolism of cofactors and vitamins,J24_C,4.614689674,J24
+1521,09122 Translation,J24_C,13.79408404,J24
+1522,09124 Replication and repair,J24_C,1.108521166,J24
+1523,09131 Membrane transport,J24_C,1.600581237,J24
+1524,09132 Signal transduction,J24_C,1.691499131,J24
+1525,09142 Cell motility,J24_C,4.726559125,J24
+1526,09181 Protein families: metabolism,J24_C,2.248783135,J24
+1527,09182 Protein families: genetic information processing,J24_C,9.898589421,J24
+1528,09183 Protein families: signaling and cellular processes,J24_C,4.790692146,J24
+1529,09191 Unclassified: metabolism,J24_C,4.374956001,J24
+1530,Other,J24_C,4.147633528,J24
+1531,09101 Carbohydrate metabolism,J3_A,16.8820921,J3
+1532,09102 Energy metabolism,J3_A,8.658124855,J3
+1533,09103 Lipid metabolism,J3_A,4.615801779,J3
+1534,09104 Nucleotide metabolism,J3_A,3.46601708,J3
+1535,09105 Amino acid metabolism,J3_A,9.589707295,J3
+1536,09106 Metabolism of other amino acids,J3_A,1.864285714,J3
+1537,09107 Glycan biosynthesis and metabolism,J3_A,3.278638549,J3
+1538,09108 Metabolism of cofactors and vitamins,J3_A,4.721942482,J3
+1539,09122 Translation,J3_A,12.44379661,J3
+1540,09124 Replication and repair,J3_A,1.080470088,J3
+1541,09131 Membrane transport,J3_A,1.634806672,J3
+1542,09132 Signal transduction,J3_A,1.608582254,J3
+1543,09142 Cell motility,J3_A,4.345997276,J3
+1544,09181 Protein families: metabolism,J3_A,2.201724142,J3
+1545,09182 Protein families: genetic information processing,J3_A,9.567646098,J3
+1546,09183 Protein families: signaling and cellular processes,J3_A,4.527602641,J3
+1547,09191 Unclassified: metabolism,J3_A,5.073964102,J3
+1548,Other,J3_A,4.438800268,J3
+1549,09101 Carbohydrate metabolism,J3_B,16.88428408,J3
+1550,09102 Energy metabolism,J3_B,8.86212769,J3
+1551,09103 Lipid metabolism,J3_B,4.720194476,J3
+1552,09104 Nucleotide metabolism,J3_B,3.41621037,J3
+1553,09105 Amino acid metabolism,J3_B,9.55793878,J3
+1554,09106 Metabolism of other amino acids,J3_B,1.912494807,J3
+1555,09107 Glycan biosynthesis and metabolism,J3_B,3.285778261,J3
+1556,09108 Metabolism of cofactors and vitamins,J3_B,4.738877755,J3
+1557,09122 Translation,J3_B,12.40118778,J3
+1558,09124 Replication and repair,J3_B,1.051575034,J3
+1559,09131 Membrane transport,J3_B,1.615769744,J3
+1560,09132 Signal transduction,J3_B,1.572012433,J3
+1561,09142 Cell motility,J3_B,4.314520325,J3
+1562,09181 Protein families: metabolism,J3_B,2.18786133,J3
+1563,09182 Protein families: genetic information processing,J3_B,9.531370618,J3
+1564,09183 Protein families: signaling and cellular processes,J3_B,4.513983763,J3
+1565,09191 Unclassified: metabolism,J3_B,5.061717875,J3
+1566,Other,J3_B,4.372094876,J3
+1567,09101 Carbohydrate metabolism,J3_C,16.37805093,J3
+1568,09102 Energy metabolism,J3_C,8.494693712,J3
+1569,09103 Lipid metabolism,J3_C,4.346553071,J3
+1570,09104 Nucleotide metabolism,J3_C,3.585655813,J3
+1571,09105 Amino acid metabolism,J3_C,9.524419939,J3
+1572,09106 Metabolism of other amino acids,J3_C,1.753174034,J3
+1573,09107 Glycan biosynthesis and metabolism,J3_C,3.431493032,J3
+1574,09108 Metabolism of cofactors and vitamins,J3_C,4.581495914,J3
+1575,09122 Translation,J3_C,13.15571346,J3
+1576,09124 Replication and repair,J3_C,1.109102,J3
+1577,09131 Membrane transport,J3_C,1.579040606,J3
+1578,09132 Signal transduction,J3_C,1.671834168,J3
+1579,09142 Cell motility,J3_C,4.745124995,J3
+1580,09181 Protein families: metabolism,J3_C,2.141901289,J3
+1581,09182 Protein families: genetic information processing,J3_C,9.819874412,J3
+1582,09183 Protein families: signaling and cellular processes,J3_C,4.701988597,J3
+1583,09191 Unclassified: metabolism,J3_C,4.631264414,J3
+1584,Other,J3_C,4.348619605,J3
+1585,09101 Carbohydrate metabolism,J4_A,16.93734575,J4
+1586,09102 Energy metabolism,J4_A,8.747056547,J4
+1587,09103 Lipid metabolism,J4_A,4.711171637,J4
+1588,09104 Nucleotide metabolism,J4_A,3.403557129,J4
+1589,09105 Amino acid metabolism,J4_A,9.617620942,J4
+1590,09106 Metabolism of other amino acids,J4_A,1.903328085,J4
+1591,09107 Glycan biosynthesis and metabolism,J4_A,3.200327213,J4
+1592,09108 Metabolism of cofactors and vitamins,J4_A,4.790029018,J4
+1593,09122 Translation,J4_A,12.02820114,J4
+1594,09124 Replication and repair,J4_A,1.079128264,J4
+1595,09131 Membrane transport,J4_A,1.710735358,J4
+1596,09132 Signal transduction,J4_A,1.625729942,J4
+1597,09142 Cell motility,J4_A,4.079065904,J4
+1598,09181 Protein families: metabolism,J4_A,2.226497969,J4
+1599,09182 Protein families: genetic information processing,J4_A,9.444085277,J4
+1600,09183 Protein families: signaling and cellular processes,J4_A,4.594646205,J4
+1601,09191 Unclassified: metabolism,J4_A,5.341058333,J4
+1602,Other,J4_A,4.560415285,J4
+1603,09101 Carbohydrate metabolism,J4_B,16.89858069,J4
+1604,09102 Energy metabolism,J4_B,8.779543752,J4
+1605,09103 Lipid metabolism,J4_B,4.66585214,J4
+1606,09104 Nucleotide metabolism,J4_B,3.514507007,J4
+1607,09105 Amino acid metabolism,J4_B,9.490792116,J4
+1608,09106 Metabolism of other amino acids,J4_B,1.788880486,J4
+1609,09107 Glycan biosynthesis and metabolism,J4_B,3.39037261,J4
+1610,09108 Metabolism of cofactors and vitamins,J4_B,4.667244693,J4
+1611,09122 Translation,J4_B,12.63757083,J4
+1612,09124 Replication and repair,J4_B,1.056176795,J4
+1613,09131 Membrane transport,J4_B,1.536540901,J4
+1614,09132 Signal transduction,J4_B,1.618614949,J4
+1615,09142 Cell motility,J4_B,4.387049888,J4
+1616,09181 Protein families: metabolism,J4_B,2.161250273,J4
+1617,09182 Protein families: genetic information processing,J4_B,9.690219999,J4
+1618,09183 Protein families: signaling and cellular processes,J4_B,4.621130086,J4
+1619,09191 Unclassified: metabolism,J4_B,4.869678427,J4
+1620,Other,J4_B,4.225994357,J4
+1621,09101 Carbohydrate metabolism,J4_C,16.67267223,J4
+1622,09102 Energy metabolism,J4_C,8.639607695,J4
+1623,09103 Lipid metabolism,J4_C,4.541373725,J4
+1624,09104 Nucleotide metabolism,J4_C,3.570987403,J4
+1625,09105 Amino acid metabolism,J4_C,9.502751087,J4
+1626,09106 Metabolism of other amino acids,J4_C,1.746304944,J4
+1627,09107 Glycan biosynthesis and metabolism,J4_C,3.453316927,J4
+1628,09108 Metabolism of cofactors and vitamins,J4_C,4.668273963,J4
+1629,09122 Translation,J4_C,12.85086076,J4
+1630,09124 Replication and repair,J4_C,1.074816811,J4
+1631,09131 Membrane transport,J4_C,1.538877988,J4
+1632,09132 Signal transduction,J4_C,1.644424592,J4
+1633,09142 Cell motility,J4_C,4.432678852,J4
+1634,09181 Protein families: metabolism,J4_C,2.168215484,J4
+1635,09182 Protein families: genetic information processing,J4_C,9.725250368,J4
+1636,09183 Protein families: signaling and cellular processes,J4_C,4.706958984,J4
+1637,09191 Unclassified: metabolism,J4_C,4.812934021,J4
+1638,Other,J4_C,4.249694165,J4
+1639,09101 Carbohydrate metabolism,J5_A,16.94944856,J5
+1640,09102 Energy metabolism,J5_A,8.719563075,J5
+1641,09103 Lipid metabolism,J5_A,4.721966372,J5
+1642,09104 Nucleotide metabolism,J5_A,3.455570755,J5
+1643,09105 Amino acid metabolism,J5_A,9.557285152,J5
+1644,09106 Metabolism of other amino acids,J5_A,1.844286955,J5
+1645,09107 Glycan biosynthesis and metabolism,J5_A,3.247332505,J5
+1646,09108 Metabolism of cofactors and vitamins,J5_A,4.801520467,J5
+1647,09122 Translation,J5_A,12.24975651,J5
+1648,09124 Replication and repair,J5_A,1.103302958,J5
+1649,09131 Membrane transport,J5_A,1.663019231,J5
+1650,09132 Signal transduction,J5_A,1.596459518,J5
+1651,09142 Cell motility,J5_A,3.961372189,J5
+1652,09181 Protein families: metabolism,J5_A,2.238238416,J5
+1653,09182 Protein families: genetic information processing,J5_A,9.472606453,J5
+1654,09183 Protein families: signaling and cellular processes,J5_A,4.645460303,J5
+1655,09191 Unclassified: metabolism,J5_A,5.327422848,J5
+1656,Other,J5_A,4.44538773,J5
+1657,09101 Carbohydrate metabolism,J5_B,16.89115586,J5
+1658,09102 Energy metabolism,J5_B,8.715337705,J5
+1659,09103 Lipid metabolism,J5_B,4.642960072,J5
+1660,09104 Nucleotide metabolism,J5_B,3.494599154,J5
+1661,09105 Amino acid metabolism,J5_B,9.482211961,J5
+1662,09106 Metabolism of other amino acids,J5_B,1.82530964,J5
+1663,09107 Glycan biosynthesis and metabolism,J5_B,3.423649859,J5
+1664,09108 Metabolism of cofactors and vitamins,J5_B,4.672035163,J5
+1665,09122 Translation,J5_B,12.5161878,J5
+1666,09124 Replication and repair,J5_B,1.059266981,J5
+1667,09131 Membrane transport,J5_B,1.500399499,J5
+1668,09132 Signal transduction,J5_B,1.627377776,J5
+1669,09142 Cell motility,J5_B,4.408887353,J5
+1670,09181 Protein families: metabolism,J5_B,2.139728312,J5
+1671,09182 Protein families: genetic information processing,J5_B,9.663144517,J5
+1672,09183 Protein families: signaling and cellular processes,J5_B,4.710630169,J5
+1673,09191 Unclassified: metabolism,J5_B,4.959862047,J5
+1674,Other,J5_B,4.267256132,J5
+1675,09101 Carbohydrate metabolism,J5_C,16.53082262,J5
+1676,09102 Energy metabolism,J5_C,8.635874966,J5
+1677,09103 Lipid metabolism,J5_C,4.457521807,J5
+1678,09104 Nucleotide metabolism,J5_C,3.593479236,J5
+1679,09105 Amino acid metabolism,J5_C,9.521246741,J5
+1680,09106 Metabolism of other amino acids,J5_C,1.729994627,J5
+1681,09107 Glycan biosynthesis and metabolism,J5_C,3.398389205,J5
+1682,09108 Metabolism of cofactors and vitamins,J5_C,4.628277248,J5
+1683,09122 Translation,J5_C,13.11856288,J5
+1684,09124 Replication and repair,J5_C,1.10650321,J5
+1685,09131 Membrane transport,J5_C,1.543548434,J5
+1686,09132 Signal transduction,J5_C,1.619751899,J5
+1687,09142 Cell motility,J5_C,4.618236931,J5
+1688,09181 Protein families: metabolism,J5_C,2.196238973,J5
+1689,09182 Protein families: genetic information processing,J5_C,9.728398697,J5
+1690,09183 Protein families: signaling and cellular processes,J5_C,4.629374111,J5
+1691,09191 Unclassified: metabolism,J5_C,4.679054262,J5
+1692,Other,J5_C,4.264724151,J5
+1693,09101 Carbohydrate metabolism,J6_A,16.79010083,J6
+1694,09102 Energy metabolism,J6_A,8.742457005,J6
+1695,09103 Lipid metabolism,J6_A,4.591559418,J6
+1696,09104 Nucleotide metabolism,J6_A,3.487263681,J6
+1697,09105 Amino acid metabolism,J6_A,9.410250705,J6
+1698,09106 Metabolism of other amino acids,J6_A,1.769532068,J6
+1699,09107 Glycan biosynthesis and metabolism,J6_A,3.398626384,J6
+1700,09108 Metabolism of cofactors and vitamins,J6_A,4.686338515,J6
+1701,09122 Translation,J6_A,12.3779656,J6
+1702,09124 Replication and repair,J6_A,1.073411349,J6
+1703,09131 Membrane transport,J6_A,1.600367737,J6
+1704,09132 Signal transduction,J6_A,1.679833254,J6
+1705,09142 Cell motility,J6_A,4.25110078,J6
+1706,09181 Protein families: metabolism,J6_A,2.144102616,J6
+1707,09182 Protein families: genetic information processing,J6_A,9.63992354,J6
+1708,09183 Protein families: signaling and cellular processes,J6_A,4.917158716,J6
+1709,09191 Unclassified: metabolism,J6_A,5.105200428,J6
+1710,Other,J6_A,4.334807369,J6
+1711,09101 Carbohydrate metabolism,J6_B,16.96958518,J6
+1712,09102 Energy metabolism,J6_B,8.761771896,J6
+1713,09103 Lipid metabolism,J6_B,4.647772284,J6
+1714,09104 Nucleotide metabolism,J6_B,3.51626174,J6
+1715,09105 Amino acid metabolism,J6_B,9.504893231,J6
+1716,09106 Metabolism of other amino acids,J6_B,1.753670603,J6
+1717,09107 Glycan biosynthesis and metabolism,J6_B,3.337517111,J6
+1718,09108 Metabolism of cofactors and vitamins,J6_B,4.692881654,J6
+1719,09122 Translation,J6_B,12.55739362,J6
+1720,09124 Replication and repair,J6_B,1.068472529,J6
+1721,09131 Membrane transport,J6_B,1.642052009,J6
+1722,09132 Signal transduction,J6_B,1.617200566,J6
+1723,09142 Cell motility,J6_B,4.224530952,J6
+1724,09181 Protein families: metabolism,J6_B,2.217124667,J6
+1725,09182 Protein families: genetic information processing,J6_B,9.617878629,J6
+1726,09183 Protein families: signaling and cellular processes,J6_B,4.584316061,J6
+1727,09191 Unclassified: metabolism,J6_B,4.984948054,J6
+1728,Other,J6_B,4.301729212,J6
+1729,09101 Carbohydrate metabolism,J6_C,16.60796897,J6
+1730,09102 Energy metabolism,J6_C,8.523661096,J6
+1731,09103 Lipid metabolism,J6_C,4.409675333,J6
+1732,09104 Nucleotide metabolism,J6_C,3.623386771,J6
+1733,09105 Amino acid metabolism,J6_C,9.548592233,J6
+1734,09106 Metabolism of other amino acids,J6_C,1.705887131,J6
+1735,09107 Glycan biosynthesis and metabolism,J6_C,3.422123018,J6
+1736,09108 Metabolism of cofactors and vitamins,J6_C,4.601818957,J6
+1737,09122 Translation,J6_C,13.18539559,J6
+1738,09124 Replication and repair,J6_C,1.101051303,J6
+1739,09131 Membrane transport,J6_C,1.599492237,J6
+1740,09132 Signal transduction,J6_C,1.623425613,J6
+1741,09142 Cell motility,J6_C,4.55971834,J6
+1742,09181 Protein families: metabolism,J6_C,2.204124478,J6
+1743,09182 Protein families: genetic information processing,J6_C,9.763506762,J6
+1744,09183 Protein families: signaling and cellular processes,J6_C,4.554170119,J6
+1745,09191 Unclassified: metabolism,J6_C,4.701803836,J6
+1746,Other,J6_C,4.264198216,J6
+1747,09101 Carbohydrate metabolism,J7_A,17.15702234,J7
+1748,09102 Energy metabolism,J7_A,8.70611132,J7
+1749,09103 Lipid metabolism,J7_A,4.719871573,J7
+1750,09104 Nucleotide metabolism,J7_A,3.409720417,J7
+1751,09105 Amino acid metabolism,J7_A,9.633627847,J7
+1752,09106 Metabolism of other amino acids,J7_A,1.947229679,J7
+1753,09107 Glycan biosynthesis and metabolism,J7_A,3.031943523,J7
+1754,09108 Metabolism of cofactors and vitamins,J7_A,4.840350394,J7
+1755,09122 Translation,J7_A,12.11762668,J7
+1756,09124 Replication and repair,J7_A,1.068383457,J7
+1757,09131 Membrane transport,J7_A,1.804566499,J7
+1758,09132 Signal transduction,J7_A,1.570136675,J7
+1759,09142 Cell motility,J7_A,4.150990115,J7
+1760,09181 Protein families: metabolism,J7_A,2.289291577,J7
+1761,09182 Protein families: genetic information processing,J7_A,9.405835886,J7
+1762,09183 Protein families: signaling and cellular processes,J7_A,4.223917983,J7
+1763,09191 Unclassified: metabolism,J7_A,5.398827227,J7
+1764,Other,J7_A,4.5245468,J7
+1765,09101 Carbohydrate metabolism,J7_B,17.27450073,J7
+1766,09102 Energy metabolism,J7_B,8.713153665,J7
+1767,09103 Lipid metabolism,J7_B,4.74090526,J7
+1768,09104 Nucleotide metabolism,J7_B,3.373417896,J7
+1769,09105 Amino acid metabolism,J7_B,9.671702812,J7
+1770,09106 Metabolism of other amino acids,J7_B,1.956882685,J7
+1771,09107 Glycan biosynthesis and metabolism,J7_B,2.980144878,J7
+1772,09108 Metabolism of cofactors and vitamins,J7_B,4.820055513,J7
+1773,09122 Translation,J7_B,11.84302199,J7
+1774,09124 Replication and repair,J7_B,1.070197598,J7
+1775,09131 Membrane transport,J7_B,1.834242763,J7
+1776,09132 Signal transduction,J7_B,1.582879381,J7
+1777,09142 Cell motility,J7_B,4.100356361,J7
+1778,09181 Protein families: metabolism,J7_B,2.332012642,J7
+1779,09182 Protein families: genetic information processing,J7_B,9.33862206,J7
+1780,09183 Protein families: signaling and cellular processes,J7_B,4.216286902,J7
+1781,09191 Unclassified: metabolism,J7_B,5.519514487,J7
+1782,Other,J7_B,4.632102378,J7
+1783,09101 Carbohydrate metabolism,J7_C,16.53944375,J7
+1784,09102 Energy metabolism,J7_C,8.415059725,J7
+1785,09103 Lipid metabolism,J7_C,4.293734789,J7
+1786,09104 Nucleotide metabolism,J7_C,3.675047226,J7
+1787,09105 Amino acid metabolism,J7_C,9.564230691,J7
+1788,09106 Metabolism of other amino acids,J7_C,1.63773983,J7
+1789,09107 Glycan biosynthesis and metabolism,J7_C,3.398612882,J7
+1790,09108 Metabolism of cofactors and vitamins,J7_C,4.630942108,J7
+1791,09122 Translation,J7_C,13.31847695,J7
+1792,09124 Replication and repair,J7_C,1.127512414,J7
+1793,09131 Membrane transport,J7_C,1.626377367,J7
+1794,09132 Signal transduction,J7_C,1.648687715,J7
+1795,09142 Cell motility,J7_C,4.491152943,J7
+1796,09181 Protein families: metabolism,J7_C,2.277027627,J7
+1797,09182 Protein families: genetic information processing,J7_C,9.740889969,J7
+1798,09183 Protein families: signaling and cellular processes,J7_C,4.560392926,J7
+1799,09191 Unclassified: metabolism,J7_C,4.743170512,J7
+1800,Other,J7_C,4.311500575,J7
+1801,09101 Carbohydrate metabolism,J8_A,17.0014544,J8
+1802,09102 Energy metabolism,J8_A,8.697520357,J8
+1803,09103 Lipid metabolism,J8_A,4.72351537,J8
+1804,09104 Nucleotide metabolism,J8_A,3.408095234,J8
+1805,09105 Amino acid metabolism,J8_A,9.622490525,J8
+1806,09106 Metabolism of other amino acids,J8_A,1.903142882,J8
+1807,09107 Glycan biosynthesis and metabolism,J8_A,3.187182607,J8
+1808,09108 Metabolism of cofactors and vitamins,J8_A,4.778408544,J8
+1809,09122 Translation,J8_A,12.13132019,J8
+1810,09124 Replication and repair,J8_A,1.080971409,J8
+1811,09131 Membrane transport,J8_A,1.679948123,J8
+1812,09132 Signal transduction,J8_A,1.608736894,J8
+1813,09142 Cell motility,J8_A,4.127730093,J8
+1814,09181 Protein families: metabolism,J8_A,2.257352564,J8
+1815,09182 Protein families: genetic information processing,J8_A,9.435731135,J8
+1816,09183 Protein families: signaling and cellular processes,J8_A,4.502926597,J8
+1817,09191 Unclassified: metabolism,J8_A,5.311302744,J8
+1818,Other,J8_A,4.542170334,J8
+1819,09101 Carbohydrate metabolism,J8_B,16.80472993,J8
+1820,09102 Energy metabolism,J8_B,8.523108881,J8
+1821,09103 Lipid metabolism,J8_B,4.604650434,J8
+1822,09104 Nucleotide metabolism,J8_B,3.358356964,J8
+1823,09105 Amino acid metabolism,J8_B,9.519924027,J8
+1824,09106 Metabolism of other amino acids,J8_B,1.949884176,J8
+1825,09107 Glycan biosynthesis and metabolism,J8_B,3.281717836,J8
+1826,09108 Metabolism of cofactors and vitamins,J8_B,4.74533886,J8
+1827,09122 Translation,J8_B,11.83257129,J8
+1828,09124 Replication and repair,J8_B,1.072778759,J8
+1829,09131 Membrane transport,J8_B,1.729545337,J8
+1830,09132 Signal transduction,J8_B,1.725645851,J8
+1831,09142 Cell motility,J8_B,4.30325288,J8
+1832,09181 Protein families: metabolism,J8_B,2.144933591,J8
+1833,09182 Protein families: genetic information processing,J8_B,9.526704032,J8
+1834,09183 Protein families: signaling and cellular processes,J8_B,4.874447675,J8
+1835,09191 Unclassified: metabolism,J8_B,5.37938111,J8
+1836,Other,J8_B,4.623028369,J8
+1837,09101 Carbohydrate metabolism,J8_C,16.33105149,J8
+1838,09102 Energy metabolism,J8_C,8.558533728,J8
+1839,09103 Lipid metabolism,J8_C,4.386222642,J8
+1840,09104 Nucleotide metabolism,J8_C,3.617847251,J8
+1841,09105 Amino acid metabolism,J8_C,9.528817911,J8
+1842,09106 Metabolism of other amino acids,J8_C,1.748796114,J8
+1843,09107 Glycan biosynthesis and metabolism,J8_C,3.450912061,J8
+1844,09108 Metabolism of cofactors and vitamins,J8_C,4.606313439,J8
+1845,09122 Translation,J8_C,13.42149064,J8
+1846,09124 Replication and repair,J8_C,1.088855636,J8
+1847,09131 Membrane transport,J8_C,1.557266959,J8
+1848,09132 Signal transduction,J8_C,1.640502561,J8
+1849,09142 Cell motility,J8_C,4.785741093,J8
+1850,09181 Protein families: metabolism,J8_C,2.152091727,J8
+1851,09182 Protein families: genetic information processing,J8_C,9.838466393,J8
+1852,09183 Protein families: signaling and cellular processes,J8_C,4.587606995,J8
+1853,09191 Unclassified: metabolism,J8_C,4.469245926,J8
+1854,Other,J8_C,4.230237429,J8
+1855,09101 Carbohydrate metabolism,J9_A,16.79456471,J9
+1856,09102 Energy metabolism,J9_A,8.714180775,J9
+1857,09103 Lipid metabolism,J9_A,4.65715065,J9
+1858,09104 Nucleotide metabolism,J9_A,3.430857099,J9
+1859,09105 Amino acid metabolism,J9_A,9.526359427,J9
+1860,09106 Metabolism of other amino acids,J9_A,1.886230445,J9
+1861,09107 Glycan biosynthesis and metabolism,J9_A,3.341938659,J9
+1862,09108 Metabolism of cofactors and vitamins,J9_A,4.751256152,J9
+1863,09122 Translation,J9_A,12.2957923,J9
+1864,09124 Replication and repair,J9_A,1.062369228,J9
+1865,09131 Membrane transport,J9_A,1.634868503,J9
+1866,09132 Signal transduction,J9_A,1.618253136,J9
+1867,09142 Cell motility,J9_A,4.268527309,J9
+1868,09181 Protein families: metabolism,J9_A,2.161672556,J9
+1869,09182 Protein families: genetic information processing,J9_A,9.549546903,J9
+1870,09183 Protein families: signaling and cellular processes,J9_A,4.708032041,J9
+1871,09191 Unclassified: metabolism,J9_A,5.149861725,J9
+1872,Other,J9_A,4.448538377,J9
+1873,09101 Carbohydrate metabolism,J9_B,16.77003904,J9
+1874,09102 Energy metabolism,J9_B,8.75065084,J9
+1875,09103 Lipid metabolism,J9_B,4.699454104,J9
+1876,09104 Nucleotide metabolism,J9_B,3.43904842,J9
+1877,09105 Amino acid metabolism,J9_B,9.606849026,J9
+1878,09106 Metabolism of other amino acids,J9_B,1.941256674,J9
+1879,09107 Glycan biosynthesis and metabolism,J9_B,3.281613948,J9
+1880,09108 Metabolism of cofactors and vitamins,J9_B,4.7235413,J9
+1881,09122 Translation,J9_B,12.53362046,J9
+1882,09124 Replication and repair,J9_B,1.053086263,J9
+1883,09131 Membrane transport,J9_B,1.617884296,J9
+1884,09132 Signal transduction,J9_B,1.592375662,J9
+1885,09142 Cell motility,J9_B,4.461442471,J9
+1886,09181 Protein families: metabolism,J9_B,2.171185747,J9
+1887,09182 Protein families: genetic information processing,J9_B,9.575611623,J9
+1888,09183 Protein families: signaling and cellular processes,J9_B,4.447006447,J9
+1889,09191 Unclassified: metabolism,J9_B,4.955114091,J9
+1890,Other,J9_B,4.380219586,J9
+1891,09101 Carbohydrate metabolism,J9_C,16.37841189,J9
+1892,09102 Energy metabolism,J9_C,8.528588533,J9
+1893,09103 Lipid metabolism,J9_C,4.358330597,J9
+1894,09104 Nucleotide metabolism,J9_C,3.67212619,J9
+1895,09105 Amino acid metabolism,J9_C,9.509570977,J9
+1896,09106 Metabolism of other amino acids,J9_C,1.657067976,J9
+1897,09107 Glycan biosynthesis and metabolism,J9_C,3.478086828,J9
+1898,09108 Metabolism of cofactors and vitamins,J9_C,4.605392432,J9
+1899,09122 Translation,J9_C,13.45048373,J9
+1900,09124 Replication and repair,J9_C,1.108497295,J9
+1901,09131 Membrane transport,J9_C,1.548902724,J9
+1902,09132 Signal transduction,J9_C,1.657924315,J9
+1903,09142 Cell motility,J9_C,4.596225705,J9
+1904,09181 Protein families: metabolism,J9_C,2.202154202,J9
+1905,09182 Protein families: genetic information processing,J9_C,9.821353472,J9
+1906,09183 Protein families: signaling and cellular processes,J9_C,4.666898132,J9
+1907,09191 Unclassified: metabolism,J9_C,4.553995272,J9
+1908,Other,J9_C,4.205989732,J9
+1909,09101 Carbohydrate metabolism,M1_A,17.89385783,M1
+1910,09102 Energy metabolism,M1_A,8.258214446,M1
+1911,09103 Lipid metabolism,M1_A,4.817807271,M1
+1912,09104 Nucleotide metabolism,M1_A,3.884256083,M1
+1913,09105 Amino acid metabolism,M1_A,9.917232933,M1
+1914,09106 Metabolism of other amino acids,M1_A,1.519205736,M1
+1915,09107 Glycan biosynthesis and metabolism,M1_A,2.867970273,M1
+1916,09108 Metabolism of cofactors and vitamins,M1_A,5.304944178,M1
+1917,09122 Translation,M1_A,13.47447052,M1
+1918,09124 Replication and repair,M1_A,1.226243278,M1
+1919,09131 Membrane transport,M1_A,2.048528292,M1
+1920,09132 Signal transduction,M1_A,1.232252058,M1
+1921,09142 Cell motility,M1_A,2.624686699,M1
+1922,09181 Protein families: metabolism,M1_A,2.552576772,M1
+1923,09182 Protein families: genetic information processing,M1_A,9.19735766,M1
+1924,09183 Protein families: signaling and cellular processes,M1_A,3.519426407,M1
+1925,09191 Unclassified: metabolism,M1_A,5.343947061,M1
+1926,Other,M1_A,4.317022507,M1
+1927,09101 Carbohydrate metabolism,M1_B,16.97667261,M1
+1928,09102 Energy metabolism,M1_B,8.150607763,M1
+1929,09103 Lipid metabolism,M1_B,4.457729732,M1
+1930,09104 Nucleotide metabolism,M1_B,4.105694257,M1
+1931,09105 Amino acid metabolism,M1_B,9.902800586,M1
+1932,09106 Metabolism of other amino acids,M1_B,1.42739562,M1
+1933,09107 Glycan biosynthesis and metabolism,M1_B,3.358627345,M1
+1934,09108 Metabolism of cofactors and vitamins,M1_B,5.25422903,M1
+1935,09122 Translation,M1_B,14.44182723,M1
+1936,09124 Replication and repair,M1_B,1.19659494,M1
+1937,09131 Membrane transport,M1_B,1.926380192,M1
+1938,09132 Signal transduction,M1_B,1.255317583,M1
+1939,09142 Cell motility,M1_B,2.557166137,M1
+1940,09181 Protein families: metabolism,M1_B,2.393875666,M1
+1941,09182 Protein families: genetic information processing,M1_B,9.485799287,M1
+1942,09183 Protein families: signaling and cellular processes,M1_B,3.905707283,M1
+1943,09191 Unclassified: metabolism,M1_B,4.984082924,M1
+1944,Other,M1_B,4.219491816,M1
+1945,09101 Carbohydrate metabolism,M1_C,17.44000897,M1
+1946,09102 Energy metabolism,M1_C,8.116042469,M1
+1947,09103 Lipid metabolism,M1_C,4.499040754,M1
+1948,09104 Nucleotide metabolism,M1_C,4.115201773,M1
+1949,09105 Amino acid metabolism,M1_C,9.941749759,M1
+1950,09106 Metabolism of other amino acids,M1_C,1.396363107,M1
+1951,09107 Glycan biosynthesis and metabolism,M1_C,3.081788778,M1
+1952,09108 Metabolism of cofactors and vitamins,M1_C,5.257615366,M1
+1953,09122 Translation,M1_C,14.16766179,M1
+1954,09124 Replication and repair,M1_C,1.241059013,M1
+1955,09131 Membrane transport,M1_C,2.070097686,M1
+1956,09132 Signal transduction,M1_C,1.238832502,M1
+1957,09142 Cell motility,M1_C,2.449050646,M1
+1958,09181 Protein families: metabolism,M1_C,2.506493048,M1
+1959,09182 Protein families: genetic information processing,M1_C,9.445241054,M1
+1960,09183 Protein families: signaling and cellular processes,M1_C,3.596416087,M1
+1961,09191 Unclassified: metabolism,M1_C,5.11027736,M1
+1962,Other,M1_C,4.327059839,M1
+1963,09101 Carbohydrate metabolism,M10_A,17.0331856,M10
+1964,09102 Energy metabolism,M10_A,8.157303987,M10
+1965,09103 Lipid metabolism,M10_A,4.513461215,M10
+1966,09104 Nucleotide metabolism,M10_A,4.042509099,M10
+1967,09105 Amino acid metabolism,M10_A,9.932907131,M10
+1968,09106 Metabolism of other amino acids,M10_A,1.469269434,M10
+1969,09107 Glycan biosynthesis and metabolism,M10_A,3.254164449,M10
+1970,09108 Metabolism of cofactors and vitamins,M10_A,5.358561411,M10
+1971,09122 Translation,M10_A,13.99719677,M10
+1972,09124 Replication and repair,M10_A,1.204653699,M10
+1973,09131 Membrane transport,M10_A,1.938776432,M10
+1974,09132 Signal transduction,M10_A,1.273840552,M10
+1975,09142 Cell motility,M10_A,2.545757721,M10
+1976,09181 Protein families: metabolism,M10_A,2.409457404,M10
+1977,09182 Protein families: genetic information processing,M10_A,9.411653605,M10
+1978,09183 Protein families: signaling and cellular processes,M10_A,4.064687523,M10
+1979,09191 Unclassified: metabolism,M10_A,5.141481063,M10
+1980,Other,M10_A,4.25113291,M10
+1981,09101 Carbohydrate metabolism,M10_B,17.18359977,M10
+1982,09102 Energy metabolism,M10_B,8.104797221,M10
+1983,09103 Lipid metabolism,M10_B,4.505765997,M10
+1984,09104 Nucleotide metabolism,M10_B,4.040426215,M10
+1985,09105 Amino acid metabolism,M10_B,10.00100263,M10
+1986,09106 Metabolism of other amino acids,M10_B,1.495642751,M10
+1987,09107 Glycan biosynthesis and metabolism,M10_B,3.295039486,M10
+1988,09108 Metabolism of cofactors and vitamins,M10_B,5.269153105,M10
+1989,09122 Translation,M10_B,13.84540303,M10
+1990,09124 Replication and repair,M10_B,1.196258696,M10
+1991,09131 Membrane transport,M10_B,1.908782142,M10
+1992,09132 Signal transduction,M10_B,1.290067336,M10
+1993,09142 Cell motility,M10_B,2.471198859,M10
+1994,09181 Protein families: metabolism,M10_B,2.455803292,M10
+1995,09182 Protein families: genetic information processing,M10_B,9.374706327,M10
+1996,09183 Protein families: signaling and cellular processes,M10_B,4.048088583,M10
+1997,09191 Unclassified: metabolism,M10_B,5.206455876,M10
+1998,Other,M10_B,4.307808678,M10
+1999,09101 Carbohydrate metabolism,M10_C,16.52353013,M10
+2000,09102 Energy metabolism,M10_C,8.068845183,M10
+2001,09103 Lipid metabolism,M10_C,4.188295,M10
+2002,09104 Nucleotide metabolism,M10_C,4.307190098,M10
+2003,09105 Amino acid metabolism,M10_C,10.02187011,M10
+2004,09106 Metabolism of other amino acids,M10_C,1.392300746,M10
+2005,09107 Glycan biosynthesis and metabolism,M10_C,3.859717191,M10
+2006,09108 Metabolism of cofactors and vitamins,M10_C,5.164832352,M10
+2007,09122 Translation,M10_C,15.07564908,M10
+2008,09124 Replication and repair,M10_C,1.177043323,M10
+2009,09131 Membrane transport,M10_C,1.778679352,M10
+2010,09132 Signal transduction,M10_C,1.18407204,M10
+2011,09142 Cell motility,M10_C,2.163450987,M10
+2012,09181 Protein families: metabolism,M10_C,2.370094964,M10
+2013,09182 Protein families: genetic information processing,M10_C,9.614386304,M10
+2014,09183 Protein families: signaling and cellular processes,M10_C,4.051096564,M10
+2015,09191 Unclassified: metabolism,M10_C,4.809086799,M10
+2016,Other,M10_C,4.249859774,M10
+2017,09101 Carbohydrate metabolism,M11_A,17.61450241,M11
+2018,09102 Energy metabolism,M11_A,8.163830827,M11
+2019,09103 Lipid metabolism,M11_A,4.608816623,M11
+2020,09104 Nucleotide metabolism,M11_A,3.998447463,M11
+2021,09105 Amino acid metabolism,M11_A,9.943485456,M11
+2022,09106 Metabolism of other amino acids,M11_A,1.492906024,M11
+2023,09107 Glycan biosynthesis and metabolism,M11_A,2.945340085,M11
+2024,09108 Metabolism of cofactors and vitamins,M11_A,5.338219663,M11
+2025,09122 Translation,M11_A,13.70065132,M11
+2026,09124 Replication and repair,M11_A,1.212948353,M11
+2027,09131 Membrane transport,M11_A,2.061394771,M11
+2028,09132 Signal transduction,M11_A,1.228219682,M11
+2029,09142 Cell motility,M11_A,2.638237309,M11
+2030,09181 Protein families: metabolism,M11_A,2.488557099,M11
+2031,09182 Protein families: genetic information processing,M11_A,9.374590725,M11
+2032,09183 Protein families: signaling and cellular processes,M11_A,3.649070314,M11
+2033,09191 Unclassified: metabolism,M11_A,5.276949027,M11
+2034,Other,M11_A,4.263832843,M11
+2035,09101 Carbohydrate metabolism,M11_B,17.52378221,M11
+2036,09102 Energy metabolism,M11_B,8.24079849,M11
+2037,09103 Lipid metabolism,M11_B,4.635476229,M11
+2038,09104 Nucleotide metabolism,M11_B,3.971609086,M11
+2039,09105 Amino acid metabolism,M11_B,9.885043751,M11
+2040,09106 Metabolism of other amino acids,M11_B,1.511363198,M11
+2041,09107 Glycan biosynthesis and metabolism,M11_B,3.003850931,M11
+2042,09108 Metabolism of cofactors and vitamins,M11_B,5.312725389,M11
+2043,09122 Translation,M11_B,13.55914722,M11
+2044,09124 Replication and repair,M11_B,1.198944467,M11
+2045,09131 Membrane transport,M11_B,2.067082756,M11
+2046,09132 Signal transduction,M11_B,1.266636115,M11
+2047,09142 Cell motility,M11_B,2.664538157,M11
+2048,09181 Protein families: metabolism,M11_B,2.443746483,M11
+2049,09182 Protein families: genetic information processing,M11_B,9.366894594,M11
+2050,09183 Protein families: signaling and cellular processes,M11_B,3.786408272,M11
+2051,09191 Unclassified: metabolism,M11_B,5.321336255,M11
+2052,Other,M11_B,4.240616395,M11
+2053,09101 Carbohydrate metabolism,M11_C,17.34082734,M11
+2054,09102 Energy metabolism,M11_C,8.18354812,M11
+2055,09103 Lipid metabolism,M11_C,4.63053391,M11
+2056,09104 Nucleotide metabolism,M11_C,3.958101082,M11
+2057,09105 Amino acid metabolism,M11_C,9.959744878,M11
+2058,09106 Metabolism of other amino acids,M11_C,1.524822009,M11
+2059,09107 Glycan biosynthesis and metabolism,M11_C,3.111038264,M11
+2060,09108 Metabolism of cofactors and vitamins,M11_C,5.352054009,M11
+2061,09122 Translation,M11_C,13.72836885,M11
+2062,09124 Replication and repair,M11_C,1.201728601,M11
+2063,09131 Membrane transport,M11_C,1.931811208,M11
+2064,09132 Signal transduction,M11_C,1.264299825,M11
+2065,09142 Cell motility,M11_C,2.601978048,M11
+2066,09181 Protein families: metabolism,M11_C,2.433695042,M11
+2067,09182 Protein families: genetic information processing,M11_C,9.394672755,M11
+2068,09183 Protein families: signaling and cellular processes,M11_C,3.881167356,M11
+2069,09191 Unclassified: metabolism,M11_C,5.263874627,M11
+2070,Other,M11_C,4.23773408,M11
+2071,09101 Carbohydrate metabolism,M12_A,16.65239264,M12
+2072,09102 Energy metabolism,M12_A,8.200712135,M12
+2073,09103 Lipid metabolism,M12_A,4.401290793,M12
+2074,09104 Nucleotide metabolism,M12_A,4.068919432,M12
+2075,09105 Amino acid metabolism,M12_A,9.894246567,M12
+2076,09106 Metabolism of other amino acids,M12_A,1.489355035,M12
+2077,09107 Glycan biosynthesis and metabolism,M12_A,3.60624183,M12
+2078,09108 Metabolism of cofactors and vitamins,M12_A,5.299815105,M12
+2079,09122 Translation,M12_A,13.75242844,M12
+2080,09124 Replication and repair,M12_A,1.156371848,M12
+2081,09131 Membrane transport,M12_A,1.988286025,M12
+2082,09132 Signal transduction,M12_A,1.267136351,M12
+2083,09142 Cell motility,M12_A,2.45524595,M12
+2084,09181 Protein families: metabolism,M12_A,2.26086577,M12
+2085,09182 Protein families: genetic information processing,M12_A,9.538663649,M12
+2086,09183 Protein families: signaling and cellular processes,M12_A,4.465188893,M12
+2087,09191 Unclassified: metabolism,M12_A,5.224176111,M12
+2088,Other,M12_A,4.278663425,M12
+2089,09101 Carbohydrate metabolism,M12_B,16.86725154,M12
+2090,09102 Energy metabolism,M12_B,8.287918296,M12
+2091,09103 Lipid metabolism,M12_B,4.47010872,M12
+2092,09104 Nucleotide metabolism,M12_B,3.957941909,M12
+2093,09105 Amino acid metabolism,M12_B,9.86860729,M12
+2094,09106 Metabolism of other amino acids,M12_B,1.549512603,M12
+2095,09107 Glycan biosynthesis and metabolism,M12_B,3.266053501,M12
+2096,09108 Metabolism of cofactors and vitamins,M12_B,5.302913799,M12
+2097,09122 Translation,M12_B,13.71870916,M12
+2098,09124 Replication and repair,M12_B,1.176518581,M12
+2099,09131 Membrane transport,M12_B,1.958303169,M12
+2100,09132 Signal transduction,M12_B,1.328013437,M12
+2101,09142 Cell motility,M12_B,2.748605156,M12
+2102,09181 Protein families: metabolism,M12_B,2.33184735,M12
+2103,09182 Protein families: genetic information processing,M12_B,9.454840442,M12
+2104,09183 Protein families: signaling and cellular processes,M12_B,4.224953919,M12
+2105,09191 Unclassified: metabolism,M12_B,5.176238654,M12
+2106,Other,M12_B,4.311662474,M12
+2107,09101 Carbohydrate metabolism,M12_C,16.7344162,M12
+2108,09102 Energy metabolism,M12_C,8.215989779,M12
+2109,09103 Lipid metabolism,M12_C,4.365096273,M12
+2110,09104 Nucleotide metabolism,M12_C,4.141520131,M12
+2111,09105 Amino acid metabolism,M12_C,9.814804568,M12
+2112,09106 Metabolism of other amino acids,M12_C,1.447276001,M12
+2113,09107 Glycan biosynthesis and metabolism,M12_C,3.559351869,M12
+2114,09108 Metabolism of cofactors and vitamins,M12_C,5.349348026,M12
+2115,09122 Translation,M12_C,14.38134919,M12
+2116,09124 Replication and repair,M12_C,1.139922125,M12
+2117,09131 Membrane transport,M12_C,1.99690497,M12
+2118,09132 Signal transduction,M12_C,1.215478579,M12
+2119,09142 Cell motility,M12_C,2.471025697,M12
+2120,09181 Protein families: metabolism,M12_C,2.285287231,M12
+2121,09182 Protein families: genetic information processing,M12_C,9.598123029,M12
+2122,09183 Protein families: signaling and cellular processes,M12_C,4.13301026,M12
+2123,09191 Unclassified: metabolism,M12_C,4.96848544,M12
+2124,Other,M12_C,4.182610632,M12
+2125,09101 Carbohydrate metabolism,M2_A,16.75550961,M2
+2126,09102 Energy metabolism,M2_A,8.175578423,M2
+2127,09103 Lipid metabolism,M2_A,4.570795175,M2
+2128,09104 Nucleotide metabolism,M2_A,3.902388653,M2
+2129,09105 Amino acid metabolism,M2_A,10.00995618,M2
+2130,09106 Metabolism of other amino acids,M2_A,1.584498728,M2
+2131,09107 Glycan biosynthesis and metabolism,M2_A,3.335385921,M2
+2132,09108 Metabolism of cofactors and vitamins,M2_A,5.194037859,M2
+2133,09122 Translation,M2_A,13.69377689,M2
+2134,09124 Replication and repair,M2_A,1.189636425,M2
+2135,09131 Membrane transport,M2_A,1.797179592,M2
+2136,09132 Signal transduction,M2_A,1.363862819,M2
+2137,09142 Cell motility,M2_A,2.664630716,M2
+2138,09181 Protein families: metabolism,M2_A,2.386903555,M2
+2139,09182 Protein families: genetic information processing,M2_A,9.406076814,M2
+2140,09183 Protein families: signaling and cellular processes,M2_A,4.327285474,M2
+2141,09191 Unclassified: metabolism,M2_A,5.262414076,M2
+2142,Other,M2_A,4.380083094,M2
+2143,09101 Carbohydrate metabolism,M2_B,17.00673445,M2
+2144,09102 Energy metabolism,M2_B,8.27536058,M2
+2145,09103 Lipid metabolism,M2_B,4.645450935,M2
+2146,09104 Nucleotide metabolism,M2_B,3.885434218,M2
+2147,09105 Amino acid metabolism,M2_B,10.00939341,M2
+2148,09106 Metabolism of other amino acids,M2_B,1.57517206,M2
+2149,09107 Glycan biosynthesis and metabolism,M2_B,3.19199698,M2
+2150,09108 Metabolism of cofactors and vitamins,M2_B,5.243853071,M2
+2151,09122 Translation,M2_B,13.77653058,M2
+2152,09124 Replication and repair,M2_B,1.209180609,M2
+2153,09131 Membrane transport,M2_B,1.782435416,M2
+2154,09132 Signal transduction,M2_B,1.292879949,M2
+2155,09142 Cell motility,M2_B,2.571331575,M2
+2156,09181 Protein families: metabolism,M2_B,2.433489751,M2
+2157,09182 Protein families: genetic information processing,M2_B,9.333283124,M2
+2158,09183 Protein families: signaling and cellular processes,M2_B,4.084827414,M2
+2159,09191 Unclassified: metabolism,M2_B,5.299458431,M2
+2160,Other,M2_B,4.383187448,M2
+2161,09101 Carbohydrate metabolism,M2_C,17.49357012,M2
+2162,09102 Energy metabolism,M2_C,8.236269694,M2
+2163,09103 Lipid metabolism,M2_C,4.546639144,M2
+2164,09104 Nucleotide metabolism,M2_C,4.16072578,M2
+2165,09105 Amino acid metabolism,M2_C,9.968688179,M2
+2166,09106 Metabolism of other amino acids,M2_C,1.436690957,M2
+2167,09107 Glycan biosynthesis and metabolism,M2_C,3.041611535,M2
+2168,09108 Metabolism of cofactors and vitamins,M2_C,5.263859171,M2
+2169,09122 Translation,M2_C,14.16935772,M2
+2170,09124 Replication and repair,M2_C,1.258598848,M2
+2171,09131 Membrane transport,M2_C,1.994231799,M2
+2172,09132 Signal transduction,M2_C,1.202851324,M2
+2173,09142 Cell motility,M2_C,2.329574537,M2
+2174,09181 Protein families: metabolism,M2_C,2.485060869,M2
+2175,09182 Protein families: genetic information processing,M2_C,9.420880359,M2
+2176,09183 Protein families: signaling and cellular processes,M2_C,3.504256325,M2
+2177,09191 Unclassified: metabolism,M2_C,5.180694282,M2
+2178,Other,M2_C,4.306439365,M2
+2179,09101 Carbohydrate metabolism,M3_A,16.75437972,M3
+2180,09102 Energy metabolism,M3_A,8.055950583,M3
+2181,09103 Lipid metabolism,M3_A,4.387358713,M3
+2182,09104 Nucleotide metabolism,M3_A,4.077432015,M3
+2183,09105 Amino acid metabolism,M3_A,9.950343495,M3
+2184,09106 Metabolism of other amino acids,M3_A,1.474361502,M3
+2185,09107 Glycan biosynthesis and metabolism,M3_A,3.384165485,M3
+2186,09108 Metabolism of cofactors and vitamins,M3_A,5.114553365,M3
+2187,09122 Translation,M3_A,14.02058454,M3
+2188,09124 Replication and repair,M3_A,1.221502405,M3
+2189,09131 Membrane transport,M3_A,1.973266399,M3
+2190,09132 Signal transduction,M3_A,1.335589981,M3
+2191,09142 Cell motility,M3_A,2.638234285,M3
+2192,09181 Protein families: metabolism,M3_A,2.435440604,M3
+2193,09182 Protein families: genetic information processing,M3_A,9.527431035,M3
+2194,09183 Protein families: signaling and cellular processes,M3_A,4.082530835,M3
+2195,09191 Unclassified: metabolism,M3_A,5.122032725,M3
+2196,Other,M3_A,4.444842314,M3
+2197,09101 Carbohydrate metabolism,M3_B,17.05091273,M3
+2198,09102 Energy metabolism,M3_B,8.178993564,M3
+2199,09103 Lipid metabolism,M3_B,4.540660625,M3
+2200,09104 Nucleotide metabolism,M3_B,3.970623608,M3
+2201,09105 Amino acid metabolism,M3_B,9.983211465,M3
+2202,09106 Metabolism of other amino acids,M3_B,1.543701924,M3
+2203,09107 Glycan biosynthesis and metabolism,M3_B,3.140719237,M3
+2204,09108 Metabolism of cofactors and vitamins,M3_B,5.143071355,M3
+2205,09122 Translation,M3_B,13.78047481,M3
+2206,09124 Replication and repair,M3_B,1.21450736,M3
+2207,09131 Membrane transport,M3_B,1.992193337,M3
+2208,09132 Signal transduction,M3_B,1.311327984,M3
+2209,09142 Cell motility,M3_B,2.716358711,M3
+2210,09181 Protein families: metabolism,M3_B,2.467234834,M3
+2211,09182 Protein families: genetic information processing,M3_B,9.451828714,M3
+2212,09183 Protein families: signaling and cellular processes,M3_B,3.867094709,M3
+2213,09191 Unclassified: metabolism,M3_B,5.185010622,M3
+2214,Other,M3_B,4.462074416,M3
+2215,09101 Carbohydrate metabolism,M3_C,16.78826662,M3
+2216,09102 Energy metabolism,M3_C,8.140981878,M3
+2217,09103 Lipid metabolism,M3_C,4.381217569,M3
+2218,09104 Nucleotide metabolism,M3_C,4.022669825,M3
+2219,09105 Amino acid metabolism,M3_C,9.878306812,M3
+2220,09106 Metabolism of other amino acids,M3_C,1.533010215,M3
+2221,09107 Glycan biosynthesis and metabolism,M3_C,3.290558548,M3
+2222,09108 Metabolism of cofactors and vitamins,M3_C,5.175260558,M3
+2223,09122 Translation,M3_C,14.1785929,M3
+2224,09124 Replication and repair,M3_C,1.173798786,M3
+2225,09131 Membrane transport,M3_C,1.873106673,M3
+2226,09132 Signal transduction,M3_C,1.339397223,M3
+2227,09142 Cell motility,M3_C,2.849031806,M3
+2228,09181 Protein families: metabolism,M3_C,2.351222619,M3
+2229,09182 Protein families: genetic information processing,M3_C,9.596234385,M3
+2230,09183 Protein families: signaling and cellular processes,M3_C,3.990376714,M3
+2231,09191 Unclassified: metabolism,M3_C,5.004919263,M3
+2232,Other,M3_C,4.43304761,M3
+2233,09101 Carbohydrate metabolism,M4_A,17.39764762,M4
+2234,09102 Energy metabolism,M4_A,8.276950189,M4
+2235,09103 Lipid metabolism,M4_A,4.707035013,M4
+2236,09104 Nucleotide metabolism,M4_A,3.863299105,M4
+2237,09105 Amino acid metabolism,M4_A,9.943803229,M4
+2238,09106 Metabolism of other amino acids,M4_A,1.54474545,M4
+2239,09107 Glycan biosynthesis and metabolism,M4_A,3.014984415,M4
+2240,09108 Metabolism of cofactors and vitamins,M4_A,5.306081347,M4
+2241,09122 Translation,M4_A,13.9386597,M4
+2242,09124 Replication and repair,M4_A,1.207793845,M4
+2243,09131 Membrane transport,M4_A,1.876785014,M4
+2244,09132 Signal transduction,M4_A,1.249166232,M4
+2245,09142 Cell motility,M4_A,2.737380583,M4
+2246,09181 Protein families: metabolism,M4_A,2.462126171,M4
+2247,09182 Protein families: genetic information processing,M4_A,9.347746665,M4
+2248,09183 Protein families: signaling and cellular processes,M4_A,3.700501571,M4
+2249,09191 Unclassified: metabolism,M4_A,5.146851581,M4
+2250,Other,M4_A,4.278442269,M4
+2251,09101 Carbohydrate metabolism,M4_B,16.82294455,M4
+2252,09102 Energy metabolism,M4_B,8.179605077,M4
+2253,09103 Lipid metabolism,M4_B,4.496295001,M4
+2254,09104 Nucleotide metabolism,M4_B,3.995383386,M4
+2255,09105 Amino acid metabolism,M4_B,9.930836509,M4
+2256,09106 Metabolism of other amino acids,M4_B,1.515511369,M4
+2257,09107 Glycan biosynthesis and metabolism,M4_B,3.415863138,M4
+2258,09108 Metabolism of cofactors and vitamins,M4_B,5.234130881,M4
+2259,09122 Translation,M4_B,14.1335797,M4
+2260,09124 Replication and repair,M4_B,1.17299441,M4
+2261,09131 Membrane transport,M4_B,1.876095019,M4
+2262,09132 Signal transduction,M4_B,1.30193419,M4
+2263,09142 Cell motility,M4_B,2.536227109,M4
+2264,09181 Protein families: metabolism,M4_B,2.39355949,M4
+2265,09182 Protein families: genetic information processing,M4_B,9.441010221,M4
+2266,09183 Protein families: signaling and cellular processes,M4_B,4.096903479,M4
+2267,09191 Unclassified: metabolism,M4_B,5.102840998,M4
+2268,Other,M4_B,4.354285479,M4
+2269,09101 Carbohydrate metabolism,M4_C,17.13137712,M4
+2270,09102 Energy metabolism,M4_C,8.230794323,M4
+2271,09103 Lipid metabolism,M4_C,4.286449305,M4
+2272,09104 Nucleotide metabolism,M4_C,4.368430189,M4
+2273,09105 Amino acid metabolism,M4_C,9.734807237,M4
+2274,09106 Metabolism of other amino acids,M4_C,1.326402556,M4
+2275,09107 Glycan biosynthesis and metabolism,M4_C,3.373712234,M4
+2276,09108 Metabolism of cofactors and vitamins,M4_C,5.344525586,M4
+2277,09122 Translation,M4_C,14.81203006,M4
+2278,09124 Replication and repair,M4_C,1.231323202,M4
+2279,09131 Membrane transport,M4_C,2.101936455,M4
+2280,09132 Signal transduction,M4_C,1.138826964,M4
+2281,09142 Cell motility,M4_C,2.179252138,M4
+2282,09181 Protein families: metabolism,M4_C,2.348157001,M4
+2283,09182 Protein families: genetic information processing,M4_C,9.673908509,M4
+2284,09183 Protein families: signaling and cellular processes,M4_C,3.57685648,M4
+2285,09191 Unclassified: metabolism,M4_C,4.963843616,M4
+2286,Other,M4_C,4.177367024,M4
+2287,09101 Carbohydrate metabolism,M5_A,17.40552861,M5
+2288,09102 Energy metabolism,M5_A,8.104612781,M5
+2289,09103 Lipid metabolism,M5_A,4.605016448,M5
+2290,09104 Nucleotide metabolism,M5_A,3.998422018,M5
+2291,09105 Amino acid metabolism,M5_A,10.05675356,M5
+2292,09106 Metabolism of other amino acids,M5_A,1.501170698,M5
+2293,09107 Glycan biosynthesis and metabolism,M5_A,3.133207291,M5
+2294,09108 Metabolism of cofactors and vitamins,M5_A,5.270639264,M5
+2295,09122 Translation,M5_A,13.96455631,M5
+2296,09124 Replication and repair,M5_A,1.225343519,M5
+2297,09131 Membrane transport,M5_A,1.791916793,M5
+2298,09132 Signal transduction,M5_A,1.285661741,M5
+2299,09142 Cell motility,M5_A,2.507113984,M5
+2300,09181 Protein families: metabolism,M5_A,2.550692552,M5
+2301,09182 Protein families: genetic information processing,M5_A,9.28892307,M5
+2302,09183 Protein families: signaling and cellular processes,M5_A,3.774408469,M5
+2303,09191 Unclassified: metabolism,M5_A,5.250126453,M5
+2304,Other,M5_A,4.285906446,M5
+2305,09101 Carbohydrate metabolism,M5_B,17.30531373,M5
+2306,09102 Energy metabolism,M5_B,8.166411436,M5
+2307,09103 Lipid metabolism,M5_B,4.608483898,M5
+2308,09104 Nucleotide metabolism,M5_B,3.912114089,M5
+2309,09105 Amino acid metabolism,M5_B,9.984937201,M5
+2310,09106 Metabolism of other amino acids,M5_B,1.560171806,M5
+2311,09107 Glycan biosynthesis and metabolism,M5_B,3.065294993,M5
+2312,09108 Metabolism of cofactors and vitamins,M5_B,5.252931908,M5
+2313,09122 Translation,M5_B,13.87659624,M5
+2314,09124 Replication and repair,M5_B,1.200225742,M5
+2315,09131 Membrane transport,M5_B,1.85775538,M5
+2316,09132 Signal transduction,M5_B,1.303800087,M5
+2317,09142 Cell motility,M5_B,2.767894348,M5
+2318,09181 Protein families: metabolism,M5_B,2.505753362,M5
+2319,09182 Protein families: genetic information processing,M5_B,9.334284051,M5
+2320,09183 Protein families: signaling and cellular processes,M5_B,3.773409925,M5
+2321,09191 Unclassified: metabolism,M5_B,5.190926308,M5
+2322,Other,M5_B,4.33369549,M5
+2323,09101 Carbohydrate metabolism,M5_C,17.26636461,M5
+2324,09102 Energy metabolism,M5_C,8.126318705,M5
+2325,09103 Lipid metabolism,M5_C,4.373079285,M5
+2326,09104 Nucleotide metabolism,M5_C,4.2499235,M5
+2327,09105 Amino acid metabolism,M5_C,9.913088245,M5
+2328,09106 Metabolism of other amino acids,M5_C,1.388043152,M5
+2329,09107 Glycan biosynthesis and metabolism,M5_C,3.114376712,M5
+2330,09108 Metabolism of cofactors and vitamins,M5_C,5.322549937,M5
+2331,09122 Translation,M5_C,14.94252257,M5
+2332,09124 Replication and repair,M5_C,1.277427295,M5
+2333,09131 Membrane transport,M5_C,1.926913924,M5
+2334,09132 Signal transduction,M5_C,1.160980358,M5
+2335,09142 Cell motility,M5_C,2.483824145,M5
+2336,09181 Protein families: metabolism,M5_C,2.463563763,M5
+2337,09182 Protein families: genetic information processing,M5_C,9.575591969,M5
+2338,09183 Protein families: signaling and cellular processes,M5_C,3.381738566,M5
+2339,09191 Unclassified: metabolism,M5_C,4.781325226,M5
+2340,Other,M5_C,4.252368045,M5
+2341,09101 Carbohydrate metabolism,M6_A,17.15257225,M6
+2342,09102 Energy metabolism,M6_A,8.13870746,M6
+2343,09103 Lipid metabolism,M6_A,4.538800755,M6
+2344,09104 Nucleotide metabolism,M6_A,3.97755959,M6
+2345,09105 Amino acid metabolism,M6_A,9.975275149,M6
+2346,09106 Metabolism of other amino acids,M6_A,1.537951517,M6
+2347,09107 Glycan biosynthesis and metabolism,M6_A,3.236229968,M6
+2348,09108 Metabolism of cofactors and vitamins,M6_A,5.207841416,M6
+2349,09122 Translation,M6_A,13.79616411,M6
+2350,09124 Replication and repair,M6_A,1.198002375,M6
+2351,09131 Membrane transport,M6_A,1.933293015,M6
+2352,09132 Signal transduction,M6_A,1.311303164,M6
+2353,09142 Cell motility,M6_A,2.632497775,M6
+2354,09181 Protein families: metabolism,M6_A,2.484520942,M6
+2355,09182 Protein families: genetic information processing,M6_A,9.367909812,M6
+2356,09183 Protein families: signaling and cellular processes,M6_A,3.911553648,M6
+2357,09191 Unclassified: metabolism,M6_A,5.226333359,M6
+2358,Other,M6_A,4.373483696,M6
+2359,09101 Carbohydrate metabolism,M6_B,17.3316459,M6
+2360,09102 Energy metabolism,M6_B,8.254552105,M6
+2361,09103 Lipid metabolism,M6_B,4.615765265,M6
+2362,09104 Nucleotide metabolism,M6_B,3.947004035,M6
+2363,09105 Amino acid metabolism,M6_B,9.993837841,M6
+2364,09106 Metabolism of other amino acids,M6_B,1.546791151,M6
+2365,09107 Glycan biosynthesis and metabolism,M6_B,3.057312885,M6
+2366,09108 Metabolism of cofactors and vitamins,M6_B,5.244839035,M6
+2367,09122 Translation,M6_B,13.83788212,M6
+2368,09124 Replication and repair,M6_B,1.210960607,M6
+2369,09131 Membrane transport,M6_B,1.884035082,M6
+2370,09132 Signal transduction,M6_B,1.288510424,M6
+2371,09142 Cell motility,M6_B,2.69996594,M6
+2372,09181 Protein families: metabolism,M6_B,2.477552085,M6
+2373,09182 Protein families: genetic information processing,M6_B,9.319783061,M6
+2374,09183 Protein families: signaling and cellular processes,M6_B,3.780149799,M6
+2375,09191 Unclassified: metabolism,M6_B,5.196844132,M6
+2376,Other,M6_B,4.31256854,M6
+2377,09101 Carbohydrate metabolism,M6_C,17.26786215,M6
+2378,09102 Energy metabolism,M6_C,8.178495485,M6
+2379,09103 Lipid metabolism,M6_C,4.46316217,M6
+2380,09104 Nucleotide metabolism,M6_C,4.103088661,M6
+2381,09105 Amino acid metabolism,M6_C,9.979093095,M6
+2382,09106 Metabolism of other amino acids,M6_C,1.481100858,M6
+2383,09107 Glycan biosynthesis and metabolism,M6_C,3.274053669,M6
+2384,09108 Metabolism of cofactors and vitamins,M6_C,5.216595757,M6
+2385,09122 Translation,M6_C,14.00966662,M6
+2386,09124 Replication and repair,M6_C,1.196842142,M6
+2387,09131 Membrane transport,M6_C,1.951219597,M6
+2388,09132 Signal transduction,M6_C,1.266246212,M6
+2389,09142 Cell motility,M6_C,2.464872015,M6
+2390,09181 Protein families: metabolism,M6_C,2.430196863,M6
+2391,09182 Protein families: genetic information processing,M6_C,9.424651098,M6
+2392,09183 Protein families: signaling and cellular processes,M6_C,3.807948126,M6
+2393,09191 Unclassified: metabolism,M6_C,5.136983985,M6
+2394,Other,M6_C,4.347921498,M6
+2395,09101 Carbohydrate metabolism,M7_A,17.06585127,M7
+2396,09102 Energy metabolism,M7_A,8.06857491,M7
+2397,09103 Lipid metabolism,M7_A,4.560093397,M7
+2398,09104 Nucleotide metabolism,M7_A,3.987297749,M7
+2399,09105 Amino acid metabolism,M7_A,10.09155427,M7
+2400,09106 Metabolism of other amino acids,M7_A,1.520211222,M7
+2401,09107 Glycan biosynthesis and metabolism,M7_A,3.286426006,M7
+2402,09108 Metabolism of cofactors and vitamins,M7_A,5.325361474,M7
+2403,09122 Translation,M7_A,13.90162831,M7
+2404,09124 Replication and repair,M7_A,1.242629038,M7
+2405,09131 Membrane transport,M7_A,1.731788949,M7
+2406,09132 Signal transduction,M7_A,1.304382297,M7
+2407,09142 Cell motility,M7_A,2.498768386,M7
+2408,09181 Protein families: metabolism,M7_A,2.453260507,M7
+2409,09182 Protein families: genetic information processing,M7_A,9.284347604,M7
+2410,09183 Protein families: signaling and cellular processes,M7_A,4.120223035,M7
+2411,09191 Unclassified: metabolism,M7_A,5.261361554,M7
+2412,Other,M7_A,4.296240021,M7
+2413,09101 Carbohydrate metabolism,M7_B,17.38291187,M7
+2414,09102 Energy metabolism,M7_B,8.15320888,M7
+2415,09103 Lipid metabolism,M7_B,4.577847076,M7
+2416,09104 Nucleotide metabolism,M7_B,4.04379102,M7
+2417,09105 Amino acid metabolism,M7_B,9.995290459,M7
+2418,09106 Metabolism of other amino acids,M7_B,1.473069391,M7
+2419,09107 Glycan biosynthesis and metabolism,M7_B,3.072624567,M7
+2420,09108 Metabolism of cofactors and vitamins,M7_B,5.28331601,M7
+2421,09122 Translation,M7_B,14.0732633,M7
+2422,09124 Replication and repair,M7_B,1.224108945,M7
+2423,09131 Membrane transport,M7_B,1.904934503,M7
+2424,09132 Signal transduction,M7_B,1.268719927,M7
+2425,09142 Cell motility,M7_B,2.62893247,M7
+2426,09181 Protein families: metabolism,M7_B,2.47987968,M7
+2427,09182 Protein families: genetic information processing,M7_B,9.349301664,M7
+2428,09183 Protein families: signaling and cellular processes,M7_B,3.692049259,M7
+2429,09191 Unclassified: metabolism,M7_B,5.16309856,M7
+2430,Other,M7_B,4.233652424,M7
+2431,09101 Carbohydrate metabolism,M7_C,17.39257661,M7
+2432,09102 Energy metabolism,M7_C,8.064183911,M7
+2433,09103 Lipid metabolism,M7_C,4.40726141,M7
+2434,09104 Nucleotide metabolism,M7_C,4.249956203,M7
+2435,09105 Amino acid metabolism,M7_C,10.1233962,M7
+2436,09106 Metabolism of other amino acids,M7_C,1.388888125,M7
+2437,09107 Glycan biosynthesis and metabolism,M7_C,3.086736513,M7
+2438,09108 Metabolism of cofactors and vitamins,M7_C,5.243638356,M7
+2439,09122 Translation,M7_C,15.04762612,M7
+2440,09124 Replication and repair,M7_C,1.306188093,M7
+2441,09131 Membrane transport,M7_C,1.808202657,M7
+2442,09132 Signal transduction,M7_C,1.161520206,M7
+2443,09142 Cell motility,M7_C,2.256165975,M7
+2444,09181 Protein families: metabolism,M7_C,2.484673907,M7
+2445,09182 Protein families: genetic information processing,M7_C,9.451382897,M7
+2446,09183 Protein families: signaling and cellular processes,M7_C,3.337420875,M7
+2447,09191 Unclassified: metabolism,M7_C,4.896151021,M7
+2448,Other,M7_C,4.294030918,M7
+2449,09101 Carbohydrate metabolism,M8_A,17.82728003,M8
+2450,09102 Energy metabolism,M8_A,8.151114202,M8
+2451,09103 Lipid metabolism,M8_A,4.722094847,M8
+2452,09104 Nucleotide metabolism,M8_A,3.897488707,M8
+2453,09105 Amino acid metabolism,M8_A,10.0566233,M8
+2454,09106 Metabolism of other amino acids,M8_A,1.547964456,M8
+2455,09107 Glycan biosynthesis and metabolism,M8_A,2.85750822,M8
+2456,09108 Metabolism of cofactors and vitamins,M8_A,5.300425194,M8
+2457,09122 Translation,M8_A,13.2853449,M8
+2458,09124 Replication and repair,M8_A,1.222942016,M8
+2459,09131 Membrane transport,M8_A,1.968446747,M8
+2460,09132 Signal transduction,M8_A,1.299191514,M8
+2461,09142 Cell motility,M8_A,2.740899474,M8
+2462,09181 Protein families: metabolism,M8_A,2.563396606,M8
+2463,09182 Protein families: genetic information processing,M8_A,9.193356716,M8
+2464,09183 Protein families: signaling and cellular processes,M8_A,3.658625883,M8
+2465,09191 Unclassified: metabolism,M8_A,5.367162806,M8
+2466,Other,M8_A,4.34013438,M8
+2467,09101 Carbohydrate metabolism,M8_B,17.66105494,M8
+2468,09102 Energy metabolism,M8_B,8.134212565,M8
+2469,09103 Lipid metabolism,M8_B,4.698584139,M8
+2470,09104 Nucleotide metabolism,M8_B,3.958966896,M8
+2471,09105 Amino acid metabolism,M8_B,10.14245206,M8
+2472,09106 Metabolism of other amino acids,M8_B,1.508583574,M8
+2473,09107 Glycan biosynthesis and metabolism,M8_B,2.931895951,M8
+2474,09108 Metabolism of cofactors and vitamins,M8_B,5.302137008,M8
+2475,09122 Translation,M8_B,13.70063465,M8
+2476,09124 Replication and repair,M8_B,1.254063611,M8
+2477,09131 Membrane transport,M8_B,1.804719937,M8
+2478,09132 Signal transduction,M8_B,1.279675019,M8
+2479,09142 Cell motility,M8_B,2.524746265,M8
+2480,09181 Protein families: metabolism,M8_B,2.603007061,M8
+2481,09182 Protein families: genetic information processing,M8_B,9.199715728,M8
+2482,09183 Protein families: signaling and cellular processes,M8_B,3.669725849,M8
+2483,09191 Unclassified: metabolism,M8_B,5.337135407,M8
+2484,Other,M8_B,4.288689343,M8
+2485,09101 Carbohydrate metabolism,M8_C,17.44044403,M8
+2486,09102 Energy metabolism,M8_C,8.039018239,M8
+2487,09103 Lipid metabolism,M8_C,4.553894732,M8
+2488,09104 Nucleotide metabolism,M8_C,4.19962186,M8
+2489,09105 Amino acid metabolism,M8_C,10.17428106,M8
+2490,09106 Metabolism of other amino acids,M8_C,1.357871999,M8
+2491,09107 Glycan biosynthesis and metabolism,M8_C,3.077016514,M8
+2492,09108 Metabolism of cofactors and vitamins,M8_C,5.238452928,M8
+2493,09122 Translation,M8_C,14.84811723,M8
+2494,09124 Replication and repair,M8_C,1.332951688,M8
+2495,09131 Membrane transport,M8_C,1.818068747,M8
+2496,09132 Signal transduction,M8_C,1.150713839,M8
+2497,09142 Cell motility,M8_C,2.268541221,M8
+2498,09181 Protein families: metabolism,M8_C,2.567474813,M8
+2499,09182 Protein families: genetic information processing,M8_C,9.436357328,M8
+2500,09183 Protein families: signaling and cellular processes,M8_C,3.315082411,M8
+2501,09191 Unclassified: metabolism,M8_C,4.963463133,M8
+2502,Other,M8_C,4.218628226,M8
+2503,09101 Carbohydrate metabolism,M9_A,16.80321657,M9
+2504,09102 Energy metabolism,M9_A,8.243333263,M9
+2505,09103 Lipid metabolism,M9_A,4.419389891,M9
+2506,09104 Nucleotide metabolism,M9_A,4.061586401,M9
+2507,09105 Amino acid metabolism,M9_A,9.787582132,M9
+2508,09106 Metabolism of other amino acids,M9_A,1.473976839,M9
+2509,09107 Glycan biosynthesis and metabolism,M9_A,3.526251742,M9
+2510,09108 Metabolism of cofactors and vitamins,M9_A,5.28179401,M9
+2511,09122 Translation,M9_A,13.59767588,M9
+2512,09124 Replication and repair,M9_A,1.129689885,M9
+2513,09131 Membrane transport,M9_A,2.154043044,M9
+2514,09132 Signal transduction,M9_A,1.260039413,M9
+2515,09142 Cell motility,M9_A,2.561786441,M9
+2516,09181 Protein families: metabolism,M9_A,2.236521497,M9
+2517,09182 Protein families: genetic information processing,M9_A,9.600608511,M9
+2518,09183 Protein families: signaling and cellular processes,M9_A,4.370263779,M9
+2519,09191 Unclassified: metabolism,M9_A,5.258503582,M9
+2520,Other,M9_A,4.233737116,M9
+2521,09101 Carbohydrate metabolism,M9_B,16.97985791,M9
+2522,09102 Energy metabolism,M9_B,8.260991975,M9
+2523,09103 Lipid metabolism,M9_B,4.479147338,M9
+2524,09104 Nucleotide metabolism,M9_B,3.987964578,M9
+2525,09105 Amino acid metabolism,M9_B,9.823942782,M9
+2526,09106 Metabolism of other amino acids,M9_B,1.516854225,M9
+2527,09107 Glycan biosynthesis and metabolism,M9_B,3.311211303,M9
+2528,09108 Metabolism of cofactors and vitamins,M9_B,5.231811131,M9
+2529,09122 Translation,M9_B,13.65919587,M9
+2530,09124 Replication and repair,M9_B,1.145611054,M9
+2531,09131 Membrane transport,M9_B,2.084535156,M9
+2532,09132 Signal transduction,M9_B,1.295863365,M9
+2533,09142 Cell motility,M9_B,2.747603156,M9
+2534,09181 Protein families: metabolism,M9_B,2.344924931,M9
+2535,09182 Protein families: genetic information processing,M9_B,9.46593149,M9
+2536,09183 Protein families: signaling and cellular processes,M9_B,4.174202292,M9
+2537,09191 Unclassified: metabolism,M9_B,5.219254459,M9
+2538,Other,M9_B,4.271096982,M9
+2539,09101 Carbohydrate metabolism,M9_C,16.99677481,M9
+2540,09102 Energy metabolism,M9_C,8.31523121,M9
+2541,09103 Lipid metabolism,M9_C,4.434586282,M9
+2542,09104 Nucleotide metabolism,M9_C,4.039943512,M9
+2543,09105 Amino acid metabolism,M9_C,9.798780556,M9
+2544,09106 Metabolism of other amino acids,M9_C,1.507537902,M9
+2545,09107 Glycan biosynthesis and metabolism,M9_C,3.275523455,M9
+2546,09108 Metabolism of cofactors and vitamins,M9_C,5.252612108,M9
+2547,09122 Translation,M9_C,13.8883494,M9
+2548,09124 Replication and repair,M9_C,1.131970475,M9
+2549,09131 Membrane transport,M9_C,2.098846034,M9
+2550,09132 Signal transduction,M9_C,1.286597531,M9
+2551,09142 Cell motility,M9_C,2.806065722,M9
+2552,09181 Protein families: metabolism,M9_C,2.32850992,M9
+2553,09182 Protein families: genetic information processing,M9_C,9.53517151,M9
+2554,09183 Protein families: signaling and cellular processes,M9_C,4.008716683,M9
+2555,09191 Unclassified: metabolism,M9_C,5.072668747,M9
+2556,Other,M9_C,4.22211414,M9

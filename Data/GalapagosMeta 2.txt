@@ -1,0 +1,143 @@
+sample	plant_nr	Sample_Depth	Plant	Native	Site	Site_Plant	Elevation_m	Environment	SampleName
+C1_A	C1	rhizo	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C1-A_TGTGCGTAC
+C1_B	C1	5cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C1-B_TGGCTCTAA
+C10_A	C10	rhizo	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C10-A_GTGTATGCA
+C10_B	C10	5cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C10-B_ACATTGCGT
+C10_C	C10	15cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C10-C_TCTTCGAGC
+C11_A	C11	rhizo	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C11-A_GCAACGTCT
+C11_B	C11	5cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C11-B_GCAGCTCTA
+C11_C	C11	15cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C11-C_GAGGTTACC
+C12_A	C12	rhizo	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C12-A_CATGAAGTC
+C12_B	C12	5cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C12-B_AGTATGCAG
+C12_C	C12	15cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C12-C_GATGCCTTA
+C2_A	C2	rhizo	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C2-A_CGACCTTAT
+C2_B	C2	5cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C2-B_AGTGCCACT
+C2_C	C2	15cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C2-C_CACTTCTGG
+C3_A	C3	rhizo	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C3-A_CGCTAGTAG
+C3_B	C3	5cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C3-B_GGAACGCTA
+C3_C	C3	15cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C3-C_ATGACTCAC
+C4_A	C4	rhizo	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C4-A_GTAGGACCA
+C4_B	C4	5cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C4-B_GTACGCGTA
+C4_C	C4	15cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C4-C_AGATGGCTC
+C5_A	C5	rhizo	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C5-A_ATACGGACG
+C5_B	C5	5cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C5-B_GAACGTATC
+C5_C	C5	15cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C5-C_AACCAGCTG
+C6_B	C6	5cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C6-B_GGCGCTTAA
+C6_C	C6	15cm	Guava	No	Cerro Alto	Cerro Alto_Guava	520	Semi-humid	GI2019_C6-C_CTTCGCAGG
+C7_A	C7	rhizo	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C7-A_CGGCTACAA
+C7_B	C7	5cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C7-B_CTCTACAGA
+C7_C	C7	15cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C7-C_GCTTAATAG
+C8_A	C8	rhizo	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C8-A_ACCTCAGAG
+C8_B	C8	5cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C8-B_CGAATCCTG
+C8_C	C8	15cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C8-C_TAGCAGTGA
+C9_A	C9	rhizo	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C9-A_GTGACATGT
+C9_B	C9	5cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C9-B_CGGCAGAAT
+C9_C	C9	15cm	Vervain	Yes	Cerro Alto	Cerro Alto_Vervain	520	Semi-humid	GI2019_C9-C_CAGCGTGTA
+J1_A	J1	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J1-A_GCGAATACT
+J1_B	J1	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J1-B_TCGCACAAG
+J1_C	J1	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J1-C_ACCATCGTG
+J10_A	J10	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J10-A_GGCGCTTAA
+J10_B	J10	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J10-B_CTTCGCAGG
+J10_C	J10	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J10-C_CGGCTACAA
+J11_A	J11	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J11-A_CTCTACAGA
+J11_B	J11	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J11-B_GCTTAATAG
+J11_C	J11	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J11-C_ACCTCAGAG
+J12_A	J12	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J12-A_CGAATCCTG
+J12_B	J12	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J12-B_TAGCAGTGA
+J12_C	J12	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J12-C_GTGACATGT
+J13_A	J13	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J13-A_CGGCAGAAT
+J13_B	J13	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J13-B_CAGCGTGTA
+J13_C	J13	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J13-C_GTGTATGCA
+J14_A	J14	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J14-A_ACATTGCGT
+J14_B	J14	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J14-B_TCTTCGAGC
+J14_C	J14	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J14-C_GCAACGTCT
+J15_A	J15	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J15-A_GCAGCTCTA
+J15_B	J15	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J15-B_GAGGTTACC
+J15_C	J15	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J15-C_CATGAAGTC
+J16_A	J16	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J16-A_AGTATGCAG
+J16_B	J16	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J16-B_GATGCCTTA
+J16_C	J16	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J16-C_GCGAATACT
+J17_A	J17	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J17-A_ATCTGCGAA
+J17_B	J17	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J17-B_AACAGGTGC
+J17_C	J17	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J17-C_TACCATGAG
+J18_A	J18	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J18-A_CCAACTAGT
+J18_B	J18	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J18-B_ATAGTCCGC
+J18_C	J18	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J18-C_TTAAGCGAT
+J19_A	J19	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J19-A_ACGTCCTGA
+J19_B	J19	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J19-B_CAGTAATGC
+J19_C	J19	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J19-C_TTCCATAGC
+J2_A	J2	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J2-A_AAGGCACGT
+J2_B	J2	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J2-B_GCTAGTTCA
+J2_C	J2	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J2-C_CGCTGAATA
+J20_A	J20	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J20-A_TGCACAATC
+J20_B	J20	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J20-B_CATGAGGCT
+J20_C	J20	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J20-C_ACAGGAGTT
+J21_A	J21	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J21-A_AGCCTTCTA
+J21_B	J21	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J21-B_TGACTAGTC
+J21_C	J21	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J21-C_CGAGTATCC
+J22_A	J22	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J22-A_CAATGTCGG
+J22_B	J22	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J22-B_GCGTCACGA
+J22_C	J22	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J22-C_TTATAGGCC
+J23_A	J23	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J23-A_GAGTGCTAC
+J23_B	J23	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J23-B_ACGTCTTAG
+J23_C	J23	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J23-C_TTGTGCACG
+J24_A	J24	rhizo	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J24-A_GGCGTTACA
+J24_B	J24	5cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J24-B_GTCTCGCAT
+J24_C	J24	15cm	Miconia	Yes	el junco	el junco_Miconia	690	Humid	GI2019_J24-C_TCTTGACGG
+J3_A	J3	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J3-A_CACCGATTA
+J3_B	J3	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J3-B_CATGGACGC
+J3_C	J3	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J3-C_CATCTTACG
+J4_A	J4	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J4-A_CTGTAACAG
+J4_B	J4	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J4-B_GATGATCGT
+J4_C	J4	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J4-C_AGCCGTTAC
+J5_A	J5	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J5-A_TAAGCATGG
+J5_B	J5	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J5-B_TGTGCGTAC
+J5_C	J5	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J5-C_TGGCTCTAA
+J6_A	J6	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J6-A_CGACCTTAT
+J6_B	J6	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J6-B_AGTGCCACT
+J6_C	J6	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J6-C_CACTTCTGG
+J7_A	J7	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J7-A_CGCTAGTAG
+J7_B	J7	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J7-B_GGAACGCTA
+J7_C	J7	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J7-C_ATGACTCAC
+J8_A	J8	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J8-A_GTAGGACCA
+J8_B	J8	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J8-B_GTACGCGTA
+J8_C	J8	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J8-C_AGATGGCTC
+J9_A	J9	rhizo	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J9-A_ATACGGACG
+J9_B	J9	5cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J9-B_GAACGTATC
+J9_C	J9	15cm	Guava	No	el junco	el junco_Guava	690	Humid	GI2019_J9-C_AACCAGCTG
+M1_A	M1	rhizo	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M1-A_CGTCGGTAA
+M1_B	M1	5cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M1-B_GTGTCCAAT
+M1_C	M1	15cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M1-C_TCCATGCGA
+M10_A	M10	rhizo	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M10-A_GCTAGTTCA
+M10_B	M10	5cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M10-B_CGCTGAATA
+M10_C	M10	15cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M10-C_CACCGATTA
+M11_A	M11	rhizo	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M11-A_CATGGACGC
+M11_B	M11	5cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M11-B_CATCTTACG
+M11_C	M11	15cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M11-C_CTGTAACAG
+M12_A	M12	rhizo	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M12-A_GATGATCGT
+M12_B	M12	5cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M12-B_AGCCGTTAC
+M12_C	M12	15cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M12-C_TAAGCATGG
+M2_A	M2	rhizo	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M2-A_AGGTTCGCT
+M2_B	M2	5cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M2-B_GTCGAAGCT
+M2_C	M2	15cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M2-C_ACGGCTGAC
+M3_A	M3	rhizo	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M3-A_CTATCTGGA
+M3_B	M3	5cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M3-B_TGGACTCTC
+M3_C	M3	15cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M3-C_ATTGTGAGC
+M4_A	M4	rhizo	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M4-A_TGTCGTCAA
+M4_B	M4	5cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M4-B_CGTTCTAAG
+M4_C	M4	15cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M4-C_TGTGAACCG
+M5_A	M5	rhizo	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M5-A_GGCCTATCG
+M5_B	M5	5cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M5-B_GGATATAGC
+M5_C	M5	15cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M5-C_GCTGAAGAC
+M6_A	M6	rhizo	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M6-A_CGGTGTCTA
+M6_B	M6	5cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M6-B_GTCAGCTGA
+M6_C	M6	15cm	Guava	No	Mirador	Mirador_Guava	320	Arid	GI2019_M6-C_GCCGACTTA
+M7_A	M7	rhizo	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M7-A_CTAAGGAGC
+M7_B	M7	5cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M7-B_TCAGGCCAT
+M7_C	M7	15cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M7-C_TACTTGCAA
+M8_A	M8	rhizo	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M8-A_CTTACTAGG
+M8_B	M8	5cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M8-B_TGATCCTAG
+M8_C	M8	15cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M8-C_ACGTTCATA
+M9_A	M9	rhizo	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M9-A_TCGCACAAG
+M9_B	M9	5cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M9-B_ACCATCGTG
+M9_C	M9	15cm	Scalesia	Yes	Mirador	Mirador_Scalesia	320	Arid	GI2019_M9-C_AAGGCACGT
