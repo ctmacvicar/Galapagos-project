@@ -1,0 +1,434 @@
+#For 16S rhizo and 5 cm of Cerro Alto, Mirador, and el junco
+#################################################################################
+#               By: Vanja Klepac-Ceraj and Caroline MacVicar
+#               adapted from C. Rojas
+################################################################################
+
+## CODE FOR: generating NMDS plots based on 16S microbial commmunity dissimilarity matrices
+## Bray-Curtis & Jaccard (Galapagos data) for rhizo and 5 cm sample depths only
+## and testing significance of patterns using PERMANOVAs
+
+
+source(file="scripts/00_background.R"); #load necessary packages and specifications
+library(ggplot2)
+library(vegan)
+library(dplyr)
+rm(list=ls())
+
+#Loading Data
+taxa=read.csv("data/Galapagos16S_L7.csv",row.names=1,check.names=FALSE);
+meta_data=read.table("data/GalapagosMeta.txt", sep="\t", header=T);
+otus <- as.data.frame(t(taxa))
+meta_data=meta_data[order(meta_data$sample),];
+
+#taxa dataset for permanovas
+taxa1 <- read.table("data/Galapagos_L6_16S.txt", sep="\t", header=T);
+taxa1 <- taxa1[, -c(1,2,3,4,5,6)]
+
+taxa_mirador_rhizo5_perm <- taxa1 %>% select (M1_A, M1_B, M10_A, M10_B, M11_B, M12_B,
+                                             M11_A, M12_A, M2_A, M2_B, M3_A, M3_B, M4_A, M4_B, M5_A, M6_A, 
+                                             M5_B, M6_B, M7_A, M7_B, M8_A, M8_B, M9_A, M9_B, M6_C)
+taxa_cerroA_rhizo5_perm <- taxa1 %>% select(C1_A, C1_B, C10_A, C10_B, C11_A, C11_B, C12_A, C12_B, C2_A, C2_B, C3_A, 
+                                           C3_B, C4_B, C4_A, C5_A, C5_B, C6_B, C7_A, C7_B, C8_A, C8_B, C9_A, C9_B);
+taxa_eljunco_rhizo5_perm <- taxa1 %>% select(J1_A, J1_B, J10_A, J10_B, J11_A, J11_B, J12_A, J12_B, J13_A, J13_B, J14_A, J14_B,
+                                            J15_A, J15_B, J16_A, J16_B, J17_B, J18_B, J19_B, J20_B, J21_B, J22_B, J23_B, J24_B,
+                                            J17_A, J18_A, J19_A, J20_A, J21_A, J22_A, J2_A, J2_B,
+                                            J23_A, J24_A, J3_A, J3_B, J4_B, J4_A,, J5_A, J5_B, J6_A, J6_B,  J7_A, J7_B, J8_A, J8_B, J9_A, J9_B)
+
+# Filtering Data
+meta_data$Plant_Invasiveness <- factor(meta_data$Plant_Invasiveness, labels = c("Native", "Invasive"));
+
+meta_mirador <- meta_data %>% filter(Site == "Mirador");
+meta_rhizo_mirador <- meta_mirador %>% filter(Sample_Depth == "rhizo");
+
+#rhizo and 5 cm sample depths only in meta data
+sample_depth <- c("rhizo", "5cm")
+meta_rhizo5_mirador <- meta_mirador %>% filter (Sample_Depth %in% sample_depth)
+
+meta_cerro_A <- meta_data %>% filter(Site == "Cerro Alto");
+meta_rhizo5_cerro_A <- meta_cerro_A %>% filter(Sample_Depth %in% sample_depth);
+#meta_rhizo_cerro_A=meta_rhizo_cerro_A[order(meta_rhizo_cerro_A),];
+
+meta_eljunco <- meta_data %>% filter(Site == "el junco");
+meta_rhizo5_eljunco <- meta_eljunco %>% filter(Sample_Depth %in% sample_depth);
+#meta_rhizo_eljunco=meta_rhizo_eljunco[order(meta_rhizo_eljunco),];
+
+#Mirador taxa (rhizo and 5 cm only)
+
+taxa_rhizo5_mirador <- otus %>% dplyr::select(M1_A, M1_B, M10_A, M10_B, M11_B, M12_B,
+                                       M11_A, M12_A, M2_A, M2_B, M3_A, M3_B, M4_A, M4_B, M5_A, M6_A, 
+                                       M5_B, M6_B, M7_A, M7_B, M8_A, M8_B, M9_A, M9_B, M6_C);
+taxa_rhizo5_mirador_t <- t(taxa_rhizo5_mirador)
+
+#Cerro Alto taxa (rhizo and 5 cm only)
+taxa_rhizo5_cerro_A <- otus %>% dplyr::select(C1_A, C1_B, C10_A, C10_B, C11_A, C11_B, C12_A, C12_B, C2_A, C2_B, C3_A, 
+                                      C3_B, C4_B, C4_A, C5_A, C5_B, C6_B, C7_A, C7_B, C8_A, C8_B, C9_A, C9_B);
+taxa_rhizo5_cerro_A_t <- t(taxa_rhizo5_cerro_A)
+
+# el junco taxa (rhizo and 5 cm only)
+taxa_rhizo5_eljunco <- otus %>% dplyr::select(J1_A, J1_B, J10_A, J10_B, J11_A, J11_B, J12_A, J12_B, J13_A, J13_B, J14_A, J14_B,
+                                       J15_A, J15_B, J16_A, J16_B, J17_B, J18_B, J19_B, J20_B, J21_B, J22_B, J23_B, J24_B,
+                                      J17_A, J18_A, J19_A, J20_A, J21_A, J22_A, J2_A, J2_B,
+                                      J23_A, J24_A, J3_A, J3_B, J4_B, J4_A,, J5_A, J5_B, J6_A, J6_B,  J7_A, J7_B, J8_A, J8_B, J9_A, J9_B);
+taxa_rhizo5_eljunco_t <- t(taxa_rhizo5_eljunco)
+
+################################################################################
+#                               Mirador NMDS                                  #
+################################################################################
+
+head(meta_rhizo_mirador)
+head(taxa_rhizo_mirador)
+
+
+Plant_Invasiveness <-meta_data$Plant_Invasiveness
+Plant <- meta_data$Plant
+
+
+#transposing columns 'cause vegan likes it that way
+t_otus <- as.data.frame(t(taxa_rhizo5_mirador))
+t_otus[rowSums(t_otus[])>0,]
+
+#rarefying data - there's some controversy about that so we might choose to normalize it instead in the future.
+min_depth = min(colSums(taxa_rhizo5_mirador))
+t_otus_rarefied <- as.data.frame(round(rrarefy(taxa_rhizo5_mirador, min_depth)))
+
+
+#choose which method to use
+otus_dist = as.matrix((vegdist(taxa_rhizo5_mirador_t, "bray")))
+otus_dist[rowSums(otus_dist[])>0,]
+
+#perform NMDS-- this is how far I got
+NMDS = metaMDS(otus_dist, distance = "bray", trymax = 100)
+stressplot(NMDS) 
+
+
+#build a data frame with NMDS coordinates and metadata
+MDS1 = NMDS$points[,1]
+MDS2 = NMDS$points[,2]
+NMDS = data.frame(MDS1 = MDS1, Plant <-meta_rhizo5_mirador$Plant)
+NMDS1 = data.frame(MDS1=MDS1, Sample_Depth <- meta_rhizo5_mirador$Sample_Depth)
+
+head(NMDS1)
+head(NMDS)
+
+NMDS2 = inner_join(NMDS1, NMDS)
+
+
+#plot using ggplot2.it’s an excellent package for plotting and comes with a ton of functionality.  
+
+mirador_NMDS <- ggplot(NMDS2, aes(x=MDS1, y=MDS2, fill=Plant, group= c(Plant))) +
+  geom_point(mapping=aes(shape=as.factor(Sample_Depth)),
+             size = 4, color="#FF9200")+
+  scale_shape_manual(values = c(24, 22)) +
+  stat_ellipse() +
+  theme_bw() +
+  scale_fill_manual(
+    values = c("white", "#FF9200"),
+    guide = guide_legend(override.aes = list(shape = 21)))+
+  scale_color_manual(values = c("#FF9200")) +
+  labs(title = "NMDS Site Plot", shape= "Sample Depth", fill= "Plant")
+plot(mirador_NMDS)
+
+#save plot
+ggsave(filename="galapagos16S_mirador_rhizo5cm_NMDS.pdf",
+       device="pdf",path="./images",
+       plot=mirador_NMDS,
+       width=6,
+       height=5,
+       units="in",
+       dpi=500);
+
+
+################################################################################
+#             2. Generate the 2 types of distance matrices for permanova
+################################################################################
+#transpose OTU table so OTUs are columns
+taxadf=taxa_mirador_rhizo5_perm
+taxadf=t(taxadf);
+taxadf=taxadf[order(row.names(taxadf)),];
+
+###BRAY-CURTIS distance
+bray<-apply(taxadf, 1, function(i) (i/sum(i)));
+bray=as.data.frame(t(bray));
+#print(rowSums(bray));
+bray.dist=vegdist(bray, method="bray");
+
+###JACCARD distance
+jac=(taxadf>0)*1;
+#print(rowSums(jac));
+jac.dist=vegdist(jac, method="jaccard");
+
+
+################################################################################
+#             3. Conduct PERMANOVAs for Plant, Depth, and Interaction
+################################################################################
+#Does Plant type influence microbial communities in the rhizosphere within Mirador?
+
+#by plant
+#Bray-Curtis
+print(adonis(bray.dist~Plant,             
+             data=meta_rhizo5_mirador, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~Plant,             
+             data=meta_rhizo5_mirador, method = "jaccard",         
+             permutations = 999));
+
+#by sample depth
+#Bray-Curtis
+print(adonis(bray.dist~Sample_Depth,             
+             data=meta_rhizo5_mirador, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~Sample_Depth,             
+             data=meta_rhizo5_mirador, method = "jaccard",         
+             permutations = 999));
+
+# Does interaction between plant and depth influence them?
+#Bray-Curtis
+print(adonis(bray.dist~(Plant*Sample_Depth),             
+             data=meta_rhizo5_mirador, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~(Plant*Sample_Depth),             
+             data=meta_rhizo5_mirador, method = "jaccard",         
+             permutations = 999));
+
+################################################################################
+#                         Cerro Alto NMDS                                      #
+################################################################################
+head(meta_rhizo_cerro_A)
+head(taxa_rhizo_cerro_A)
+
+
+Plant_Invasiveness <-meta_data$Plant_Invasiveness
+Plant <- meta_data$Plant
+
+
+#transposing columns 'cause vegan likes it that way
+t_otus <- as.data.frame(t(taxa_rhizo5_cerro_A))
+t_otus[rowSums(t_otus[])>0,]
+
+#rarefying data - there's some controversy about that so we might choose to normalize it instead in the future.
+min_depth = min(colSums(taxa_rhizo5_cerro_A))
+t_otus_rarefied <- as.data.frame(round(rrarefy(taxa_rhizo5_cerro_A, min_depth)))
+#tt_otus_rarefied <- as.data.frame(t(t_otus_rarefied))
+
+#choose which method to use
+otus_dist = as.matrix((vegdist(taxa_rhizo5_cerro_A_t, "bray")))
+otus_dist[rowSums(otus_dist[])>0,]
+
+#perform NMDS-- this is how far I got
+NMDS = metaMDS(otus_dist, distance = "bray", trymax = 100)
+stressplot(NMDS) 
+
+
+#build a data frame with NMDS coordinates and metadata
+MDS1 = NMDS$points[,1]
+MDS2 = NMDS$points[,2]
+NMDS = data.frame(MDS1 = MDS1, Plant <-meta_rhizo5_cerro_A$Plant)
+NMDS1 = data.frame(MDS1=MDS1, Sample_Depth <- meta_rhizo5_cerro_A$Sample_Depth)
+
+NMDS2 = inner_join(NMDS1, NMDS)
+
+#plot using ggplot2.it’s an excellent package for plotting and comes with a ton of functionality.  
+
+cerro_A_NMDS <- ggplot(NMDS2, aes(x=MDS1, y=MDS2, fill=Plant, group= c(Plant))) +
+  geom_point(mapping=aes(shape=as.factor(Sample_Depth)),
+             size = 4, color="#008E51")+
+  scale_shape_manual(values = c(24, 22)) +
+  stat_ellipse() +
+  theme_bw() +
+  scale_fill_manual(
+    values = c("white", "#008E51"),
+    guide = guide_legend(override.aes = list(shape = 21)))+
+  scale_color_manual(values = c("#008E51")) +
+  labs(title = "NMDS Site Plot", shape= "Sample Depth", fill= "Plant")
+
+#view plot
+plot(cerro_A_NMDS)
+
+#save plot
+ggsave(filename="galapagos16S_Cerro_A_rhizo5cm_NMDS.pdf",
+       device="pdf",path="./images",
+       plot=cerro_A_NMDS,
+       width=6,
+       height=5,
+       units="in",
+       dpi=500);
+
+################################################################################
+#             2. Generate the 2 types of distance matrices
+################################################################################
+#transpose OTU table so OTUs are columns
+taxadf=taxa_cerroA_rhizo5_perm
+taxadf=t(taxadf);
+taxadf=taxadf[order(row.names(taxadf)),];
+
+###BRAY-CURTIS distance
+bray<-apply(taxadf, 1, function(i) (i/sum(i)));
+bray=as.data.frame(t(bray));
+#print(rowSums(bray));
+bray.dist=vegdist(bray, method="bray");
+
+###JACCARD distance
+jac=(taxadf>0)*1;
+#print(rowSums(jac));
+jac.dist=vegdist(jac, method="jaccard");
+
+
+################################################################################
+#             3. Conduct PERMANOVAs for Plant, Depth, and Interaction
+################################################################################
+#Does Plant type influence microbial communities in the rhizosphere within Cerro Alto?
+#Bray-Curtis
+print(adonis(bray.dist~Plant,             
+             data=meta_rhizo5_cerro_A, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~Plant,             
+             data=meta_rhizo5_cerro_A, method = "jaccard",         
+             permutations = 999));
+
+#by sample depth
+#Bray-Curtis
+print(adonis(bray.dist~Sample_Depth,             
+             data=meta_rhizo5_cerro_A, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~Sample_Depth,             
+             data=meta_rhizo5_cerro_A, method = "jaccard",         
+             permutations = 999));
+
+# Does interaction between plant and depth influence them?
+#Bray-Curtis
+print(adonis(bray.dist~(Plant*Sample_Depth),             
+             data=meta_rhizo5_cerro_A, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~(Plant*Sample_Depth),             
+             data=meta_rhizo5_cerro_A, method = "jaccard",         
+             permutations = 999));
+
+
+################################################################################
+#                           el junco NMDS                                      #
+################################################################################
+
+head(meta_rhizo_mirador)
+head(taxa_rhizo_eljunco)
+
+Plant_Invasiveness <-meta_data$Plant_Invasiveness
+Plant <- meta_data$Plant
+
+
+#transposing columns 'cause vegan likes it that way
+t_otus <- as.data.frame(t(taxa_rhizo5_eljunco))
+t_otus[rowSums(t_otus[])>0,]
+
+#rarefying data - there's some controversy about that so we might choose to normalize it instead in the future.
+min_depth = min(colSums(taxa_rhizo5_eljunco))
+t_otus_rarefied <- as.data.frame(round(rrarefy(taxa_rhizo5_eljunco, min_depth)))
+
+#choose which method to use
+otus_dist = as.matrix((vegdist(taxa_rhizo5_eljunco_t, "bray")))
+otus_dist[rowSums(otus_dist[])>0,]
+
+#perform NMDS-- this is how far I got
+NMDS = metaMDS(otus_dist, distance = "bray", trymax = 100)
+stressplot(NMDS) 
+
+
+#build a data frame with NMDS coordinates and metadata
+MDS1 = NMDS$points[,1]
+MDS2 = NMDS$points[,2]
+NMDS = data.frame(MDS1 = MDS1, Plant <-meta_rhizo5_eljunco$Plant)
+NMDS1 = data.frame(MDS1=MDS1, Sample_Depth <- meta_rhizo5_eljunco$Sample_Depth)
+
+head(NMDS1)
+head(NMDS)
+
+NMDS2 = inner_join(NMDS1, NMDS)
+
+
+#plot using ggplot2.it’s an excellent package for plotting and comes with a ton of functionality.  
+
+box_col=c("#043FFF","#043FFF")
+
+eljunco_NMDS <- ggplot(NMDS2, aes(x=MDS1, y=MDS2, fill=Plant, group= c(Plant))) +
+  geom_point(mapping=aes(shape=as.factor(Sample_Depth)),
+             size = 4, color="#043FFF")+
+  scale_shape_manual(values = c(24, 22)) +
+  stat_ellipse() +
+  theme_bw() +
+  scale_fill_manual(
+    values = c("white", "#043FFF"),
+    guide = guide_legend(override.aes = list(shape = 21)))+
+  scale_color_manual(values = c("#043FFF")) +
+  labs(title = "NMDS Site Plot", shape= "Sample Depth", fill= "Plant")
+
+#view plot
+plot(eljunco_NMDS)
+
+#save plot
+ggsave(filename="galapagos16S_eljunco_rhizo5cm_NMDS.pdf",
+       device="pdf",path="./images",
+       plot=eljunco_NMDS,
+       width=6,
+       height=5,
+       units="in",
+       dpi=500);
+
+################################################################################
+#             2. Generate the 2 types of distance matrices
+################################################################################
+#transpose OTU table so OTUs are columns
+taxadf=taxa_eljunco_rhizo5_perm 
+taxadf=t(taxadf);
+taxadf=taxadf[order(row.names(taxadf)),];
+
+###BRAY-CURTIS distance
+bray<-apply(taxadf, 1, function(i) (i/sum(i)));
+bray=as.data.frame(t(bray));
+#print(rowSums(bray));
+bray.dist=vegdist(bray, method="bray");
+
+###JACCARD distance
+jac=(taxadf>0)*1;
+#print(rowSums(jac));
+jac.dist=vegdist(jac, method="jaccard");
+
+
+################################################################################
+#             3. Conduct PERMANOVAs for Plant, Depth, and Interaction
+################################################################################
+#Does Plant type influence microbial communities in the rhizosphere within el junco?
+#Bray-Curtis
+print(adonis(bray.dist~Plant,             
+             data=meta_rhizo5_eljunco, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~Plant,             
+             data=meta_rhizo5_eljunco, method = "jaccard",         
+             permutations = 999));
+
+#by sample depth
+#Bray-Curtis
+print(adonis(bray.dist~Sample_Depth,             
+             data=meta_rhizo5_eljunco, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~Sample_Depth,             
+             data=meta_rhizo5_eljunco, method = "jaccard",         
+             permutations = 999));
+
+# Does interaction between plant and depth influence them?
+#Bray-Curtis
+print(adonis(bray.dist~(Plant*Sample_Depth),             
+             data=meta_rhizo5_eljunco, method = "bray",         
+             permutations = 999)); 
+#Jaccard
+print(adonis(jac.dist~(Plant*Sample_Depth),             
+             data=meta_rhizo5_eljunco, method = "jaccard",         
+             permutations = 999));
+
