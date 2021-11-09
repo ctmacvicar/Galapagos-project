@@ -1,4 +1,4 @@
-## CODE FOR: generating NMDS plots based on 16S microbial commmunity dissimilarity matrices
+## CODE FOR: generating NMDS plots based on 16S microbial commmunity dissimilarity matrices. Grouped by plant type.
 
 
 source(file="scripts/00_background.R"); #load necessary packages and specifications
