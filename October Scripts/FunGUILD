@@ -1,0 +1,147 @@
+#FunGUILD with new data (October data)
+
+#################################################################################
+#
+#                             GALAPAGOS
+#                      
+#    
+#
+# By: Caroline MacVicar and Vanja Klepac-Ceraj
+# Code adapted and modified from Connie Rojas
+################################################################################
+
+## CODE FOR: generating stacked bar plot of fungal guild composition for 
+# GALAPAGOS data in each site at each depth using FunGUILD output.
+
+source(file="scripts/00_background.R"); #load necessary packages and specifications
+library(ggplot2)
+library(vegan)
+rm(list=ls())
+
+
+
+#Reading the data
+ITS_meta <- read.table("data/GalapagosMetaITS2.txt", sep="\t", header=T)
+OTU_data <- read.table("data/Fun_OTU_oct.guilds_matched.txt", sep="\t", header=T);
+OTU_data <- OTU_data %>% arrange(OTU_ID)
+
+#removing the last 10 columns, but keeping the "Guild" column
+OTU_data2 <- OTU_data[, -c( 141, 142, 143, 144, 146, 147, 148, 149, 150)]
+OTU_data2=as.data.frame(OTU_data2)
+
+OTU_data3 <- OTU_data2[, -c(141)]
+
+#calculate taxa relative abundances 
+taxa_rel=aggregate(.~OTU_ID, OTU_data3, sum);
+taxa_rel[,-1] <- lapply(taxa_rel[,-1], function(x) (x/sum(x))*100); 
+#print(colSums(taxa_rel[-1]));
+
+
+#keep taxa >1% relative abundance across samples
+taxa_rel$AVG=rowMeans(taxa_rel[,-1]);
+taxa_rel=taxa_rel[taxa_rel$AVG>1,];
+taxa_rel$AVG=NULL;
+
+#denote the rest of taxa as "Other"
+newrow=c(NA, 100-colSums(taxa_rel[2:ncol(taxa_rel)])); 
+taxa_rel=rbind(taxa_rel, newrow); 
+taxa_rel$Taxa=as.character(taxa_rel$OTU_ID);
+taxa_rel[nrow(taxa_rel),1]="1_Other";
+
+
+#melt data frame for ggplot
+OTU_data4<-reshape2::melt(taxa_rel, id.vars="OTU_ID",value.name = "abun");
+colnames(OTU_data4)[2]="sample";
+
+write.csv(OTU_data4, "OTU_data5_oct.csv")
+
+#reading in revised data (look above) for barplot-- added the guilds to OTU_data4 manually. 
+OTU_table5 <- read.csv("data/OTU_data5_oct.csv")
+
+
+pbar=merge(OTU_table5, ITS_meta, by="sample");
+
+
+phy_col=c("grey", "#66c2a5","#fc8d62","#7570b3","#e78ac3",'#a6d854','#ffd92f',
+          "#6baed6","#fc9272","#238b45","#525252","#e7298a","#08589e",
+          "#bf812d");
+
+#create plot showing guild abun (group samples by Site and sample depth)
+guild_bar=ggplot(data=pbar, 
+                 mapping=aes(x=plant_nr,y=abun, fill=Guild))+
+  facet_grid(Sample_Depth ~ Site_Plant, scales='free')+
+  geom_bar(stat = "identity")+
+  theme_bw()+ 
+  labs(y = "Relative Abundance (%)",
+       fill="Guild")+
+  scale_fill_manual(values=phy_col)+
+  theme(legend.position="right", 
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12, face="bold"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size=12, face="bold"),
+        axis.title.x = element_text(size=12, face="bold"),
+        axis.text.y = element_text(size=10),
+        axis.text.x = element_text( angle = 90,  hjust = 1 ),
+        #axis.ticks.x=element_blank(),
+        #axis.text.x=element_blank(),
+        strip.text = element_text(size =8, face="bold"),
+        panel.background = element_rect(size=2))+
+  guides(fill=guide_legend(ncol=1));
+
+plot(guild_bar);
+print(guild_bar)
+
+##save image 
+ggsave(filename="Fun_GUILD_october.pdf",
+       device="pdf",path="./images",
+       plot=guild_bar,
+       width=15,
+       height=5,
+       units="in",
+       dpi=500);
+
+################################################################################
+#looking at the genus of Glomeromycota only
+glo<- read.csv("data/Galapagos_L8_ITS.csv")
+
+#removing the first 5 columns, but keeping the "Guild" column
+glo <- glo[, -c(1, 2)]
+
+#filtering all phylum out except Glomeromycota
+glo<- glo %>%
+  filter(Phylum=="Glomeromycota")
+
+#removing the first 5 columns, but keeping the "Genus" column
+glo <- glo[, -c(1, 2, 3, 4)]
+
+#removing columns, but keeping the "Genus" and phylum column
+glo <- glo[, -c(2, 3, 4)]
+
+glo$PG <- paste(glo$Phylum, glo$Genus)
+
+glo$PG <- str_c(glo$Phylum, " ", glo$Genus)
+
+glo <- glo %>% relocate(PG, .before=Phylum)
+
+glo <- glo[, -c(2, 3)]
+
+#write.csv(glo, "genus_abun_glo.csv")
+
+#calculate taxa genera relative abundances 
+glotaxa_rel=aggregate(.~PG, glo, sum);
+glotaxa_rel[,-1] <- lapply(glotaxa_rel[,-1], function(x) (x/sum(x))*100); 
+#print(colSums(taxa_rel[-1]));
+
+#write.csv(glotaxa_rel, "taxa_rel_glo_genus.csv")
+
+#looking at the orders within the Glomeromycota phylum
+glo<- glo[, -c(1, 2, 5, 4)]
+
+#calculate taxa order relative abundances 
+glotaxa_rel=aggregate(.~Order, glo, sum);
+glotaxa_rel[,-1] <- lapply(glotaxa_rel[,-1], function(x) (x/sum(x))*100); 
+
+
+#write.csv(glotaxa_rel, "taxa_rel_glo_order.csv")
