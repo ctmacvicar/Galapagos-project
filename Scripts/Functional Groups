@@ -1,0 +1,88 @@
+## CODE FOR: generating stacked bar plot of functional group composition for 
+# GALAPAGOS data in each site at each depth.
+
+source(file="scripts/00_background.R"); #load necessary packages and specifications
+library(ggplot2)
+library(vegan)
+rm(list=ls())
+
+#Reading the data
+ITS_meta <- read.table("data/GalapagosMetaITS2.txt", sep="\t", header=T)
+OTU_data <- read.table("data/functional_table.txt", sep="\t", header=T);
+OTU_data <- OTU_data %>% arrange(group)
+
+OTU_data=as.data.frame(OTU_data)
+
+#calculate taxa relative abundances 
+taxa_rel=aggregate(.~group, OTU_data, sum);
+taxa_rel[,-1] <- lapply(taxa_rel[,-1], function(x) (x/sum(x))*100); 
+#print(colSums(taxa_rel[-1]));
+
+#keep taxa >1% relative abundance across samples
+taxa_rel$AVG=rowMeans(taxa_rel[,-1]);
+taxa_rel=taxa_rel[taxa_rel$AVG>1,];
+taxa_rel$AVG=NULL;
+
+#denote the rest of taxa as "Other"
+newrow=c(NA, 100-colSums(taxa_rel[2:ncol(taxa_rel)])); 
+taxa_rel=rbind(taxa_rel, newrow); 
+taxa_rel$Taxa=as.character(taxa_rel$group);
+taxa_rel[nrow(taxa_rel),1]="1_Other";
+
+
+#melt data frame for ggplot
+OTU_data2<-reshape2::melt(taxa_rel, id.vars="group",value.name = "abun");
+colnames(OTU_data2)[2]="sample";
+
+#removing rows R added by accident
+OTU_data2<- OTU_data2[-c(1563,1564,1565,1566,1567,1568,1569,1570,1571,1572,1573), ]
+
+#write.csv(OTU_data2, "OTU_data2.csv")
+
+#reading in revised data (look above) for barplot. Previously, the group column was before the sample 
+# and abun columns, so I moved the column so that the group column was after these two columns, ensuring it would graph correctly. 
+OTU_data2 <- read.csv("data/OTU_data2.csv",row.names=1,check.names=FALSE)
+
+pbar=merge(OTU_data2, ITS_meta, by="sample");
+
+
+phy_col=c("grey", "#66c2a5","#fc8d62","#7570b3","#e78ac3",'#a6d854','#ffd92f',
+          "#6baed6","#fc9272","#238b45","#525252","#e7298a","#08589e",
+          "#bf812d");
+
+#create plot showing guild abun (group samples by Site and sample depth)
+group_bar=ggplot(data=pbar, 
+                 mapping=aes(x=plant_nr,y=abun, fill=group))+
+  facet_grid(Sample_Depth ~ Site_Plant, scales='free')+
+  geom_bar(stat = "identity")+
+  theme_bw()+ 
+  labs(y = "Relative Abundance (%)",
+       fill="Group")+
+  scale_fill_manual(values=phy_col)+
+  theme(legend.position="right", 
+        legend.text = element_text(size=10),
+        legend.title = element_text(size=12, face="bold"),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        axis.title.y = element_text(size=12, face="bold"),
+        axis.title.x = element_text(size=12, face="bold"),
+        axis.text.y = element_text(size=10),
+        axis.text.x = element_text( angle = 90,  hjust = 1 ),
+        #axis.ticks.x=element_blank(),
+        #axis.text.x=element_blank(),
+        strip.text = element_text(size =8, face="bold"),
+        panel.background = element_rect(size=2))+
+  guides(fill=guide_legend(ncol=1));
+
+plot(group_bar);
+print(group_bar)
+
+##save image 
+ggsave(filename="Functional_group.pdf",
+       device="pdf",path="./images",
+       plot=group_bar,
+       width=15,
+       height=5,
+       units="in",
+       dpi=500);
+
