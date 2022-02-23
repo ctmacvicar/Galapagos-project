@@ -17,8 +17,7 @@ library(vegan)
 rm(list=ls())
 
 
-
-#Reading the data
+#Reading the ITS data
 ITS_meta <- read.table("data/GalapagosMetaITS2.txt", sep="\t", header=T)
 OTU_data <- read.table("data/Fun_OTU_oct.guilds_matched.txt", sep="\t", header=T);
 OTU_data <- OTU_data %>% arrange(OTU_ID)
