@@ -1,7 +1,13 @@
+#################################################################################
+#
+#                     GALAPAGOS
+#                      
+# By: Vanja Klepac-Ceraj and Caroline MacVicar
+# Code adapted and modified from Connie Rojas
+################################################################################
 
 
-
-#Investigating the Glomeromycota phylum in more depth at each site in the ITS metadata. 
+#CODE FOR: Investigating the Glomeromycota phylum in more depth at each site in the ITS metadata. 
 
 ################################################################################
 #looking at the genus of Glomeromycota only
