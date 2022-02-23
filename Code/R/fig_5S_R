@@ -1,6 +1,14 @@
 #need code from Vanja for the "all sampling sites" part of the figure
 
-#16S NMDS plots of each site and their respective plants. Ellipses are grouped by sample depth. 
+#################################################################################
+#
+#                     GALAPAGOS
+#                      
+# By: Vanja Klepac-Ceraj and Caroline MacVicar
+# Code adapted and modified from Connie Rojas
+################################################################################
+
+#CODE FOR: 16S and ITS NMDS plots of each site and their respective plants based upon microbial commmunity dissimilarity matrices. Ellipses are grouped by sample depth. 
 
 source(file="scripts/00_background.R"); #load necessary packages and specifications
 library(ggplot2)
@@ -8,7 +16,9 @@ library(vegan)
 library(dplyr)
 rm(list=ls())
 
-#Loading Data
+#16S NMDS Plots
+
+#Loading 16SData
 taxa=read.table("data/R_Oct_Galapagos_L6_16S.txt", sep="\t", header=T);
 meta_data=read.table("data/GalapagosMeta.txt", sep="\t", header=T);
 meta_data=meta_data[order(meta_data$sample),];
@@ -257,7 +267,7 @@ ggsave(filename="galapagos16S_eljunco_alldepths_NMDS_oct22.pdf",
        dpi=500);
 
 ###############################################################################
-## CODE FOR: generating NMDS plots for each site based on ITS microbial commmunity dissimilarity matrices. Plots grouped by sample depth. 
+## ITS NNMDS plots
 
 
 source(file="scripts/00_background.R"); #load necessary packages and specifications
@@ -266,7 +276,7 @@ library(vegan)
 library(dplyr)
 rm(list=ls())
 
-#Loading Data
+#Loading ITS Data
 taxa=read.table("data/R_Oct_Galapagos_L6_ITS.txt", sep="\t", header=T);
 meta_data=read.table("data/GalapagosMeta.txt", sep="\t", header=T);
 meta_data=meta_data[order(meta_data$sample),];
