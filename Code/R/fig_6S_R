@@ -1,0 +1,48 @@
+
+
+
+#Investigating the Glomeromycota phylum in more depth at each site in the ITS metadata. 
+
+################################################################################
+#looking at the genus of Glomeromycota only
+glo<- read.csv("data/Galapagos_L8_ITS.csv")
+
+#removing the first 5 columns, but keeping the "Guild" column
+glo <- glo[, -c(1, 2)]
+
+#filtering out all other phyla except Glomeromycota
+glo<- glo %>%
+  filter(Phylum=="Glomeromycota")
+
+#removing the first 5 columns, but keeping the "Genus" column
+glo <- glo[, -c(1, 2, 3, 4)]
+
+#removing columns, but keeping the "Genus" and "phylum" column
+glo <- glo[, -c(2, 3, 4)]
+
+glo$PG <- paste(glo$Phylum, glo$Genus)
+
+glo$PG <- str_c(glo$Phylum, " ", glo$Genus)
+
+glo <- glo %>% relocate(PG, .before=Phylum)
+
+glo <- glo[, -c(2, 3)]
+
+#write.csv(glo, "genus_abun_glo.csv")
+
+#calculate taxa genera relative abundances 
+glotaxa_rel=aggregate(.~PG, glo, sum);
+glotaxa_rel[,-1] <- lapply(glotaxa_rel[,-1], function(x) (x/sum(x))*100); 
+#print(colSums(taxa_rel[-1]));
+
+#write.csv(glotaxa_rel, "taxa_rel_glo_genus.csv")
+
+#looking at the orders within the Glomeromycota phylum
+glo<- glo[, -c(1, 2, 5, 4)]
+
+#calculate taxa order relative abundances 
+glotaxa_rel=aggregate(.~Order, glo, sum);
+glotaxa_rel[,-1] <- lapply(glotaxa_rel[,-1], function(x) (x/sum(x))*100); 
+
+
+#write.csv(glotaxa_rel, "taxa_rel_glo_order.csv")
