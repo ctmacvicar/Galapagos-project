@@ -1,3 +1,11 @@
+#################################################################################
+#
+#                     GALAPAGOS
+#                      
+# By: Vanja Klepac-Ceraj and Caroline MacVicar
+# Code adapted and modified from Connie Rojas
+################################################################################
+
 ## CODE FOR: generating NMDS plots for each site at all sample depths based on 16S and ITS microbial commmunity dissimilarity matrices. 
 # Ellipses grouped by plant within each site. 
 
