@@ -1,3 +1,5 @@
+#need code from Vanja for the "all sampling sites" part of the figure
+
 #16S NMDS plots of each site and their respective plants. Ellipses are grouped by sample depth. 
 
 source(file="scripts/00_background.R"); #load necessary packages and specifications
