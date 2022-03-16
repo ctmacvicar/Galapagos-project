@@ -1,4 +1,4 @@
-#16S October 2021 Permanovas for Galapagos
+#16S October 2021 Permanovas for Galapagos data
 
 source(file="scripts/00_background.R"); #load necessary packages and specifications
 library(ggplot2)
@@ -16,7 +16,7 @@ meta_data=meta_data[order(meta_data$sample),];
 #remove_outlier <- (meta_data[-c(2,17,131),])
 #meta_data <- remove_outlier
 
-#taxa at all sample depths
+#16S taxa at all sample depths
 taxa_mirador_perm <- taxa %>% dplyr::select (M1_A, M1_B, M1_C, M10_A, 
                                               M10_B, M10_C, M11_A, M11_B, M11_C, M12_A, M12_B, M12_C, M2_A, M2_B, 
                                               M2_C, M3_A, M3_B, M3_C, M4_A, M4_B, M4_C, M5_A, M5_B, M5_C,
@@ -47,7 +47,7 @@ taxa_all <- taxa  %>% dplyr::select (M1_A, M1_B, M1_C, M10_A,
                                             J23_A, J23_B, J23_C, J24_A, J24_B, J24_C, J3_A, J3_B, J3_C, J4_A, J4_B, J4_C, J5_A, J5_B, J5_C, J6_A, J6_B, J6_C, J7_A, J7_B, J7_C, J8_A, J8_B, 
                                             J8_C, J9_A, J9_B, J9_C)
 
-# Filtering Meta Data
+# Filtering Meta Data by Site
 meta_data$Plant_Invasiveness <- factor(meta_data$Plant_Invasiveness, labels = c("Native", "Invasive"));
 
 meta_mirador <- meta_data %>% filter(Site == "Mirador");
@@ -82,7 +82,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Plant type influence microbial communities in the rhizosphere within Mirador?
+#Does Plant type influence microbial communities within Mirador?
 #Bray-Curtis
 print(adonis(bray.dist~Plant,             
              data=meta_mirador, method = "bray",         
@@ -92,7 +92,7 @@ print(adonis(jac.dist~Plant,
              data=meta_mirador, method = "jaccard",         
              permutations = 999));
 
-#Does Sampling Depth influence community?
+#Does Sampling Depth influence microbial communities within Mirador?
 #Bray-Curtis
 print(adonis(bray.dist~Sample_Depth,             
              data=meta_mirador, method = "bray",         
@@ -102,7 +102,7 @@ print(adonis(jac.dist~Sample_Depth,
              data=meta_mirador, method = "jaccard",         
              permutations = 999));
 
-# Does interaction between plant and depth influence them?
+# Does interaction between plant and depth microbial communities within Mirador?
 #Bray-Curtis
 print(adonis(bray.dist~(Plant*Sample_Depth),             
              data=meta_mirador, method = "bray",         
@@ -113,7 +113,7 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
              permutations = 999));
 
 
-
+#Cerro Alto
 ################################################################################
 #             2. Generate the 2 types of distance matrices for permanova
 ################################################################################
@@ -140,7 +140,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Plant type influence microbial communities in the rhizosphere within Mirador?
+#Does Plant type influence microbial communities in Cerro Alto?
 #Bray-Curtis
 print(adonis(bray.dist~Plant,             
              data=meta_cerro_A, method = "bray",         
@@ -150,7 +150,7 @@ print(adonis(jac.dist~Plant,
              data=meta_cerro_A, method = "jaccard",         
              permutations = 999));
 
-#Does Sampling Depth influence community?
+#Does Sampling Depth influence microbial communities in Cerro Alto?
 #Bray-Curtis
 print(adonis(bray.dist~Sample_Depth,             
              data=meta_cerro_A, method = "bray",         
@@ -160,7 +160,7 @@ print(adonis(jac.dist~Sample_Depth,
              data=meta_cerro_A, method = "jaccard",         
              permutations = 999));
 
-# Does interaction between plant and depth influence them?
+# Does interaction between plant and depth influence microbial communities in Cerro Alto?
 #Bray-Curtis
 print(adonis(bray.dist~(Plant*Sample_Depth),             
              data=meta_cerro_A, method = "bray",         
@@ -199,7 +199,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Plant type influence microbial communities in the rhizosphere within Mirador?
+#Does Plant type influence microbial communities in El Junco?
 #Bray-Curtis
 print(adonis(bray.dist~Plant,             
              data=meta_eljunco, method = "bray",         
@@ -209,7 +209,7 @@ print(adonis(jac.dist~Plant,
              data=meta_eljunco, method = "jaccard",         
              permutations = 999));
 
-#Does Sampling Depth influence community?
+#Does Sampling Depth influence microbial communities in El Junco?
 #Bray-Curtis
 print(adonis(bray.dist~Sample_Depth,             
              data=meta_eljunco, method = "bray",         
@@ -219,7 +219,7 @@ print(adonis(jac.dist~Sample_Depth,
              data=meta_eljunco, method = "jaccard",         
              permutations = 999));
 
-# Does interaction between plant and depth influence them?
+# Does interaction between plant and depth influence microbial communities in El Junco?
 #Bray-Curtis
 print(adonis(bray.dist~(Plant*Sample_Depth),             
              data=meta_eljunco, method = "bray",         
@@ -230,7 +230,7 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
              permutations = 999));
 
 
-# All Sites
+# All Sites Together
 ################################################################################
 #             2. Generate the 2 types of distance matrices for permanova
 ################################################################################
@@ -258,7 +258,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Site influence microbial communities in the rhizosphere within Mirador?
+#Does Site influence microbial communities?
 #Bray-Curtis
 print(adonis(bray.dist~Site,             
              data=meta_data, method = "bray",         
@@ -273,7 +273,7 @@ print(adonis(jac.dist~Site,
 
 
 ################################################################################
-#Filtering Data
+#Filtering Data by depth-- only 5 cm and rhizosphere-- in all sites
 
 #rhizo and 5 cm sample depths only in meta data
 
@@ -341,7 +341,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Plant type influence microbial communities in the rhizosphere within Mirador?
+#Does Plant type influence microbial communities in Mirador?
 #Bray-Curtis
 print(adonis(bray.dist~Plant,             
              data=meta_rhizo5_mirador, method = "bray",         
@@ -351,7 +351,7 @@ print(adonis(jac.dist~Plant,
              data=meta_rhizo5_mirador, method = "jaccard",         
              permutations = 999));
 
-#Does Sampling Depth influence community?
+#Does Sampling Depth influence microbial communities in Mirador?
 #Bray-Curtis
 print(adonis(bray.dist~Sample_Depth,             
              data=meta_rhizo5_mirador, method = "bray",         
@@ -361,7 +361,7 @@ print(adonis(jac.dist~Sample_Depth,
              data=meta_rhizo5_mirador, method = "jaccard",         
              permutations = 999));
 
-# Does interaction between plant and depth influence them?
+# Does interaction between plant and depth influence microbial communities in Mirador?
 #Bray-Curtis
 print(adonis(bray.dist~(Plant*Sample_Depth),             
              data=meta_rhizo5_mirador, method = "bray",         
@@ -372,7 +372,7 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
              permutations = 999));
 
 
-
+#Cerro Alto
 ################################################################################
 #             2. Generate the 2 types of distance matrices for permanova
 ################################################################################
@@ -399,7 +399,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Plant type influence microbial communities in the rhizosphere within Mirador?
+#Does Plant type influence microbial communities in Cerro Alto?
 #Bray-Curtis
 print(adonis(bray.dist~Plant,             
              data=meta_rhizo5_cerro_A, method = "bray",         
@@ -409,7 +409,7 @@ print(adonis(jac.dist~Plant,
              data=meta_rhizo5_cerro_A, method = "jaccard",         
              permutations = 999));
 
-#Does Sampling Depth influence community?
+#Does Sampling Depth influence microbial communities in Cerro Alto?
 #Bray-Curtis
 print(adonis(bray.dist~Sample_Depth,             
              data=meta_rhizo5_cerro_A, method = "bray",         
@@ -419,7 +419,7 @@ print(adonis(jac.dist~Sample_Depth,
              data=meta_rhizo5_cerro_A, method = "jaccard",         
              permutations = 999));
 
-# Does interaction between plant and depth influence them?
+# Does interaction between plant and depth influence microbial communities in Cerro Alto?
 #Bray-Curtis
 print(adonis(bray.dist~(Plant*Sample_Depth),             
              data=meta_rhizo5_cerro_A, method = "bray",         
@@ -456,7 +456,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Plant type influence microbial communities in the rhizosphere within Mirador?
+#Does Plant type influence microbial communities in El Junco?
 #Bray-Curtis
 print(adonis(bray.dist~Plant,             
              data=meta_rhizo5_eljunco, method = "bray",         
@@ -466,7 +466,7 @@ print(adonis(jac.dist~Plant,
              data=meta_rhizo5_eljunco, method = "jaccard",         
              permutations = 999));
 
-#Does Sampling Depth influence community?
+#Does Sampling Depth influence microbial communities in El Junco?
 #Bray-Curtis
 print(adonis(bray.dist~Sample_Depth,             
              data=meta_rhizo5_eljunco, method = "bray",         
@@ -476,7 +476,7 @@ print(adonis(jac.dist~Sample_Depth,
              data=meta_rhizo5_eljunco, method = "jaccard",         
              permutations = 999));
 
-# Does interaction between plant and depth influence them?
+# Does interaction between plant and depth influence microbial communities in El Junco?
 #Bray-Curtis
 print(adonis(bray.dist~(Plant*Sample_Depth),             
              data=meta_rhizo5_eljunco, method = "bray",         
@@ -512,7 +512,7 @@ jac.dist=vegdist(jac, method="jaccard");
 #             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
-#Does Site influence microbial communities in the rhizosphere within Mirador?
+#Does Site influence microbial communities?
 #Bray-Curtis
 print(adonis(bray.dist~Site,             
              data=meta_data_rhizo5, method = "bray",         
@@ -572,7 +572,7 @@ jac.dist=vegdist(jac, method="jaccard");
 ################################################################################
 #             3. Conduct PERMANOVAs for Depth
 ################################################################################
-#Does Plant type influence microbial communities in the rhizosphere within el junco?
+#Does sample depth influence microbial communities all sites?
 #Bray-Curtis
 print(adonis(bray.dist~Sample_Depth,             
              data=meta_data2, method = "bray",         
