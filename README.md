@@ -1,6 +1,6 @@
-# Galapagos-project
 
-## Title: Microclimate is a strong predictor of the native and invasive plant-associated soil microbiota on San Cristobal Island, Galapagos archipelago
+
+# Microclimate is a strong predictor of the native and invasive plant-associated soil microbiota on San Cristobal Island, Galapagos archipelago
  
 Alexi A. Schoenborn*,1, Sarah M. Yannarell*,1, Caroline T. MacVicar2, Noelia N. Barriga-Medina5,6, Meng Markillie7, Hugh Mitchell7, Kevin S. Bonham2, Antonio Leon-Reyes5,6, Diego Riveros-Iregui3,4,5, Vanja Klepac-Ceraj2,#, Elizabeth A. Shank8,# 
 
