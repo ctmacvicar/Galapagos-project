@@ -266,6 +266,25 @@ ggsave(filename="galapagos16S_eljunco_alldepths_NMDS_oct22.pdf",
        units="in",
        dpi=500);
 
+################################################################################
+#                          all sampling sites NMDS                             #
+################################################################################
+
+#graph the data, grouping by Sample Depth
+ggplot(NMDS, aes(x=MDS1, y=MDS2, color=Sample_Depth)) +
+  geom_point() +
+  stat_ellipse() +
+  theme_bw() +
+  labs(title = "NMDS Sample_Depth Plot", x = "NMDS1", y = "NMDS2")
+
+#save graph
+ggsave(filename="02_NMDS_galapagos16S_Sample_Depth.pdf",
+       device="pdf",path="./images",
+       width=6,
+       height=5,
+       units="in",
+       dpi=500);
+
 ###############################################################################
 ## ITS NNMDS plots
 
@@ -523,3 +542,11 @@ ggsave(filename="galapagosITS_eljunco_alldepths_NMDS_oct22.pdf",
        height=5,
        units="in",
        dpi=500);
+
+
+################################################################################
+#                          all sampling sites NMDS                             #
+################################################################################
+
+
+
