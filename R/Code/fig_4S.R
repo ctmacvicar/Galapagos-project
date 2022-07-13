@@ -266,9 +266,33 @@ ggsave(filename="galapagos16S_eljunco_alldepths_NMDS_oct.pdf",
        dpi=500);
 
 
+################################################################################
+#                          all sampling sites NMDS                             #
+################################################################################
+
+#grouped by Plant_Sites
+
+#plot using ggplot2.it’s an excellent package for plotting and comes with a ton of functionality.  
+ggplot(NMDS, aes(x=MDS1, y=MDS2, color=Site_Plant)) +
+  geom_point() +
+  stat_ellipse() +
+  theme_bw() +
+  labs(title = "NMDS Site_Plant Plot", x = "NMDS1", y = "NMDS2")
+
+ggsave(filename="02_NMDS_galapagos16S_Site_Plant.pdf",
+       device="pdf",path="./images",
+       width=6,
+       height=5,
+       units="in",
+       dpi=500);
+
+
+
+
 #ITS NMDS plots
 
 
+#load necessary libraries
 source(file="scripts/00_background.R"); #load necessary packages and specifications
 library(ggplot2)
 library(vegan)
@@ -522,3 +546,13 @@ ggsave(filename="galapagosITS_eljunco_alldepths_NMDS_oct.pdf",
        height=5,
        units="in",
        dpi=500);
+
+
+
+################################################################################
+#                          all sampling sites NMDS                             #
+################################################################################
+
+#grouped by Plant_Sites
+
+
