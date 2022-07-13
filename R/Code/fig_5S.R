@@ -1,4 +1,4 @@
-#need code from Vanja for the "all sampling sites" part of the figure
+
 
 #################################################################################
 #
@@ -337,7 +337,7 @@ ggsave(filename="02_NMDS_galapagos16S_Sample_Depth.pdf",
        dpi=500);
 
 ###############################################################################
-## ITS NNMDS plots
+## ITS NMDS plots
 
 
 source(file="scripts/00_background.R"); #load necessary packages and specifications
