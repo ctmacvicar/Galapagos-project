@@ -15,6 +15,8 @@ source(file="scripts/00_background.R"); #load necessary packages and specificati
 library(ggplot2)
 library(vegan)
 library(dplyr)
+library(tidyr)
+library(phyloseq)
 rm(list=ls())
 
 #Loading 16S Data
@@ -269,6 +271,57 @@ ggsave(filename="galapagos16S_eljunco_alldepths_NMDS_oct.pdf",
 ################################################################################
 #                          all sampling sites NMDS                             #
 ################################################################################
+#loading 16S data
+taxa=read.csv("data/Oct_Galapagos_BACT_L7.csv",row.names=1,check.names=FALSE);
+#taxa=read.table("data/Galapagos16S_L7.txt", sep="\t", header=T);
+metadata=read.table("data/GalapagosMeta.txt", sep="\t", header=T);
+
+
+subsetmetadata <-subset(metadata, sample!="M5_C");
+metadata <- subsetmetadata
+
+
+otus <- as.data.frame(t(taxa))
+otus <- select(otus, -M5_C)
+
+
+metadata=metadata[order(metadata$sample),];
+
+metadata$Site<-factor(metadata$Site, levels=c("Mirador", "Cerro Alto","el junco"));
+metadata$Native <- factor(metadata$Native, labels = c("no", "yes"));
+
+
+#Just a check to ensure that the samples in meta_table are in the same order as in abund_table
+
+head(metadata)
+head(otus)
+
+Site <-metadata$Site
+Native <-metadata$Native
+Sample_Depth <- metadata$Sample_Depth
+Site_Plant <- metadata$Site_Plant
+
+
+#transposing columns 'cause vegan likes it that way
+t_otus <- as.data.frame(t(otus))
+
+#rarefying data - there's some controversy about that so we might choose to normalize it instead in the future.
+min_depth = min(colSums(otus))
+t_otus_rarefied <- as.data.frame(round(rrarefy(t_otus, min_depth)))
+
+#choose which method to use
+otus_dist = as.matrix((vegdist(t_otus, "bray")))
+
+#perform NMDS
+NMDS = metaMDS(otus_dist, distance = "bray", trymax = 100)
+stressplot(NMDS) 
+
+#build a data frame with NMDS coordinates and metadata
+MDS1 = NMDS$points[,1]
+MDS2 = NMDS$points[,2]
+NMDS = data.frame(MDS1 = MDS1, MDS2 = MDS2, Site <-metadata$Site, Sample_Depth <- metadata$Sample_Depth, Plant = metadata$Plant)
+
+head(NMDS)
 
 #grouped by Plant_Sites
 
@@ -553,6 +606,67 @@ ggsave(filename="galapagosITS_eljunco_alldepths_NMDS_oct.pdf",
 #                          all sampling sites NMDS                             #
 ################################################################################
 
+#loading data
+taxa=read.csv("data/Oct_Galapagos_FUN_L7.csv",row.names=1,check.names=FALSE);
+metadata=read.table("data/GalapagosMeta.txt", sep="\t", header=T);
+otus <- as.data.frame(t(taxa))
+
+subsetmetadata<-subset(metadata, sample!="M6_A" & sample!="C1_B" & sample!="C3_C")
+metadata <- subsetmetadata
+metadata=metadata[order(metadata$sample),];
+
+
+metadata$Site<-factor(metadata$Site, levels=c("Mirador", "Cerro Alto","el junco"));
+metadata$Native <- factor(metadata$Native, labels = c("no", "yes"));
+
+
+#Just a check to ensure that the samples in meta_table are in the same order as in abund_table
+head(metadata)
+head(otus)
+
+Site <-metadata$Site
+Native <-metadata$Native
+Sample_Depth <- metadata$Sample_Depth
+Site_Plant <- metadata$Site_Plant
+
+
+#transposing columns 'cause vegan likes it that way
+t_otus <- as.data.frame(t(otus))
+
+#rarefying data - there's some controversy about that so we might choose to normalize it instead in the future.
+min_depth = min(colSums(otus))
+t_otus_rarefied <- as.data.frame(round(rrarefy(t_otus, min_depth)))
+
+#choose which method to use
+otus_dist = as.matrix((vegdist(t_otus, "bray")))
+
+
+#perform NMDS
+NMDS = metaMDS(otus_dist, distance = "bray", trymax = 100)
+stressplot(NMDS) 
+
+#build a data frame with NMDS coordinates and metadata
+MDS1 = NMDS$points[,1]
+MDS2 = NMDS$points[,2]
+NMDS = data.frame(MDS1 = MDS1, MDS2 = MDS2, Site <-metadata$Site, Sample_Depth <- metadata$Sample_Depth, Plant = metadata$Plant)
+
+head(NMDS)
+
+
 #grouped by Plant_Sites
+#plot using ggplot2.it’s an excellent package for plotting and comes with a ton of functionality.  
+ggplot(NMDS, aes(x=MDS1, y=MDS2, color=Site_Plant)) +
+  geom_point() +
+  stat_ellipse() +
+  theme_bw() +
+  labs(title = "NMDS Site_Plant Plot", x = "NMDS1", y = "NMDS2")
+
+#save plot
+ggsave(filename="NMDS_ITS_Site_PLant2.pdf",
+       device="pdf",path="./images",
+       width=6,
+       height=5,
+       units="in",
+       dpi=500);
 
 
