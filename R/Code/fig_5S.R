@@ -87,7 +87,7 @@ t_otus_rarefied <- as.data.frame(round(rrarefy(taxa_mirador, min_depth)))
 otus_dist = as.matrix((vegdist(taxa_mirador_t, "bray")))
 otus_dist[rowSums(otus_dist[])>0,]
 
-#perform NMDS-- this is how far I got
+#perform NMDS
 NMDS = metaMDS(otus_dist, distance = "bray", trymax = 100)
 stressplot(NMDS) 
 
@@ -345,7 +345,7 @@ t_otus_rarefied <- as.data.frame(round(rrarefy(taxa_mirador, min_depth)))
 otus_dist = as.matrix((vegdist(taxa_mirador_t, "bray")))
 otus_dist[rowSums(otus_dist[])>0,]
 
-#perform NMDS-- this is how far I got
+#perform NMDS
 NMDS = metaMDS(otus_dist, distance = "bray", trymax = 100)
 stressplot(NMDS) 
 
