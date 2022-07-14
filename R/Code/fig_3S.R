@@ -26,12 +26,6 @@ source(file="scripts/00_background.R"); #load necessary packages and specificati
 taxa=read.table("data/R_Oct_Galapagos_L6_16S copy.txt", sep="\t", header=T);
 meta_data=read.table("data/GalapagosMeta 2.txt", sep="\t", header=T);
 
-#order [experiments]
-#meta_data$Site<-factor(meta_data$Site, levels=c("Mirador", "Cerro Alto","el junco"))
-#meta_data$Native <- factor(meta_data$Native, labels = c("no", "yes"))
-#meta_data$Sample_Depth <- factor(meta_data$Sample_Depth, labels = c("rhizo", "5cm", "15cm"))
-#meta_data$Elevation_m <- factor(meta_data$Elevation_m, levels = c(320, 520, 690), labels = c("320", "520", "690"))
-#meta_data$Plant<-factor(meta_data$Plant, levels=c("guava", "scalesia", "vervain", "miconia"))
 meta_data$Site_Plant<-factor(meta_data$Site_Plant, levels = c("Mirador_Guava", "Mirador_Scalesia", "Cerro Alto_Guava",
                                                               "Cerro Alto_Vervain", "el junco_Guava", "el junco_Miconia"))
 
@@ -336,12 +330,6 @@ source(file="scripts/00_background.R"); #load necessary packages and specificati
 taxa=read.table("data/R_Oct_Galapagos_L6_ITS.txt", sep="\t", header=T);
 meta_data=read.table("data/GalapagosMetaITS2.txt", sep="\t", header=T);
 
-#order [experiments]
-#meta_data$Site<-factor(meta_data$Site, levels=c("Mirador", "Cerro Alto","el junco"))
-#meta_data$Native <- factor(meta_data$Native, labels = c("no", "yes"))
-#meta_data$Sample_Depth <- factor(meta_data$Sample_Depth, labels = c("rhizo", "5cm", "15cm"))
-#meta_data$Elevation_m <- factor(meta_data$Elevation_m, levels = c(320, 520, 690), labels = c("320", "520", "690"))
-#meta_data$Plant<-factor(meta_data$Plant, levels=c("guava", "scalesia", "vervain", "miconia"))
 meta_data$Site_Plant<-factor(meta_data$Site_Plant, levels = c("Mirador_Guava", "Mirador_Scalesia", "Cerro Alto_Guava",
                                                               "Cerro Alto_Vervain", "el junco_Guava", "el junco_Miconia"))
 
@@ -534,12 +522,6 @@ gen_col=c("grey", "#66c2a5","#fc8d62","#7570b3","#e78ac3","#a6d854","#ffd92f",
           "#bf812d", "#771155", "#CC99BB", "#774411", "#DD7788", "black","coral", "pink", "yellow", "lightblue", "lightskyblue1", "slateblue1", "darkblue",
           "darkgreen", "lightgreen", "salmon", "lightpink2", "cyan", "lightgreen2");
 
-#install.packages("viridis")
-#library("viridis")
-
-#install.packages("RColorBrewer")
-#library(RColorBrewer)
-#display.brewer.pal(n=25, name='Set2')
 
 #create plot (group samples by Elevation_m)
 bargen=ggplot(data=gbar, 
@@ -560,8 +542,6 @@ bargen=ggplot(data=gbar,
         axis.title.x = element_text(size=12, face="bold"),
         axis.text.y = element_text(size=10),
         axis.text.x = element_text( angle = 90,  hjust = 1 ),
-        #axis.ticks.x=element_blank(),
-        #axis.text.x=element_blank(),
         strip.text = element_text(size =8, face="bold"),
         panel.background = element_rect(size=2))+
   guides(fill=guide_legend(ncol=1));
@@ -608,9 +588,6 @@ colnames(taxa2)[1]="Taxa";
 taxa_rel=aggregate(.~Taxa, taxa2, sum);
 taxa_rel[,-1] <- lapply(taxa_rel[,-1], function(x) (x/sum(x))*100);
 
-#add sample Site_Plant labels
-#colnames(taxa_rel)=meta_data$Site_Plant[match(colnames(taxa_rel),
-#                                              meta_data$sample)];
 colnames(taxa_rel)[1]=1;
 taxa_rel=taxa_rel[, order(names(taxa_rel))];
 colnames(taxa_rel)[1]="Taxa_Order";
