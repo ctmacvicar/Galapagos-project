@@ -332,6 +332,7 @@ ggplot(NMDS, aes(x=MDS1, y=MDS2, color=Site_Plant)) +
   theme_bw() +
   labs(title = "NMDS Site_Plant Plot", x = "NMDS1", y = "NMDS2")
 
+#save graph
 ggsave(filename="02_NMDS_galapagos16S_Site_Plant.pdf",
        device="pdf",path="./images",
        width=6,
