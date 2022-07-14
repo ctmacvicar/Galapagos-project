@@ -1,5 +1,14 @@
 #16S Permanovas for Galapagos data
 
+################################################################################
+#
+#                     GALAPAGOS
+#                      
+# By: Vanja Klepac-Ceraj and Caroline MacVicar
+# Code adapted and modified from Connie Rojas
+################################################################################
+
+
 source(file="scripts/00_background.R"); #load necessary packages and specifications
 library(ggplot2)
 library(vegan)
@@ -11,10 +20,6 @@ taxa=read.table("data/R_Oct_Galapagos_L6_16S.txt",sep="\t", header=T);
 meta_data=read.table("data/GalapagosMeta.txt", sep="\t", header=T);
 meta_data=meta_data[order(meta_data$sample),];
 
-
-#remove taxa in meta data that aren't in taxa file
-#remove_outlier <- (meta_data[-c(2,17,131),])
-#meta_data <- remove_outlier
 
 #16S taxa at all sample depths
 taxa_mirador_perm <- taxa %>% dplyr::select (M1_A, M1_B, M1_C, M10_A, 
@@ -59,8 +64,9 @@ meta_eljunco <- meta_data %>% filter(Site == "el junco");
 
 #Mirador
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#           Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_mirador_perm
 taxadf=t(taxadf);
@@ -79,7 +85,7 @@ jac.dist=vegdist(jac, method="jaccard");
 
 #Mirador
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#       Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Plant type influence microbial communities within Mirador?
@@ -115,8 +121,9 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
 
 #Cerro Alto
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#         Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_cerroA_perm
 taxadf=t(taxadf);
@@ -134,10 +141,9 @@ jac=(taxadf>0)*1;
 jac.dist=vegdist(jac, method="jaccard");
 
 
-
 #Cerro Alto
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#          Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Plant type influence microbial communities in Cerro Alto?
@@ -173,8 +179,9 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
 
 # El Junco
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#          Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_eljunco_perm
 taxadf=t(taxadf);
@@ -192,11 +199,9 @@ jac=(taxadf>0)*1;
 jac.dist=vegdist(jac, method="jaccard");
 
 
-
-
 #El Junco
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#         Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Plant type influence microbial communities in El Junco?
@@ -232,8 +237,9 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
 
 # All Sites Together
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#          Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_all
 taxadf=t(taxadf);
@@ -251,11 +257,9 @@ jac=(taxadf>0)*1;
 jac.dist=vegdist(jac, method="jaccard");
 
 
-
-
 #All Sites
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#      Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Site influence microbial communities?
@@ -267,9 +271,6 @@ print(adonis(bray.dist~Site,
 print(adonis(jac.dist~Site,             
              data=meta_data, method = "jaccard",         
              permutations = 999));
-
-
-
 
 
 ################################################################################
@@ -315,11 +316,14 @@ taxa_all_rhizo5 <- taxa %>% dplyr::select(M1_A, M1_B, M10_A, M10_B, M11_B, M12_B
 #                               PERMANOVAS
 ################################################################################
 
+            
+            
 
 #Mirador-- only 5 cm and rhizosphere
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#          Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_rhizo5_mirador
 taxadf=t(taxadf);
@@ -338,7 +342,7 @@ jac.dist=vegdist(jac, method="jaccard");
 
 #Mirador-- only 5 cm and rhizosphere
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#           Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Plant type influence microbial communities in Mirador?
@@ -374,8 +378,9 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
 
 #Cerro Alto-- only 5 cm and rhizosphere
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#           Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_rhizo5_cerro_A
 taxadf=t(taxadf);
@@ -393,10 +398,9 @@ jac=(taxadf>0)*1;
 jac.dist=vegdist(jac, method="jaccard");
 
 
-
 #Cerro Alto-- only 5 cm and rhizosphere
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#      Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Plant type influence microbial communities in Cerro Alto?
@@ -432,8 +436,9 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
 
 # El Junco-- only 5 cm and rhizosphere
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#           Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_rhizo5_eljunco
 taxadf=t(taxadf);
@@ -453,7 +458,7 @@ jac.dist=vegdist(jac, method="jaccard");
 
 #El Junco-- only 5 cm and rhizosphere
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#            Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Plant type influence microbial communities in El Junco?
@@ -488,8 +493,9 @@ print(adonis(jac.dist~(Plant*Sample_Depth),
 
 # All Sites-- only 5 cm and rhizosphere
 ################################################################################
-#             2. Generate the 2 types of distance matrices for permanova
+#         Generate the 2 types of distance matrices for permanova
 ################################################################################
+
 #transpose OTU table so OTUs are columns
 taxadf=taxa_all_rhizo5
 taxadf=t(taxadf);
@@ -509,7 +515,7 @@ jac.dist=vegdist(jac, method="jaccard");
 
 #All Sites-- only 5 cm and rhizosphere
 ################################################################################
-#             3. Conduct PERMANOVAs for Plant, Sample Depth, and interaction
+#            Conduct PERMANOVAs for Plant, Sample Depth, and interaction
 ################################################################################
 
 #Does Site influence microbial communities?
@@ -551,8 +557,9 @@ meta_data2 <- remove_outlier
 
 
 ################################################################################
-#             2. Generate the 2 types of distance matrices
+#           Generate the 2 types of distance matrices
 ################################################################################
+
 taxadf=taxa
 taxadf=t(taxadf);
 taxadf=taxadf[order(row.names(taxadf)),];
@@ -570,7 +577,7 @@ jac.dist=vegdist(jac, method="jaccard");
 
 
 ################################################################################
-#             3. Conduct PERMANOVAs for Depth
+#           Conduct PERMANOVAs for Depth
 ################################################################################
 #Does sample depth influence microbial communities all sites?
 #Bray-Curtis
