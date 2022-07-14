@@ -1,4 +1,4 @@
-#FunGUILD with October data
+#FunGUILD 
 
 #################################################################################
 #
@@ -52,7 +52,7 @@ colnames(OTU_data4)[2]="sample";
 
 write.csv(OTU_data4, "OTU_data5_oct.csv")
 
-#reading in revised data (look above at OTU_data5_oct.csv) for barplot-- I added the guilds to OTU_data4 manually. This file is renamed
+#reading in revised data (look above at OTU_data5_oct.csv) for barplot-- I added the guilds from FunGUILD output to OTU_data4 manually. This file is renamed
 ## OTU_table5 (see below). 
 
 OTU_table5 <- read.csv("data/OTU_data5_oct.csv")
@@ -83,8 +83,6 @@ guild_bar=ggplot(data=pbar,
         axis.title.x = element_text(size=12, face="bold"),
         axis.text.y = element_text(size=10),
         axis.text.x = element_text( angle = 90,  hjust = 1 ),
-        #axis.ticks.x=element_blank(),
-        #axis.text.x=element_blank(),
         strip.text = element_text(size =8, face="bold"),
         panel.background = element_rect(size=2))+
   guides(fill=guide_legend(ncol=1));
