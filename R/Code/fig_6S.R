@@ -39,7 +39,7 @@ glo <- glo[, -c(2, 3)]
 #calculate taxa genera relative abundances 
 glotaxa_rel=aggregate(.~PG, glo, sum);
 glotaxa_rel[,-1] <- lapply(glotaxa_rel[,-1], function(x) (x/sum(x))*100); 
-#print(colSums(taxa_rel[-1]));
+
 
 #write.csv(glotaxa_rel, "taxa_rel_glo_genus.csv")
 
@@ -51,4 +51,4 @@ glotaxa_rel=aggregate(.~Order, glo, sum);
 glotaxa_rel[,-1] <- lapply(glotaxa_rel[,-1], function(x) (x/sum(x))*100); 
 
 
-#write.csv(glotaxa_rel, "taxa_rel_glo_order.csv")
+write.csv(glotaxa_rel, "taxa_rel_glo_order.csv")
