@@ -1,4 +1,4 @@
-#16S October 2021 Permanovas for Galapagos data
+#16S Permanovas for Galapagos data
 
 source(file="scripts/00_background.R"); #load necessary packages and specifications
 library(ggplot2)
