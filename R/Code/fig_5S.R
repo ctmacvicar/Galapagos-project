@@ -476,7 +476,6 @@ t_otus[rowSums(t_otus[])>0,]
 #rarefying data
 min_depth = min(colSums(taxa_cerroA))
 t_otus_rarefied <- as.data.frame(round(rrarefy(taxa_cerroA, min_depth)))
-#tt_otus_rarefied <- as.data.frame(t(t_otus_rarefied))
 
 
 #choose which method to use
@@ -543,7 +542,6 @@ t_otus[rowSums(t_otus[])>0,]
 #rarefying data - there's some controversy about that so we might choose to normalize it instead in the future.
 min_depth = min(colSums(taxa_eljunco))
 t_otus_rarefied <- as.data.frame(round(rrarefy(taxa_eljunco, min_depth)))
-#tt_otus_rarefied <- as.data.frame(t(t_otus_rarefied))
 
 #choose which method to use
 otus_dist = as.matrix((vegdist(taxa_eljunco_t, "bray")))
